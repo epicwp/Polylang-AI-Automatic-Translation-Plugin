@@ -99,6 +99,12 @@
       }
     ],
     [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "cp -r build /tmp/wp-release/polylang-ai-automatic-translation/"
+      }
+    ],
+    [
       "@semantic-release/github",
       {
         "assets": [

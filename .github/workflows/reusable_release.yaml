@@ -81,12 +81,6 @@ jobs:
       - name: Build
         run: npm run build
         if: ${{ inputs.build_assets }}
-      - name: Add build folder to git for packaging
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f build/
-        if: ${{ inputs.build_assets }}
       - name: Create .releaserc
         run: npx @x-wp/semantic-release-config
         if: ${{ steps.releaserc.outputs.files_exists == 'false' }}

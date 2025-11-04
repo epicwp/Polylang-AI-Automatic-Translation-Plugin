@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^13.0.0",
+    "@semantic-release/exec": "^7.0.3",
     "@semantic-release/github": "^11.0.0",
     "@semantic-release/release-notes-generator": "^14.0.0",
     "@semantic-release/wordpress": "^1.7.0-beta.1",
