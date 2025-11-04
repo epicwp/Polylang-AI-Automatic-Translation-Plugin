@@ -44,6 +44,16 @@ Free version of Polylang Automatic Translation with AI. Translate your WordPress
 5. Wait for the translation to complete
 6. Review and publish the translated content
 
+## Screenshots
+
+### Single Post Translation Interface
+![Single Post Translation](assets/images/screenshot-single-translator.png)
+*Translate your posts and pages with one click using the AI Translation meta box. Select target languages and customize translation settings.*
+
+### Plugin Settings
+![Plugin Settings](assets/images/screenshot-settings.png)
+*Configure your OpenAI API key and translation preferences in the simple settings interface.*
+
 ## Premium Version
 
 Upgrade to the **premium version** for advanced features:
