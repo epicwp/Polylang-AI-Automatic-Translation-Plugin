@@ -4,6 +4,7 @@
 .ddev
 .git
 .github
+.wordpress-org
 assets
 docker_tag
 node_modules
