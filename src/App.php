@@ -53,7 +53,7 @@ class App implements On_Initialize {
     public static function configure(): array {
         return array(
             'app.name' => \DI\factory(
-                static fn() => \__( 'Polylang AI Automatic Translation', 'polylang-ai-autotranslate' ),
+                static fn() => \__( 'Polylang AI Automatic Translation', 'polylang-automatic-ai-translation' ),
             ),
         );
     }

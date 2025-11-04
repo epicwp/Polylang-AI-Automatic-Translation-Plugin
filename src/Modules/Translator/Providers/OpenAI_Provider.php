@@ -103,7 +103,7 @@ class OpenAI_Provider implements AI_Provider {
     public function get_api_key_description(): string {
         return \__(
             'Get your API key from OpenAI Platform (https://platform.openai.com/api-keys)',
-            'polylang-ai-autotranslate',
+            'polylang-automatic-ai-translation',
         );
     }
 
@@ -190,22 +190,22 @@ class OpenAI_Provider implements AI_Provider {
         $errors = array();
 
         if ( null === $this->api_key || '' === $this->api_key ) {
-            $errors[] = \__( 'OpenAI API key is required.', 'polylang-ai-autotranslate' );
+            $errors[] = \__( 'OpenAI API key is required.', 'polylang-automatic-ai-translation' );
         }
 
         if ( null === $this->model || '' === $this->model ) {
-            $errors[] = \__( 'OpenAI model selection is required.', 'polylang-ai-autotranslate' );
+            $errors[] = \__( 'OpenAI model selection is required.', 'polylang-automatic-ai-translation' );
         } elseif ( ! \array_key_exists( $this->model, $this->get_available_models() ) ) {
             $errors[] = \sprintf(
                 /* translators: %s: Model name */
-                \__( 'Invalid OpenAI model: %s', 'polylang-ai-autotranslate' ),
+                \__( 'Invalid OpenAI model: %s', 'polylang-automatic-ai-translation' ),
                 $this->model,
             );
         }
 
         // Basic API key format validation.
         if ( null !== $this->api_key && '' !== $this->api_key && ! \str_starts_with( $this->api_key, 'sk-' ) ) {
-            $errors[] = \__( 'OpenAI API key should start with "sk-".', 'polylang-ai-autotranslate' );
+            $errors[] = \__( 'OpenAI API key should start with "sk-".', 'polylang-automatic-ai-translation' );
         }
 
         return $errors;

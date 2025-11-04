@@ -79,7 +79,7 @@ class Meta_Box_Handler {
         foreach ( $post_types as $post_type ) {
             \add_meta_box(
                 'pllat-single-translator',
-                \__( 'AI Translation', 'polylang-ai-autotranslate' ),
+                \__( 'AI Translation', 'polylang-automatic-ai-translation' ),
                 array( $this, 'render_post_meta_box' ),
                 $post_type,
                 'normal',
@@ -170,7 +170,7 @@ class Meta_Box_Handler {
                     $('<h2 class="hndle">').text('
                     <?php
                     echo \esc_js(
-                        \__( 'AI Translation', 'polylang-ai-autotranslate' ),
+                        \__( 'AI Translation', 'polylang-automatic-ai-translation' ),
                     );
                     ?>
                                                     ')

@@ -54,22 +54,22 @@ class Status_Info_Service {
 
         return array(
             'pllat-cron'        => array(
-                'label' => \__( 'WP Cron Type', 'polylang-ai-autotranslate' ),
+                'label' => \__( 'WP Cron Type', 'polylang-automatic-ai-translation' ),
                 'value' => $this->cron_status_service->get_cron_description(),
             ),
             'pllat-cron-health' => array(
-                'label'   => \__( 'Cron Status', 'polylang-ai-autotranslate' ),
+                'label'   => \__( 'Cron Status', 'polylang-automatic-ai-translation' ),
                 'private' => false,
                 'value'   => $cron_health['is_working']
-                    ? \__( 'Active', 'polylang-ai-autotranslate' )
-                    : \__( 'Inactive or Slow', 'polylang-ai-autotranslate' ),
+                    ? \__( 'Active', 'polylang-automatic-ai-translation' )
+                    : \__( 'Inactive or Slow', 'polylang-automatic-ai-translation' ),
             ),
             'pllat-jobs'        => array(
-                'label' => \__( 'Total Jobs', 'polylang-ai-autotranslate' ),
+                'label' => \__( 'Total Jobs', 'polylang-automatic-ai-translation' ),
                 'value' => \number_format_i18n( $jobs_count ),
             ),
             'pllat-tasks'       => array(
-                'label' => \__( 'Total Tasks', 'polylang-ai-autotranslate' ),
+                'label' => \__( 'Total Tasks', 'polylang-automatic-ai-translation' ),
                 'value' => \number_format_i18n( $tasks_count ),
             ),
         );

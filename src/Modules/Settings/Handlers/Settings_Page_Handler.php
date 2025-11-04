@@ -37,8 +37,8 @@ class Settings_Page_Handler {
     public function register_admin_menu(): void {
         \add_submenu_page(
             'mlang',
-            \__( 'AI Settings', 'polylang-ai-autotranslate' ),
-            \__( 'AI Settings', 'polylang-ai-autotranslate' ),
+            \__( 'AI Settings', 'polylang-automatic-ai-translation' ),
+            \__( 'AI Settings', 'polylang-automatic-ai-translation' ),
             'manage_options',
             'pllat-settings',
             array( $this, 'render_settings_page' ),
@@ -56,7 +56,7 @@ class Settings_Page_Handler {
             \wp_die(
                 \esc_html__(
                     'You do not have sufficient permissions to access this page.',
-                    'polylang-ai-autotranslate',
+                    'polylang-automatic-ai-translation',
                 ),
             );
         }

@@ -115,7 +115,7 @@ class Settings_Form {
         // Add settings section
         \add_settings_section(
             'pllat_main_section',
-            \__( 'AI Translation Configuration', 'polylang-ai-autotranslate' ),
+            \__( 'AI Translation Configuration', 'polylang-automatic-ai-translation' ),
             array( $this, 'render_section_description' ),
             'pllat_settings',
         );
@@ -133,7 +133,7 @@ class Settings_Form {
         // Translation Mode field (BYOK vs Credits)
         \add_settings_field(
             'pllat_translation_mode',
-            \__( 'Translation Mode', 'polylang-ai-autotranslate' ),
+            \__( 'Translation Mode', 'polylang-automatic-ai-translation' ),
             array( $this, 'render_translation_mode_field' ),
             'pllat_settings',
             'pllat_main_section',
@@ -142,7 +142,7 @@ class Settings_Form {
         // API Provider field
         \add_settings_field(
             'pllat_translator_api',
-            \__( 'Translation API Provider', 'polylang-ai-autotranslate' ),
+            \__( 'Translation API Provider', 'polylang-automatic-ai-translation' ),
             array( $this, 'render_api_provider_field' ),
             'pllat_settings',
             'pllat_main_section',
@@ -154,7 +154,7 @@ class Settings_Form {
         // Model selection field
         \add_settings_field(
             'pllat_translation_model',
-            \__( 'Translation Model', 'polylang-ai-autotranslate' ),
+            \__( 'Translation Model', 'polylang-automatic-ai-translation' ),
             array( $this, 'render_model_selection_field' ),
             'pllat_settings',
             'pllat_main_section',
@@ -163,7 +163,7 @@ class Settings_Form {
         // Max tokens field
         \add_settings_field(
             'pllat_max_output_tokens',
-            \__( 'Max Output Tokens', 'polylang-ai-autotranslate' ),
+            \__( 'Max Output Tokens', 'polylang-automatic-ai-translation' ),
             array( $this, 'render_max_tokens_field' ),
             'pllat_settings',
             'pllat_main_section',
@@ -172,7 +172,7 @@ class Settings_Form {
         // AI context field
         \add_settings_field(
             'pllat_website_ai_context',
-            \__( 'Website Context', 'polylang-ai-autotranslate' ),
+            \__( 'Website Context', 'polylang-automatic-ai-translation' ),
             array( $this, 'render_ai_context_field' ),
             'pllat_settings',
             'pllat_main_section',
@@ -181,7 +181,7 @@ class Settings_Form {
         // Debug mode field
         \add_settings_field(
             'pllat_debug_mode',
-            \__( 'Debug Mode', 'polylang-ai-autotranslate' ),
+            \__( 'Debug Mode', 'polylang-automatic-ai-translation' ),
             array( $this, 'render_debug_mode_field' ),
             'pllat_settings',
             'pllat_main_section',
@@ -228,13 +228,13 @@ class Settings_Form {
         $validation = $this->settings_service->validate_api_settings();
         ?>
         <div class="wrap">
-            <h1><?php \esc_html_e( 'AI Translation Settings', 'polylang-ai-autotranslate' ); ?></h1>
+            <h1><?php \esc_html_e( 'AI Translation Settings', 'polylang-automatic-ai-translation' ); ?></h1>
 
             <?php if ( ! $validation['valid'] ) : ?>
                 <div class="notice notice-error">
                     <p><strong>
                     <?php
-                    \esc_html_e( 'Configuration Issues:', 'polylang-ai-autotranslate' );
+                    \esc_html_e( 'Configuration Issues:', 'polylang-automatic-ai-translation' );
                     ?>
                     </strong></p>
                     <ul>
@@ -249,7 +249,7 @@ class Settings_Form {
                 <?php
                 \settings_fields( 'pllat_settings_group' );
                 \do_settings_sections( 'pllat_settings' );
-                \submit_button( \__( 'Save Settings', 'polylang-ai-autotranslate' ) );
+                \submit_button( \__( 'Save Settings', 'polylang-automatic-ai-translation' ) );
                 ?>
             </form>
         </div>
@@ -262,7 +262,7 @@ class Settings_Form {
      * @return void
      */
     public function render_section_description(): void { ?>
-        <p><?php \esc_html_e( 'Configure your AI translation settings below.', 'polylang-ai-autotranslate' ); ?></p>
+        <p><?php \esc_html_e( 'Configure your AI translation settings below.', 'polylang-automatic-ai-translation' ); ?></p>
         <?php
     }
 
@@ -280,9 +280,9 @@ class Settings_Form {
                     name="pllat_translation_mode"
                     value="byok"
                     <?php \checked( $current_mode, 'byok' ); ?> />
-                <strong><?php \esc_html_e( 'BYOK (Bring Your Own Key)', 'polylang-ai-autotranslate' ); ?></strong>
+                <strong><?php \esc_html_e( 'BYOK (Bring Your Own Key)', 'polylang-automatic-ai-translation' ); ?></strong>
                 <p class="description" style="margin-left: 25px;">
-                    <?php \esc_html_e( 'Use your own API key from OpenAI, Claude, or Gemini. You pay the AI provider directly for usage.', 'polylang-ai-autotranslate' ); ?>
+                    <?php \esc_html_e( 'Use your own API key from OpenAI, Claude, or Gemini. You pay the AI provider directly for usage.', 'polylang-automatic-ai-translation' ); ?>
                 </p>
             </label>
 
@@ -292,12 +292,12 @@ class Settings_Form {
                     value="credits"
                     disabled
                     <?php \checked( $current_mode, 'credits' ); ?> />
-                <strong><?php \esc_html_e( 'Credits', 'polylang-ai-autotranslate' ); ?></strong>
+                <strong><?php \esc_html_e( 'Credits', 'polylang-automatic-ai-translation' ); ?></strong>
                 <span style="background: #fff3cd; color: #856404; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: 500; margin-left: 5px;">
-                    <?php \esc_html_e( 'Coming Soon', 'polylang-ai-autotranslate' ); ?>
+                    <?php \esc_html_e( 'Coming Soon', 'polylang-automatic-ai-translation' ); ?>
                 </span>
                 <p class="description" style="margin-left: 25px;">
-                    <?php \esc_html_e( 'Purchase translation credits from us. No API key needed - we handle everything.', 'polylang-ai-autotranslate' ); ?>
+                    <?php \esc_html_e( 'Purchase translation credits from us. No API key needed - we handle everything.', 'polylang-automatic-ai-translation' ); ?>
                 </p>
             </label>
         </fieldset>
@@ -321,7 +321,7 @@ class Settings_Form {
             <?php endforeach; ?>
         </select>
         <p class="description">
-            <?php \esc_html_e( 'Select the AI provider for translations.', 'polylang-ai-autotranslate' ); ?>
+            <?php \esc_html_e( 'Select the AI provider for translations.', 'polylang-automatic-ai-translation' ); ?>
         </p>
         <?php
     }
@@ -370,7 +370,7 @@ class Settings_Form {
             <?php endforeach; ?>
         </select>
         <p class="description">
-            <?php \esc_html_e( 'Select the AI model to use for translations.', 'polylang-ai-autotranslate' ); ?>
+            <?php \esc_html_e( 'Select the AI model to use for translations.', 'polylang-automatic-ai-translation' ); ?>
         </p>
         <?php
     }
@@ -395,7 +395,7 @@ class Settings_Form {
             <?php
             \esc_html_e(
                 'Maximum number of tokens for AI responses. Higher values allow longer translations but increase costs.',
-                'polylang-ai-autotranslate',
+                'polylang-automatic-ai-translation',
             );
             ?>
         </p>
@@ -419,7 +419,7 @@ class Settings_Form {
             <?php
             \esc_html_e(
                 'Provide context about your website/audience/company to help the AI understand your content better. This improves translation quality.',
-                'polylang-ai-autotranslate',
+                'polylang-automatic-ai-translation',
             );
             ?>
         </p>
@@ -441,13 +441,13 @@ class Settings_Form {
                     id="pllat_debug_mode" 
                     value="1" 
                     <?php \checked( $debug_mode ); ?> />
-                <?php \esc_html_e( 'Enable debug logging', 'polylang-ai-autotranslate' ); ?>
+                <?php \esc_html_e( 'Enable debug logging', 'polylang-automatic-ai-translation' ); ?>
             </label>
             <p class="description">
                 <?php
                 \esc_html_e(
                     'Enable detailed logging for troubleshooting. Disable in production.',
-                    'polylang-ai-autotranslate',
+                    'polylang-automatic-ai-translation',
                 );
                 ?>
             </p>
@@ -540,7 +540,7 @@ class Settings_Form {
         foreach ( $providers as $provider => $label ) {
             \add_settings_field(
                 "pllat_{$provider}_api_key",
-                \sprintf( \__( '%s API Key', 'polylang-ai-autotranslate' ), $label ),
+                \sprintf( \__( '%s API Key', 'polylang-automatic-ai-translation' ), $label ),
                 array( $this, 'render_api_key_field' ),
                 'pllat_settings',
                 'pllat_main_section',
@@ -594,7 +594,7 @@ class Settings_Form {
         $description = AI_Provider_Registry::get_api_key_description_for_provider( $api );
         return $description ?: \__(
             'Enter your API key for this provider.',
-            'polylang-ai-autotranslate',
+            'polylang-automatic-ai-translation',
         );
     }
 

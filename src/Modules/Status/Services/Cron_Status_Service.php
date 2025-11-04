@@ -64,9 +64,9 @@ class Cron_Status_Service {
         $cron_type = $this->get_cron_type();
 
         if ( $cron_type['is_external'] ) {
-            return \__( 'External (Server Cron)', 'polylang-ai-autotranslate' );
+            return \__( 'External (Server Cron)', 'polylang-automatic-ai-translation' );
         }
 
-        return \__( 'Internal (WordPress Cron)', 'polylang-ai-autotranslate' );
+        return \__( 'Internal (WordPress Cron)', 'polylang-automatic-ai-translation' );
     }
 }

@@ -257,14 +257,14 @@ class Settings_Service {
         $api    = $this->get_active_translation_api();
 
         if ( ! $api ) {
-            $errors[] = \__( 'No translation API selected.', 'polylang-ai-autotranslate' );
+            $errors[] = \__( 'No translation API selected.', 'polylang-automatic-ai-translation' );
         }
 
         $api_key = $this->get_translation_api_key( $api );
         if ( ! $api_key ) {
             $errors[] = \sprintf(
                 /* translators: %s: Provider name */
-                \__( 'API key for %s is missing.', 'polylang-ai-autotranslate' ),
+                \__( 'API key for %s is missing.', 'polylang-automatic-ai-translation' ),
                 $api,
             );
         }
@@ -273,7 +273,7 @@ class Settings_Service {
         if ( ! $model ) {
             $errors[] = \sprintf(
                 /* translators: %s: Provider name */
-                \__( 'Model for %s is not configured.', 'polylang-ai-autotranslate' ),
+                \__( 'Model for %s is not configured.', 'polylang-automatic-ai-translation' ),
                 $api,
             );
         }

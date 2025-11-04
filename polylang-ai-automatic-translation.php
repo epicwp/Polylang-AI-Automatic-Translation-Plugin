@@ -11,8 +11,7 @@
  * Requires PHP:      8.1
  * Requires at least: 5.8
  * Tested up to:      6.8
- * Text Domain:       polylang-ai-autotranslate
- * Domain Path:       /languages
+ * Text Domain:       polylang-automatic-ai-translation
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  *

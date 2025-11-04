@@ -34,9 +34,9 @@ enum Sync_Status: string {
      */
     public function label(): string {
         return match ( $this ) {
-            self::NOT_STARTED => \__( 'Not Started', 'polylang-ai-autotranslate' ),
-            self::DISCOVERING => \__( 'Discovering', 'polylang-ai-autotranslate' ),
-            self::READY       => \__( 'Ready', 'polylang-ai-autotranslate' ),
+            self::NOT_STARTED => \__( 'Not Started', 'polylang-automatic-ai-translation' ),
+            self::DISCOVERING => \__( 'Discovering', 'polylang-automatic-ai-translation' ),
+            self::READY       => \__( 'Ready', 'polylang-automatic-ai-translation' ),
         };
     }
 
@@ -47,12 +47,12 @@ enum Sync_Status: string {
      */
     public function message(): string {
         return match ( $this ) {
-            self::NOT_STARTED => \__( 'Content discovery pending.', 'polylang-ai-autotranslate' ),
+            self::NOT_STARTED => \__( 'Content discovery pending.', 'polylang-automatic-ai-translation' ),
             self::DISCOVERING => \__(
                 'Discovering content that needs translation. Please wait.',
-                'polylang-ai-autotranslate',
+                'polylang-automatic-ai-translation',
             ),
-            self::READY       => \__( 'System is ready for translation runs.', 'polylang-ai-autotranslate' ),
+            self::READY       => \__( 'System is ready for translation runs.', 'polylang-automatic-ai-translation' ),
         };
     }
 

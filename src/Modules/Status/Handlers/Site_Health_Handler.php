@@ -56,7 +56,7 @@ class Site_Health_Handler {
     public function add_debug_info( array $debug_info ): array {
         $debug_info['pllat'] = array(
             'fields' => $this->status_info_service->get_debug_info(),
-            'label'  => \__( 'Polylang AI Translation', 'polylang-ai-autotranslate' ),
+            'label'  => \__( 'Polylang AI Translation', 'polylang-automatic-ai-translation' ),
         );
 
         return $debug_info;
@@ -71,7 +71,7 @@ class Site_Health_Handler {
     #[Filter( tag: 'site_status_tests' )]
     public function add_site_health_tests( array $tests ): array {
         $tests['direct']['pllat_cron_check'] = array(
-            'label' => \__( 'Polylang AI Translation - Cron Configuration', 'polylang-ai-autotranslate' ),
+            'label' => \__( 'Polylang AI Translation - Cron Configuration', 'polylang-automatic-ai-translation' ),
             'test'  => array( $this, 'test_cron_configuration' ),
         );
 
@@ -90,16 +90,16 @@ class Site_Health_Handler {
             return array(
                 'badge'       => array(
                     'color' => 'blue',
-                    'label' => \__( 'Performance', 'polylang-ai-autotranslate' ),
+                    'label' => \__( 'Performance', 'polylang-automatic-ai-translation' ),
                 ),
                 'description' => \sprintf(
                     '<p>%s</p>',
                     \__(
                         'Your site is using external (server) cron, which provides better performance and reliability for background tasks.',
-                        'polylang-ai-autotranslate',
+                        'polylang-automatic-ai-translation',
                     ),
                 ),
-                'label'       => \__( 'External cron is configured', 'polylang-ai-autotranslate' ),
+                'label'       => \__( 'External cron is configured', 'polylang-automatic-ai-translation' ),
                 'status'      => 'good',
                 'test'        => 'pllat_cron_check',
             );
@@ -109,30 +109,30 @@ class Site_Health_Handler {
             'actions'     => \sprintf(
                 '<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>',
                 'https://www.epicwpsolutions.com/how-to-set-up-server-cron-for-better-plugin-performance/',
-                \__( 'View Setup Guide', 'polylang-ai-autotranslate' ),
+                \__( 'View Setup Guide', 'polylang-automatic-ai-translation' ),
             ),
             'badge'       => array(
                 'color' => 'blue',
-                'label' => \__( 'Performance', 'polylang-ai-autotranslate' ),
+                'label' => \__( 'Performance', 'polylang-automatic-ai-translation' ),
             ),
             'description' => \sprintf(
                 '<p>%s</p><p>%s</p>',
                 \__(
                     'Your site is currently using WordPress\' internal cron system. For better performance and reliability of translation tasks, we strongly recommend configuring external (server) cron.',
-                    'polylang-ai-autotranslate',
+                    'polylang-automatic-ai-translation',
                 ),
                 \sprintf(
                     /* translators: %s: URL to external cron setup guide */
                     \__(
                         'Learn how to set up external cron: <a href="%s" target="_blank" rel="noopener noreferrer">Server Cron Setup Guide</a>',
-                        'polylang-ai-autotranslate',
+                        'polylang-automatic-ai-translation',
                     ),
                     'https://www.epicwpsolutions.com/how-to-set-up-server-cron-for-better-plugin-performance/',
                 ),
             ),
             'label'       => \__(
                 'Consider using external cron for better performance',
-                'polylang-ai-autotranslate',
+                'polylang-automatic-ai-translation',
             ),
             'status'      => 'recommended',
             'test'        => 'pllat_cron_check',

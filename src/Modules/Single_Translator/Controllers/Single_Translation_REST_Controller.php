@@ -155,7 +155,7 @@ class Single_Translation_REST_Controller extends \XWP_REST_Controller {
 
             return $this->success_response(
                 array(
-                    'message' => \__( 'Translation started successfully.', 'polylang-ai-autotranslate' ),
+                    'message' => \__( 'Translation started successfully.', 'polylang-automatic-ai-translation' ),
                     'run_id'  => $run_id,
                 ),
             );
@@ -182,8 +182,8 @@ class Single_Translation_REST_Controller extends \XWP_REST_Controller {
             return $this->success_response(
                 array(
                     'message' => $excluded
-                        ? \__( 'Content excluded from AI translation.', 'polylang-ai-autotranslate' )
-                        : \__( 'Content included in AI translation.', 'polylang-ai-autotranslate' ),
+                        ? \__( 'Content excluded from AI translation.', 'polylang-automatic-ai-translation' )
+                        : \__( 'Content included in AI translation.', 'polylang-automatic-ai-translation' ),
                 ),
             );
         } catch ( \Exception $e ) {
@@ -239,7 +239,7 @@ class Single_Translation_REST_Controller extends \XWP_REST_Controller {
 
             return $this->success_response(
                 array(
-                    'message' => \__( 'Translation cancelled successfully.', 'polylang-ai-autotranslate' ),
+                    'message' => \__( 'Translation cancelled successfully.', 'polylang-automatic-ai-translation' ),
                     'run_id'  => $run_id,
                 ),
             );

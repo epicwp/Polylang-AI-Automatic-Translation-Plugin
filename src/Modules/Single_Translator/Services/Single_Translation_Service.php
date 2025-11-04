@@ -99,7 +99,7 @@ class Single_Translation_Service {
             throw new \Exception(
                 \__( // phpcs:ignore WordPress.Security.EscapeOutput.ExceptionNotEscaped
                     'This content is excluded from AI translation.',
-                    'polylang-ai-autotranslate',
+                    'polylang-automatic-ai-translation',
                 ),
             );
         }
@@ -207,7 +207,7 @@ class Single_Translation_Service {
             throw new \Exception(
                 \__( // phpcs:ignore WordPress.Security.EscapeOutput.ExceptionNotEscaped
                     'No active translation found for this content.',
-                    'polylang-ai-autotranslate',
+                    'polylang-automatic-ai-translation',
                 ),
             );
         }
@@ -219,7 +219,7 @@ class Single_Translation_Service {
             throw new \Exception(
                 \__( // phpcs:ignore WordPress.Security.EscapeOutput.ExceptionNotEscaped
                     'Translation run not found.',
-                    'polylang-ai-autotranslate',
+                    'polylang-automatic-ai-translation',
                 ),
             );
         }
@@ -335,7 +335,7 @@ class Single_Translation_Service {
             throw new \Exception(
                 \__( // phpcs:ignore WordPress.Security.EscapeOutput.ExceptionNotEscaped
                     'This content is excluded from AI translation. Please un-exclude it first.',
-                    'polylang-ai-autotranslate',
+                    'polylang-automatic-ai-translation',
                 ),
             );
         }
@@ -365,7 +365,7 @@ class Single_Translation_Service {
             throw new \Exception(
                 \__( // phpcs:ignore WordPress.Security.EscapeOutput.ExceptionNotEscaped
                     'All selected languages are already translated. Enable force mode to re-translate.',
-                    'polylang-ai-autotranslate',
+                    'polylang-automatic-ai-translation',
                 ),
             );
         }
