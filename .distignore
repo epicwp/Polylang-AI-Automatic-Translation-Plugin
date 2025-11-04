@@ -1,4 +1,6 @@
 # Dirs
+.agent
+.claude
 .ddev
 .git
 .github
@@ -18,22 +20,20 @@ stubs
 .env
 .eslintrc.js
 .gitignore
+.nvmrc
 .phpcs.xml
 .prettierrc
+.releaserc
 .stylelintrc.js
 CHANGELOG.md
+CLAUDE.md
 DOCKER_ENV
-LICENSE
-README.md
-SECURITY.md
-composer.json
-composer.lock
 output.log
 package-lock.json
 package.json
 phpcs.xml
+phpstan-baseline.neon
 phpstan.neon
-# NOTE: release.json needs to be included in the package for SureCart integration
 release.config.js
 tailwind.config.js
 tsconfig.json
