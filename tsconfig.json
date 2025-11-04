@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./assets/scripts/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

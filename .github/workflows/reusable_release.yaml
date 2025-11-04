@@ -1,0 +1,96 @@
+name: Release a WordPress plugin
+on:
+  workflow_call:
+    inputs:
+      node_version:
+        description: "Node version to use for building assets"
+        required: false
+        default: "20"
+        type: string
+      build_assets:
+        description: "Whether to build assets in the release"
+        required: false
+        default: true
+        type: boolean
+      composer_command:
+        description: "Composer command to run"
+        required: false
+        default: "install"
+        type: string
+      php_version:
+        description: "PHP version to use for composer"
+        required: false
+        default: "8.0"
+        type: string
+      php_extensions:
+        description: "PHP extensions to install"
+        required: false
+        type: string
+      package_slug:
+        description: "Package slug"
+        required: true
+        type: string
+
+jobs:
+  release:
+    permissions:
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+      id-token: write # to enable use of OIDC for npm provenance
+      packages: write # to be able to publish to GitHub Packages
+    name: Build and Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check for .releaserc
+        id: releaserc
+        uses: andstor/file-existence-action@v3
+        with:
+          files: ".releaserc"
+      - name: Setup Node.js (default)
+        uses: actions/setup-node@v4
+        if: ${{ steps.releaserc.outputs.files_exists == 'false' || inputs.build_assets }}
+        with:
+          node-version: ${{ inputs.node_version }}
+          # If building assets, cache npm, otherwise don't
+          cache: ${{ inputs.build_assets == true && 'npm' || '' }}
+      - name: Cache Dependencies
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            /tmp/composer-cache
+            dist
+          key: cache-${{ hashFiles('**/composer.lock') }}
+      - name: Install Composer dependencies
+        uses: php-actions/composer@v6
+        with:
+          php_version: ${{ inputs.php_version }}
+          php_extensions: ${{ inputs.php_extensions }}
+          dev: no
+          quiet: yes
+          command: ${{ inputs.composer_command }}
+          args: --optimize-autoloader --classmap-authoritative --prefer-dist
+      - name: Install NPM dependencies
+        run: npm clean-install
+        if: ${{ inputs.build_assets }}
+      - name: Build
+        run: npm run build
+        if: ${{ inputs.build_assets }}
+      - name: Create .releaserc
+        run: npx @x-wp/semantic-release-config
+        if: ${{ steps.releaserc.outputs.files_exists == 'false' }}
+      - name: Semantic Release
+        id: semantic-release
+        uses: cycjimmy/semantic-release-action@v4
+        with:
+          extra_plugins: |
+            conventional-changelog-conventionalcommits@8
+            @semantic-release/wordpress@1.7.0-beta.1
+            @semantic-release/exec
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

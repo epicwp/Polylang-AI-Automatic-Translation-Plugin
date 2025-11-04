@@ -1,0 +1,4350 @@
+{
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "0e5c187a33aa2a9b6302451b519ad338",
+  "packages": [
+    {
+      "name": "automattic/jetpack-autoloader",
+      "version": "v5.0.11",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Automattic/jetpack-autoloader.git",
+        "reference": "90bf7b3bc29cb7be74105ac99afab4c21bc47e29"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/Automattic/jetpack-autoloader/zipball/90bf7b3bc29cb7be74105ac99afab4c21bc47e29",
+        "reference": "90bf7b3bc29cb7be74105ac99afab4c21bc47e29",
+        "shasum": ""
+      },
+      "require": {
+        "composer-plugin-api": "^2.2",
+        "php": ">=7.2"
+      },
+      "require-dev": {
+        "automattic/jetpack-changelogger": "^6.0.7",
+        "automattic/phpunit-select-config": "^1.0.3",
+        "composer/composer": "^2.2",
+        "yoast/phpunit-polyfills": "^4.0.0"
+      },
+      "type": "composer-plugin",
+      "extra": {
+        "class": "Automattic\\Jetpack\\Autoloader\\CustomAutoloaderPlugin",
+        "autotagger": true,
+        "mirror-repo": "Automattic/jetpack-autoloader",
+        "branch-alias": {
+          "dev-trunk": "5.0.x-dev"
+        },
+        "changelogger": {
+          "link-template": "https://github.com/Automattic/jetpack-autoloader/compare/v${old}...v${new}"
+        },
+        "version-constants": {
+          "::VERSION": "src/AutoloadGenerator.php"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Automattic\\Jetpack\\Autoloader\\": "src"
+        },
+        "classmap": [
+          "src/AutoloadGenerator.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-or-later"
+      ],
+      "description": "Creates a custom autoloader for a plugin or theme.",
+      "keywords": [
+        "autoload",
+        "autoloader",
+        "composer",
+        "jetpack",
+        "plugin",
+        "wordpress"
+      ],
+      "support": {
+        "source": "https://github.com/Automattic/jetpack-autoloader/tree/v5.0.11"
+      },
+      "time": "2025-10-06T10:32:52+00:00"
+    },
+    {
+      "name": "automattic/jetpack-constants",
+      "version": "v3.0.8",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Automattic/jetpack-constants.git",
+        "reference": "f9bf00ab48956b8326209e7c0baf247a0ed721c4"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/Automattic/jetpack-constants/zipball/f9bf00ab48956b8326209e7c0baf247a0ed721c4",
+        "reference": "f9bf00ab48956b8326209e7c0baf247a0ed721c4",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.2"
+      },
+      "require-dev": {
+        "automattic/jetpack-changelogger": "^6.0.5",
+        "automattic/phpunit-select-config": "^1.0.3",
+        "brain/monkey": "^2.6.2",
+        "yoast/phpunit-polyfills": "^4.0.0"
+      },
+      "suggest": {
+        "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+      },
+      "type": "jetpack-library",
+      "extra": {
+        "autotagger": true,
+        "mirror-repo": "Automattic/jetpack-constants",
+        "branch-alias": {
+          "dev-trunk": "3.0.x-dev"
+        },
+        "changelogger": {
+          "link-template": "https://github.com/Automattic/jetpack-constants/compare/v${old}...v${new}"
+        }
+      },
+      "autoload": {
+        "classmap": [
+          "src/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-or-later"
+      ],
+      "description": "A wrapper for defining constants in a more testable way.",
+      "support": {
+        "source": "https://github.com/Automattic/jetpack-constants/tree/v3.0.8"
+      },
+      "time": "2025-04-28T15:12:45+00:00"
+    },
+    {
+      "name": "clue/stream-filter",
+      "version": "v1.7.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/clue/stream-filter.git",
+        "reference": "049509fef80032cb3f051595029ab75b49a3c2f7"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/clue/stream-filter/zipball/049509fef80032cb3f051595029ab75b49a3c2f7",
+        "reference": "049509fef80032cb3f051595029ab75b49a3c2f7",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.3"
+      },
+      "require-dev": {
+        "phpunit/phpunit": "^9.6 || ^5.7 || ^4.8.36"
+      },
+      "type": "library",
+      "autoload": {
+        "files": [
+          "src/functions_include.php"
+        ],
+        "psr-4": {
+          "Clue\\StreamFilter\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Christian Lück",
+          "email": "christian@clue.engineering"
+        }
+      ],
+      "description": "A simple and modern approach to stream filtering in PHP",
+      "homepage": "https://github.com/clue/stream-filter",
+      "keywords": [
+        "bucket brigade",
+        "callback",
+        "filter",
+        "php_user_filter",
+        "stream",
+        "stream_filter_append",
+        "stream_filter_register"
+      ],
+      "support": {
+        "issues": "https://github.com/clue/stream-filter/issues",
+        "source": "https://github.com/clue/stream-filter/tree/v1.7.0"
+      },
+      "funding": [
+        {
+          "url": "https://clue.engineering/support",
+          "type": "custom"
+        },
+        {
+          "url": "https://github.com/clue",
+          "type": "github"
+        }
+      ],
+      "time": "2023-12-20T15:40:13+00:00"
+    },
+    {
+      "name": "guzzlehttp/guzzle",
+      "version": "7.10.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/guzzle/guzzle.git",
+        "reference": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
+        "reference": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
+        "shasum": ""
+      },
+      "require": {
+        "ext-json": "*",
+        "guzzlehttp/promises": "^2.3",
+        "guzzlehttp/psr7": "^2.8",
+        "php": "^7.2.5 || ^8.0",
+        "psr/http-client": "^1.0",
+        "symfony/deprecation-contracts": "^2.2 || ^3.0"
+      },
+      "provide": {
+        "psr/http-client-implementation": "1.0"
+      },
+      "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.8.2",
+        "ext-curl": "*",
+        "guzzle/client-integration-tests": "3.0.2",
+        "php-http/message-factory": "^1.1",
+        "phpunit/phpunit": "^8.5.39 || ^9.6.20",
+        "psr/log": "^1.1 || ^2.0 || ^3.0"
+      },
+      "suggest": {
+        "ext-curl": "Required for CURL handler support",
+        "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+        "psr/log": "Required for using the Log middleware"
+      },
+      "type": "library",
+      "extra": {
+        "bamarni-bin": {
+          "bin-links": true,
+          "forward-command": false
+        }
+      },
+      "autoload": {
+        "files": [
+          "src/functions_include.php"
+        ],
+        "psr-4": {
+          "GuzzleHttp\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Graham Campbell",
+          "email": "hello@gjcampbell.co.uk",
+          "homepage": "https://github.com/GrahamCampbell"
+        },
+        {
+          "name": "Michael Dowling",
+          "email": "mtdowling@gmail.com",
+          "homepage": "https://github.com/mtdowling"
+        },
+        {
+          "name": "Jeremy Lindblom",
+          "email": "jeremeamia@gmail.com",
+          "homepage": "https://github.com/jeremeamia"
+        },
+        {
+          "name": "George Mponos",
+          "email": "gmponos@gmail.com",
+          "homepage": "https://github.com/gmponos"
+        },
+        {
+          "name": "Tobias Nyholm",
+          "email": "tobias.nyholm@gmail.com",
+          "homepage": "https://github.com/Nyholm"
+        },
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com",
+          "homepage": "https://github.com/sagikazarmark"
+        },
+        {
+          "name": "Tobias Schultze",
+          "email": "webmaster@tubo-world.de",
+          "homepage": "https://github.com/Tobion"
+        }
+      ],
+      "description": "Guzzle is a PHP HTTP client library",
+      "keywords": [
+        "client",
+        "curl",
+        "framework",
+        "http",
+        "http client",
+        "psr-18",
+        "psr-7",
+        "rest",
+        "web service"
+      ],
+      "support": {
+        "issues": "https://github.com/guzzle/guzzle/issues",
+        "source": "https://github.com/guzzle/guzzle/tree/7.10.0"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/GrahamCampbell",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/Nyholm",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/guzzle",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2025-08-23T22:36:01+00:00"
+    },
+    {
+      "name": "guzzlehttp/promises",
+      "version": "2.3.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/guzzle/promises.git",
+        "reference": "481557b130ef3790cf82b713667b43030dc9c957"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/guzzle/promises/zipball/481557b130ef3790cf82b713667b43030dc9c957",
+        "reference": "481557b130ef3790cf82b713667b43030dc9c957",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.2.5 || ^8.0"
+      },
+      "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.8.2",
+        "phpunit/phpunit": "^8.5.44 || ^9.6.25"
+      },
+      "type": "library",
+      "extra": {
+        "bamarni-bin": {
+          "bin-links": true,
+          "forward-command": false
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "GuzzleHttp\\Promise\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Graham Campbell",
+          "email": "hello@gjcampbell.co.uk",
+          "homepage": "https://github.com/GrahamCampbell"
+        },
+        {
+          "name": "Michael Dowling",
+          "email": "mtdowling@gmail.com",
+          "homepage": "https://github.com/mtdowling"
+        },
+        {
+          "name": "Tobias Nyholm",
+          "email": "tobias.nyholm@gmail.com",
+          "homepage": "https://github.com/Nyholm"
+        },
+        {
+          "name": "Tobias Schultze",
+          "email": "webmaster@tubo-world.de",
+          "homepage": "https://github.com/Tobion"
+        }
+      ],
+      "description": "Guzzle promises library",
+      "keywords": [
+        "promise"
+      ],
+      "support": {
+        "issues": "https://github.com/guzzle/promises/issues",
+        "source": "https://github.com/guzzle/promises/tree/2.3.0"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/GrahamCampbell",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/Nyholm",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/promises",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2025-08-22T14:34:08+00:00"
+    },
+    {
+      "name": "guzzlehttp/psr7",
+      "version": "2.8.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/guzzle/psr7.git",
+        "reference": "21dc724a0583619cd1652f673303492272778051"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/guzzle/psr7/zipball/21dc724a0583619cd1652f673303492272778051",
+        "reference": "21dc724a0583619cd1652f673303492272778051",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.2.5 || ^8.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.1 || ^2.0",
+        "ralouphie/getallheaders": "^3.0"
+      },
+      "provide": {
+        "psr/http-factory-implementation": "1.0",
+        "psr/http-message-implementation": "1.0"
+      },
+      "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.8.2",
+        "http-interop/http-factory-tests": "0.9.0",
+        "phpunit/phpunit": "^8.5.44 || ^9.6.25"
+      },
+      "suggest": {
+        "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
+      },
+      "type": "library",
+      "extra": {
+        "bamarni-bin": {
+          "bin-links": true,
+          "forward-command": false
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "GuzzleHttp\\Psr7\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Graham Campbell",
+          "email": "hello@gjcampbell.co.uk",
+          "homepage": "https://github.com/GrahamCampbell"
+        },
+        {
+          "name": "Michael Dowling",
+          "email": "mtdowling@gmail.com",
+          "homepage": "https://github.com/mtdowling"
+        },
+        {
+          "name": "George Mponos",
+          "email": "gmponos@gmail.com",
+          "homepage": "https://github.com/gmponos"
+        },
+        {
+          "name": "Tobias Nyholm",
+          "email": "tobias.nyholm@gmail.com",
+          "homepage": "https://github.com/Nyholm"
+        },
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com",
+          "homepage": "https://github.com/sagikazarmark"
+        },
+        {
+          "name": "Tobias Schultze",
+          "email": "webmaster@tubo-world.de",
+          "homepage": "https://github.com/Tobion"
+        },
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com",
+          "homepage": "https://sagikazarmark.hu"
+        }
+      ],
+      "description": "PSR-7 message implementation that also provides common utility methods",
+      "keywords": [
+        "http",
+        "message",
+        "psr-7",
+        "request",
+        "response",
+        "stream",
+        "uri",
+        "url"
+      ],
+      "support": {
+        "issues": "https://github.com/guzzle/psr7/issues",
+        "source": "https://github.com/guzzle/psr7/tree/2.8.0"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/GrahamCampbell",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/Nyholm",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/psr7",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2025-08-23T21:21:41+00:00"
+    },
+    {
+      "name": "laravel/serializable-closure",
+      "version": "v2.0.6",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/laravel/serializable-closure.git",
+        "reference": "038ce42edee619599a1debb7e81d7b3759492819"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/038ce42edee619599a1debb7e81d7b3759492819",
+        "reference": "038ce42edee619599a1debb7e81d7b3759492819",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^8.1"
+      },
+      "require-dev": {
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "nesbot/carbon": "^2.67|^3.0",
+        "pestphp/pest": "^2.36|^3.0",
+        "phpstan/phpstan": "^2.0",
+        "symfony/var-dumper": "^6.2.0|^7.0.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "2.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Laravel\\SerializableClosure\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Taylor Otwell",
+          "email": "taylor@laravel.com"
+        },
+        {
+          "name": "Nuno Maduro",
+          "email": "nuno@laravel.com"
+        }
+      ],
+      "description": "Laravel Serializable Closure provides an easy and secure way to serialize closures in PHP.",
+      "keywords": [
+        "closure",
+        "laravel",
+        "serializable"
+      ],
+      "support": {
+        "issues": "https://github.com/laravel/serializable-closure/issues",
+        "source": "https://github.com/laravel/serializable-closure"
+      },
+      "time": "2025-10-09T13:42:30+00:00"
+    },
+    {
+      "name": "mehedimi/wp-query-builder",
+      "version": "0.15",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mehedimi/wp-query-builder.git",
+        "reference": "2190b1fb0731ce56c5e77fb78a33b1a1abdcf287"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/mehedimi/wp-query-builder/zipball/2190b1fb0731ce56c5e77fb78a33b1a1abdcf287",
+        "reference": "2190b1fb0731ce56c5e77fb78a33b1a1abdcf287",
+        "shasum": ""
+      },
+      "require": {
+        "ext-mysqli": "*",
+        "php": ">=5.6"
+      },
+      "require-dev": {
+        "fakerphp/faker": "^1.20",
+        "laravel/pint": "^1.15",
+        "mockery/mockery": "^1.5",
+        "phpstan/phpstan": "^1.9",
+        "phpstan/phpstan-mockery": "^1.1",
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^5.4",
+        "vlucas/phpdotenv": "^5.4"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Mehedi\\WPQueryBuilder\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Mehedi Hasan",
+          "email": "mehedihasansabbirmi@gmail.com",
+          "homepage": "https://mehedi.im",
+          "role": "Developer"
+        }
+      ],
+      "description": "A database query builder for WordPress",
+      "support": {
+        "issues": "https://github.com/mehedimi/wp-query-builder/issues",
+        "source": "https://github.com/mehedimi/wp-query-builder/tree/0.15"
+      },
+      "time": "2024-05-16T15:05:13+00:00"
+    },
+    {
+      "name": "mehedimi/wp-query-builder-ext",
+      "version": "0.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mehedimi/wp-query-builder-ext.git",
+        "reference": "c1e15cebc9d9150e8534e9fe0d540134f3a30fe5"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/mehedimi/wp-query-builder-ext/zipball/c1e15cebc9d9150e8534e9fe0d540134f3a30fe5",
+        "reference": "c1e15cebc9d9150e8534e9fe0d540134f3a30fe5",
+        "shasum": ""
+      },
+      "require": {
+        "mehedimi/wp-query-builder": "*"
+      },
+      "require-dev": {
+        "mockery/mockery": "^1.5",
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^5.4"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Mehedi\\WPQueryBuilderExt\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Mehedi Hasan",
+          "email": "mehedihasansabbirmi@gmail.com",
+          "homepage": "https://mehedi.im",
+          "role": "Developer"
+        }
+      ],
+      "description": "An Extension of WP Query Builder",
+      "support": {
+        "issues": "https://github.com/mehedimi/wp-query-builder-ext/issues",
+        "source": "https://github.com/mehedimi/wp-query-builder-ext/tree/0.3"
+      },
+      "time": "2024-02-11T00:53:38+00:00"
+    },
+    {
+      "name": "monolog/monolog",
+      "version": "3.9.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Seldaek/monolog.git",
+        "reference": "10d85740180ecba7896c87e06a166e0c95a0e3b6"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/Seldaek/monolog/zipball/10d85740180ecba7896c87e06a166e0c95a0e3b6",
+        "reference": "10d85740180ecba7896c87e06a166e0c95a0e3b6",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=8.1",
+        "psr/log": "^2.0 || ^3.0"
+      },
+      "provide": {
+        "psr/log-implementation": "3.0.0"
+      },
+      "require-dev": {
+        "aws/aws-sdk-php": "^3.0",
+        "doctrine/couchdb": "~1.0@dev",
+        "elasticsearch/elasticsearch": "^7 || ^8",
+        "ext-json": "*",
+        "graylog2/gelf-php": "^1.4.2 || ^2.0",
+        "guzzlehttp/guzzle": "^7.4.5",
+        "guzzlehttp/psr7": "^2.2",
+        "mongodb/mongodb": "^1.8",
+        "php-amqplib/php-amqplib": "~2.4 || ^3",
+        "php-console/php-console": "^3.1.8",
+        "phpstan/phpstan": "^2",
+        "phpstan/phpstan-deprecation-rules": "^2",
+        "phpstan/phpstan-strict-rules": "^2",
+        "phpunit/phpunit": "^10.5.17 || ^11.0.7",
+        "predis/predis": "^1.1 || ^2",
+        "rollbar/rollbar": "^4.0",
+        "ruflin/elastica": "^7 || ^8",
+        "symfony/mailer": "^5.4 || ^6",
+        "symfony/mime": "^5.4 || ^6"
+      },
+      "suggest": {
+        "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+        "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+        "elasticsearch/elasticsearch": "Allow sending log messages to an Elasticsearch server via official client",
+        "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+        "ext-curl": "Required to send log messages using the IFTTTHandler, the LogglyHandler, the SendGridHandler, the SlackWebhookHandler or the TelegramBotHandler",
+        "ext-mbstring": "Allow to work properly with unicode symbols",
+        "ext-mongodb": "Allow sending log messages to a MongoDB server (via driver)",
+        "ext-openssl": "Required to send log messages using SSL",
+        "ext-sockets": "Allow sending log messages to a Syslog server (via UDP driver)",
+        "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+        "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
+        "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+        "rollbar/rollbar": "Allow sending log messages to Rollbar",
+        "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-main": "3.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Monolog\\": "src/Monolog"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Jordi Boggiano",
+          "email": "j.boggiano@seld.be",
+          "homepage": "https://seld.be"
+        }
+      ],
+      "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+      "homepage": "https://github.com/Seldaek/monolog",
+      "keywords": [
+        "log",
+        "logging",
+        "psr-3"
+      ],
+      "support": {
+        "issues": "https://github.com/Seldaek/monolog/issues",
+        "source": "https://github.com/Seldaek/monolog/tree/3.9.0"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/Seldaek",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2025-03-24T10:02:05+00:00"
+    },
+    {
+      "name": "openai-php/client",
+      "version": "v0.10.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/openai-php/client.git",
+        "reference": "4a565d145e0fb3ea1baba8fffe39d86c56b6dc2c"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/openai-php/client/zipball/4a565d145e0fb3ea1baba8fffe39d86c56b6dc2c",
+        "reference": "4a565d145e0fb3ea1baba8fffe39d86c56b6dc2c",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^8.1.0",
+        "php-http/discovery": "^1.20.0",
+        "php-http/multipart-stream-builder": "^1.4.2",
+        "psr/http-client": "^1.0.3",
+        "psr/http-client-implementation": "^1.0.1",
+        "psr/http-factory-implementation": "*",
+        "psr/http-message": "^1.1.0|^2.0.0"
+      },
+      "require-dev": {
+        "guzzlehttp/guzzle": "^7.9.2",
+        "guzzlehttp/psr7": "^2.7.0",
+        "laravel/pint": "^1.18.1",
+        "mockery/mockery": "^1.6.12",
+        "nunomaduro/collision": "^7.11.0|^8.5.0",
+        "pestphp/pest": "^2.36.0|^3.5.0",
+        "pestphp/pest-plugin-arch": "^2.7|^3.0",
+        "pestphp/pest-plugin-type-coverage": "^2.8.7|^3.1.0",
+        "phpstan/phpstan": "^1.12.7",
+        "symfony/var-dumper": "^6.4.11|^7.1.5"
+      },
+      "type": "library",
+      "autoload": {
+        "files": [
+          "src/OpenAI.php"
+        ],
+        "psr-4": {
+          "OpenAI\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Nuno Maduro",
+          "email": "enunomaduro@gmail.com"
+        },
+        {
+          "name": "Sandro Gehri"
+        }
+      ],
+      "description": "OpenAI PHP is a supercharged PHP API client that allows you to interact with the Open AI API",
+      "keywords": [
+        "GPT-3",
+        "api",
+        "client",
+        "codex",
+        "dall-e",
+        "language",
+        "natural",
+        "openai",
+        "php",
+        "processing",
+        "sdk"
+      ],
+      "support": {
+        "issues": "https://github.com/openai-php/client/issues",
+        "source": "https://github.com/openai-php/client/tree/v0.10.3"
+      },
+      "funding": [
+        {
+          "url": "https://www.paypal.com/paypalme/enunomaduro",
+          "type": "custom"
+        },
+        {
+          "url": "https://github.com/gehrisandro",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/nunomaduro",
+          "type": "github"
+        }
+      ],
+      "time": "2024-11-12T20:51:16+00:00"
+    },
+    {
+      "name": "php-di/invoker",
+      "version": "2.3.7",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PHP-DI/Invoker.git",
+        "reference": "3c1ddfdef181431fbc4be83378f6d036d59e81e1"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/PHP-DI/Invoker/zipball/3c1ddfdef181431fbc4be83378f6d036d59e81e1",
+        "reference": "3c1ddfdef181431fbc4be83378f6d036d59e81e1",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.3",
+        "psr/container": "^1.0|^2.0"
+      },
+      "require-dev": {
+        "athletic/athletic": "~0.1.8",
+        "mnapoli/hard-mode": "~0.3.0",
+        "phpunit/phpunit": "^9.0 || ^10 || ^11 || ^12"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Invoker\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "Generic and extensible callable invoker",
+      "homepage": "https://github.com/PHP-DI/Invoker",
+      "keywords": [
+        "callable",
+        "dependency",
+        "dependency-injection",
+        "injection",
+        "invoke",
+        "invoker"
+      ],
+      "support": {
+        "issues": "https://github.com/PHP-DI/Invoker/issues",
+        "source": "https://github.com/PHP-DI/Invoker/tree/2.3.7"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/mnapoli",
+          "type": "github"
+        }
+      ],
+      "time": "2025-08-30T10:22:22+00:00"
+    },
+    {
+      "name": "php-di/php-di",
+      "version": "7.1.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PHP-DI/PHP-DI.git",
+        "reference": "f88054cc052e40dbe7b383c8817c19442d480352"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/PHP-DI/PHP-DI/zipball/f88054cc052e40dbe7b383c8817c19442d480352",
+        "reference": "f88054cc052e40dbe7b383c8817c19442d480352",
+        "shasum": ""
+      },
+      "require": {
+        "laravel/serializable-closure": "^1.0 || ^2.0",
+        "php": ">=8.0",
+        "php-di/invoker": "^2.0",
+        "psr/container": "^1.1 || ^2.0"
+      },
+      "provide": {
+        "psr/container-implementation": "^1.0"
+      },
+      "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3",
+        "friendsofphp/proxy-manager-lts": "^1",
+        "mnapoli/phpunit-easymock": "^1.3",
+        "phpunit/phpunit": "^9.6 || ^10 || ^11",
+        "vimeo/psalm": "^5|^6"
+      },
+      "suggest": {
+        "friendsofphp/proxy-manager-lts": "Install it if you want to use lazy injection (version ^1)"
+      },
+      "type": "library",
+      "autoload": {
+        "files": [
+          "src/functions.php"
+        ],
+        "psr-4": {
+          "DI\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "The dependency injection container for humans",
+      "homepage": "https://php-di.org/",
+      "keywords": [
+        "PSR-11",
+        "container",
+        "container-interop",
+        "dependency injection",
+        "di",
+        "ioc",
+        "psr11"
+      ],
+      "support": {
+        "issues": "https://github.com/PHP-DI/PHP-DI/issues",
+        "source": "https://github.com/PHP-DI/PHP-DI/tree/7.1.1"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/mnapoli",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/php-di/php-di",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2025-08-16T11:10:48+00:00"
+    },
+    {
+      "name": "php-http/client-common",
+      "version": "2.7.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-http/client-common.git",
+        "reference": "0cfe9858ab9d3b213041b947c881d5b19ceeca46"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-http/client-common/zipball/0cfe9858ab9d3b213041b947c881d5b19ceeca46",
+        "reference": "0cfe9858ab9d3b213041b947c881d5b19ceeca46",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.1 || ^8.0",
+        "php-http/httplug": "^2.0",
+        "php-http/message": "^1.6",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0 || ^2.0",
+        "symfony/options-resolver": "~4.0.15 || ~4.1.9 || ^4.2.1 || ^5.0 || ^6.0 || ^7.0",
+        "symfony/polyfill-php80": "^1.17"
+      },
+      "require-dev": {
+        "doctrine/instantiator": "^1.1",
+        "guzzlehttp/psr7": "^1.4",
+        "nyholm/psr7": "^1.2",
+        "phpspec/phpspec": "^5.1 || ^6.3 || ^7.1",
+        "phpspec/prophecy": "^1.10.2",
+        "phpunit/phpunit": "^7.5.20 || ^8.5.33 || ^9.6.7"
+      },
+      "suggest": {
+        "ext-json": "To detect JSON responses with the ContentTypePlugin",
+        "ext-libxml": "To detect XML responses with the ContentTypePlugin",
+        "php-http/cache-plugin": "PSR-6 Cache plugin",
+        "php-http/logger-plugin": "PSR-3 Logger plugin",
+        "php-http/stopwatch-plugin": "Symfony Stopwatch plugin"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Http\\Client\\Common\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com"
+        }
+      ],
+      "description": "Common HTTP Client implementations and tools for HTTPlug",
+      "homepage": "http://httplug.io",
+      "keywords": [
+        "client",
+        "common",
+        "http",
+        "httplug"
+      ],
+      "support": {
+        "issues": "https://github.com/php-http/client-common/issues",
+        "source": "https://github.com/php-http/client-common/tree/2.7.2"
+      },
+      "time": "2024-09-24T06:21:48+00:00"
+    },
+    {
+      "name": "php-http/discovery",
+      "version": "1.20.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-http/discovery.git",
+        "reference": "82fe4c73ef3363caed49ff8dd1539ba06044910d"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-http/discovery/zipball/82fe4c73ef3363caed49ff8dd1539ba06044910d",
+        "reference": "82fe4c73ef3363caed49ff8dd1539ba06044910d",
+        "shasum": ""
+      },
+      "require": {
+        "composer-plugin-api": "^1.0|^2.0",
+        "php": "^7.1 || ^8.0"
+      },
+      "conflict": {
+        "nyholm/psr7": "<1.0",
+        "zendframework/zend-diactoros": "*"
+      },
+      "provide": {
+        "php-http/async-client-implementation": "*",
+        "php-http/client-implementation": "*",
+        "psr/http-client-implementation": "*",
+        "psr/http-factory-implementation": "*",
+        "psr/http-message-implementation": "*"
+      },
+      "require-dev": {
+        "composer/composer": "^1.0.2|^2.0",
+        "graham-campbell/phpspec-skip-example-extension": "^5.0",
+        "php-http/httplug": "^1.0 || ^2.0",
+        "php-http/message-factory": "^1.0",
+        "phpspec/phpspec": "^5.1 || ^6.1 || ^7.3",
+        "sebastian/comparator": "^3.0.5 || ^4.0.8",
+        "symfony/phpunit-bridge": "^6.4.4 || ^7.0.1"
+      },
+      "type": "composer-plugin",
+      "extra": {
+        "class": "Http\\Discovery\\Composer\\Plugin",
+        "plugin-optional": true
+      },
+      "autoload": {
+        "psr-4": {
+          "Http\\Discovery\\": "src/"
+        },
+        "exclude-from-classmap": [
+          "src/Composer/Plugin.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com"
+        }
+      ],
+      "description": "Finds and installs PSR-7, PSR-17, PSR-18 and HTTPlug implementations",
+      "homepage": "http://php-http.org",
+      "keywords": [
+        "adapter",
+        "client",
+        "discovery",
+        "factory",
+        "http",
+        "message",
+        "psr17",
+        "psr7"
+      ],
+      "support": {
+        "issues": "https://github.com/php-http/discovery/issues",
+        "source": "https://github.com/php-http/discovery/tree/1.20.0"
+      },
+      "time": "2024-10-02T11:20:13+00:00"
+    },
+    {
+      "name": "php-http/httplug",
+      "version": "2.4.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-http/httplug.git",
+        "reference": "5cad731844891a4c282f3f3e1b582c46839d22f4"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-http/httplug/zipball/5cad731844891a4c282f3f3e1b582c46839d22f4",
+        "reference": "5cad731844891a4c282f3f3e1b582c46839d22f4",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.1 || ^8.0",
+        "php-http/promise": "^1.1",
+        "psr/http-client": "^1.0",
+        "psr/http-message": "^1.0 || ^2.0"
+      },
+      "require-dev": {
+        "friends-of-phpspec/phpspec-code-coverage": "^4.1 || ^5.0 || ^6.0",
+        "phpspec/phpspec": "^5.1 || ^6.0 || ^7.0"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Http\\Client\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Eric GELOEN",
+          "email": "geloen.eric@gmail.com"
+        },
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com",
+          "homepage": "https://sagikazarmark.hu"
+        }
+      ],
+      "description": "HTTPlug, the HTTP client abstraction for PHP",
+      "homepage": "http://httplug.io",
+      "keywords": [
+        "client",
+        "http"
+      ],
+      "support": {
+        "issues": "https://github.com/php-http/httplug/issues",
+        "source": "https://github.com/php-http/httplug/tree/2.4.1"
+      },
+      "time": "2024-09-23T11:39:58+00:00"
+    },
+    {
+      "name": "php-http/message",
+      "version": "1.16.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-http/message.git",
+        "reference": "06dd5e8562f84e641bf929bfe699ee0f5ce8080a"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-http/message/zipball/06dd5e8562f84e641bf929bfe699ee0f5ce8080a",
+        "reference": "06dd5e8562f84e641bf929bfe699ee0f5ce8080a",
+        "shasum": ""
+      },
+      "require": {
+        "clue/stream-filter": "^1.5",
+        "php": "^7.2 || ^8.0",
+        "psr/http-message": "^1.1 || ^2.0"
+      },
+      "provide": {
+        "php-http/message-factory-implementation": "1.0"
+      },
+      "require-dev": {
+        "ergebnis/composer-normalize": "^2.6",
+        "ext-zlib": "*",
+        "guzzlehttp/psr7": "^1.0 || ^2.0",
+        "laminas/laminas-diactoros": "^2.0 || ^3.0",
+        "php-http/message-factory": "^1.0.2",
+        "phpspec/phpspec": "^5.1 || ^6.3 || ^7.1",
+        "slim/slim": "^3.0"
+      },
+      "suggest": {
+        "ext-zlib": "Used with compressor/decompressor streams",
+        "guzzlehttp/psr7": "Used with Guzzle PSR-7 Factories",
+        "laminas/laminas-diactoros": "Used with Diactoros Factories",
+        "slim/slim": "Used with Slim Framework PSR-7 implementation"
+      },
+      "type": "library",
+      "autoload": {
+        "files": [
+          "src/filters.php"
+        ],
+        "psr-4": {
+          "Http\\Message\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com"
+        }
+      ],
+      "description": "HTTP Message related tools",
+      "homepage": "http://php-http.org",
+      "keywords": [
+        "http",
+        "message",
+        "psr-7"
+      ],
+      "support": {
+        "issues": "https://github.com/php-http/message/issues",
+        "source": "https://github.com/php-http/message/tree/1.16.2"
+      },
+      "time": "2024-10-02T11:34:13+00:00"
+    },
+    {
+      "name": "php-http/multipart-stream-builder",
+      "version": "1.4.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-http/multipart-stream-builder.git",
+        "reference": "10086e6de6f53489cca5ecc45b6f468604d3460e"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-http/multipart-stream-builder/zipball/10086e6de6f53489cca5ecc45b6f468604d3460e",
+        "reference": "10086e6de6f53489cca5ecc45b6f468604d3460e",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.1 || ^8.0",
+        "php-http/discovery": "^1.15",
+        "psr/http-factory-implementation": "^1.0"
+      },
+      "require-dev": {
+        "nyholm/psr7": "^1.0",
+        "php-http/message": "^1.5",
+        "php-http/message-factory": "^1.0.2",
+        "phpunit/phpunit": "^7.5.15 || ^8.5 || ^9.3"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Http\\Message\\MultipartStream\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Tobias Nyholm",
+          "email": "tobias.nyholm@gmail.com"
+        }
+      ],
+      "description": "A builder class that help you create a multipart stream",
+      "homepage": "http://php-http.org",
+      "keywords": [
+        "factory",
+        "http",
+        "message",
+        "multipart stream",
+        "stream"
+      ],
+      "support": {
+        "issues": "https://github.com/php-http/multipart-stream-builder/issues",
+        "source": "https://github.com/php-http/multipart-stream-builder/tree/1.4.2"
+      },
+      "time": "2024-09-04T13:22:54+00:00"
+    },
+    {
+      "name": "php-http/promise",
+      "version": "1.3.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-http/promise.git",
+        "reference": "fc85b1fba37c169a69a07ef0d5a8075770cc1f83"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-http/promise/zipball/fc85b1fba37c169a69a07ef0d5a8075770cc1f83",
+        "reference": "fc85b1fba37c169a69a07ef0d5a8075770cc1f83",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.1 || ^8.0"
+      },
+      "require-dev": {
+        "friends-of-phpspec/phpspec-code-coverage": "^4.3.2 || ^6.3",
+        "phpspec/phpspec": "^5.1.2 || ^6.2 || ^7.4"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Http\\Promise\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Joel Wurtz",
+          "email": "joel.wurtz@gmail.com"
+        },
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com"
+        }
+      ],
+      "description": "Promise used for asynchronous HTTP requests",
+      "homepage": "http://httplug.io",
+      "keywords": [
+        "promise"
+      ],
+      "support": {
+        "issues": "https://github.com/php-http/promise/issues",
+        "source": "https://github.com/php-http/promise/tree/1.3.1"
+      },
+      "time": "2024-03-15T13:55:21+00:00"
+    },
+    {
+      "name": "php-jsonpatch/php-jsonpatch",
+      "version": "v4.1.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/raphaelstolt/php-jsonpatch.git",
+        "reference": "83edbd6a40e3feb6f8a687dfd6f342c0c1e9031a"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/raphaelstolt/php-jsonpatch/zipball/83edbd6a40e3feb6f8a687dfd6f342c0c1e9031a",
+        "reference": "83edbd6a40e3feb6f8a687dfd6f342c0c1e9031a",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.4",
+        "php-jsonpointer/php-jsonpointer": "^4.0",
+        "symfony/polyfill-mbstring": "^1.2"
+      },
+      "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpunit/phpunit": "8.*"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "2.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-0": {
+          "Rs\\Json": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Raphael Stolt",
+          "email": "raphael.stolt@gmail.com",
+          "homepage": "http://raphaelstolt.blogspot.com"
+        }
+      ],
+      "description": "Implementation of JSON Patch (http://tools.ietf.org/html/rfc6902)",
+      "homepage": "https://github.com/raphaelstolt/php-jsonpatch",
+      "keywords": [
+        "json",
+        "json modification",
+        "json patch"
+      ],
+      "support": {
+        "issues": "https://github.com/raphaelstolt/php-jsonpatch/issues",
+        "source": "https://github.com/raphaelstolt/php-jsonpatch/tree/v4.1.0"
+      },
+      "time": "2022-05-13T16:03:43+00:00"
+    },
+    {
+      "name": "php-jsonpointer/php-jsonpointer",
+      "version": "v4.0.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/raphaelstolt/php-jsonpointer.git",
+        "reference": "fd50fc1aecd80dedb5bc59c9a1d70d4cfec7933b"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/raphaelstolt/php-jsonpointer/zipball/fd50fc1aecd80dedb5bc59c9a1d70d4cfec7933b",
+        "reference": "fd50fc1aecd80dedb5bc59c9a1d70d4cfec7933b",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.4"
+      },
+      "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpunit/phpunit": "8.*"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "2.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-0": {
+          "Rs\\Json": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Raphael Stolt",
+          "email": "raphael.stolt@gmail.com",
+          "homepage": "http://raphaelstolt.blogspot.com/"
+        }
+      ],
+      "description": "Implementation of JSON Pointer (http://tools.ietf.org/html/rfc6901)",
+      "homepage": "https://github.com/raphaelstolt/php-jsonpointer",
+      "keywords": [
+        "json",
+        "json pointer",
+        "json traversal"
+      ],
+      "support": {
+        "issues": "https://github.com/raphaelstolt/php-jsonpointer/issues",
+        "source": "https://github.com/raphaelstolt/php-jsonpointer/tree/v4.0.0"
+      },
+      "time": "2022-01-11T14:28:07+00:00"
+    },
+    {
+      "name": "psr/container",
+      "version": "2.0.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-fig/container.git",
+        "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-fig/container/zipball/c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.4.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "2.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Psr\\Container\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "PHP-FIG",
+          "homepage": "https://www.php-fig.org/"
+        }
+      ],
+      "description": "Common Container Interface (PHP FIG PSR-11)",
+      "homepage": "https://github.com/php-fig/container",
+      "keywords": [
+        "PSR-11",
+        "container",
+        "container-interface",
+        "container-interop",
+        "psr"
+      ],
+      "support": {
+        "issues": "https://github.com/php-fig/container/issues",
+        "source": "https://github.com/php-fig/container/tree/2.0.2"
+      },
+      "time": "2021-11-05T16:47:00+00:00"
+    },
+    {
+      "name": "psr/http-client",
+      "version": "1.0.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-fig/http-client.git",
+        "reference": "bb5906edc1c324c9a05aa0873d40117941e5fa90"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-fig/http-client/zipball/bb5906edc1c324c9a05aa0873d40117941e5fa90",
+        "reference": "bb5906edc1c324c9a05aa0873d40117941e5fa90",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.0 || ^8.0",
+        "psr/http-message": "^1.0 || ^2.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Psr\\Http\\Client\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "PHP-FIG",
+          "homepage": "https://www.php-fig.org/"
+        }
+      ],
+      "description": "Common interface for HTTP clients",
+      "homepage": "https://github.com/php-fig/http-client",
+      "keywords": [
+        "http",
+        "http-client",
+        "psr",
+        "psr-18"
+      ],
+      "support": {
+        "source": "https://github.com/php-fig/http-client"
+      },
+      "time": "2023-09-23T14:17:50+00:00"
+    },
+    {
+      "name": "psr/http-factory",
+      "version": "1.1.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git",
+        "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-fig/http-factory/zipball/2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
+        "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.1",
+        "psr/http-message": "^1.0 || ^2.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Psr\\Http\\Message\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "PHP-FIG",
+          "homepage": "https://www.php-fig.org/"
+        }
+      ],
+      "description": "PSR-17: Common interfaces for PSR-7 HTTP message factories",
+      "keywords": [
+        "factory",
+        "http",
+        "message",
+        "psr",
+        "psr-17",
+        "psr-7",
+        "request",
+        "response"
+      ],
+      "support": {
+        "source": "https://github.com/php-fig/http-factory"
+      },
+      "time": "2024-04-15T12:06:14+00:00"
+    },
+    {
+      "name": "psr/http-message",
+      "version": "2.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git",
+        "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-fig/http-message/zipball/402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+        "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.2 || ^8.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "2.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Psr\\Http\\Message\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "PHP-FIG",
+          "homepage": "https://www.php-fig.org/"
+        }
+      ],
+      "description": "Common interface for HTTP messages",
+      "homepage": "https://github.com/php-fig/http-message",
+      "keywords": [
+        "http",
+        "http-message",
+        "psr",
+        "psr-7",
+        "request",
+        "response"
+      ],
+      "support": {
+        "source": "https://github.com/php-fig/http-message/tree/2.0"
+      },
+      "time": "2023-04-04T09:54:51+00:00"
+    },
+    {
+      "name": "psr/log",
+      "version": "3.0.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git",
+        "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+        "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=8.0.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "3.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Psr\\Log\\": "src"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "PHP-FIG",
+          "homepage": "https://www.php-fig.org/"
+        }
+      ],
+      "description": "Common interface for logging libraries",
+      "homepage": "https://github.com/php-fig/log",
+      "keywords": [
+        "log",
+        "psr",
+        "psr-3"
+      ],
+      "support": {
+        "source": "https://github.com/php-fig/log/tree/3.0.2"
+      },
+      "time": "2024-09-11T13:17:53+00:00"
+    },
+    {
+      "name": "ralouphie/getallheaders",
+      "version": "3.0.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ralouphie/getallheaders.git",
+        "reference": "120b605dfeb996808c31b6477290a714d356e822"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+        "reference": "120b605dfeb996808c31b6477290a714d356e822",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.6"
+      },
+      "require-dev": {
+        "php-coveralls/php-coveralls": "^2.1",
+        "phpunit/phpunit": "^5 || ^6.5"
+      },
+      "type": "library",
+      "autoload": {
+        "files": [
+          "src/getallheaders.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Ralph Khattar",
+          "email": "ralph.khattar@gmail.com"
+        }
+      ],
+      "description": "A polyfill for getallheaders.",
+      "support": {
+        "issues": "https://github.com/ralouphie/getallheaders/issues",
+        "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+      },
+      "time": "2019-03-08T08:55:37+00:00"
+    },
+    {
+      "name": "surecart/client",
+      "version": "v1.0.4",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/epicwp/surecart-client.git",
+        "reference": "578ee1ecc11a8cd8cab91f3324ca52f975c55d7b"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/epicwp/surecart-client/zipball/578ee1ecc11a8cd8cab91f3324ca52f975c55d7b",
+        "reference": "578ee1ecc11a8cd8cab91f3324ca52f975c55d7b",
+        "shasum": ""
+      },
+      "require": {
+        "ext-json": "*",
+        "php": ">=8.0",
+        "php-http/client-common": "^2.3",
+        "php-http/discovery": "^1.12",
+        "php-http/httplug": "^2.2",
+        "psr/http-client-implementation": "^1.0",
+        "psr/http-factory": "^1.1",
+        "psr/http-message": "^1.0 || ^2.0"
+      },
+      "require-dev": {
+        "guzzlehttp/guzzle": "^7.8",
+        "guzzlehttp/psr7": "^2.0",
+        "oblak/wordpress-coding-standard": "^1.1",
+        "php-http/message": "^1.0",
+        "phpstan/extension-installer": "^1.3",
+        "phpstan/phpstan": "^1.10",
+        "symfony/var-dumper": "^6.4"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "SureCart\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Sibin Grašič",
+          "email": "sibin@epicwpsolutions.com",
+          "homepage": "https://sib.ing",
+          "role": "Developer"
+        },
+        {
+          "name": "Robbert Vermeulen",
+          "email": "robbert@epicwpsolutions.com",
+          "homepage": "https://epicwpsolutions.com"
+        }
+      ],
+      "description": "SureCart API Client",
+      "homepage": "https://epicwpsolutions.com",
+      "keywords": [
+        "api",
+        "client",
+        "surecart"
+      ],
+      "support": {
+        "email": "helpdesk@epicwpsolutions.com",
+        "issues": "https://github.com/epicwp/surecart-client/issues",
+        "source": "https://github.com/epicwp/surecart-client/tree/v1.0.4"
+      },
+      "time": "2025-04-28T17:55:57+00:00"
+    },
+    {
+      "name": "surecart/wordpress-sdk",
+      "version": "v1.0.0-beta.7",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/epicwp/surecart-wp-sdk.git",
+        "reference": "ede3da1ea750585b6faf985ad21b4175f22a423b"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/epicwp/surecart-wp-sdk/zipball/ede3da1ea750585b6faf985ad21b4175f22a423b",
+        "reference": "ede3da1ea750585b6faf985ad21b4175f22a423b",
+        "shasum": ""
+      },
+      "require": {
+        "surecart/client": "^1.0",
+        "x-wp/admin-notice-manager": "^1.0",
+        "x-wp/updater": "^3.0"
+      },
+      "require-dev": {
+        "oblak/wordpress-coding-standard": "^1.1",
+        "php-stubs/wordpress-stubs": "^6.6",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan": "^1.12",
+        "phpstan/phpstan-deprecation-rules": "^1.2",
+        "swissspidy/phpstan-no-private": "^0.2",
+        "symfony/var-dumper": "^5.4",
+        "szepeviktor/phpstan-wordpress": "^1.3",
+        "x-wp/di": "^2.0"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "SureCart\\WP\\": "src/"
+        },
+        "classmap": [
+          "src/Data/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "support": {
+        "issues": "https://github.com/epicwp/surecart-wp-sdk/issues",
+        "source": "https://github.com/epicwp/surecart-wp-sdk/tree/v1.0.0-beta.7"
+      },
+      "time": "2025-08-02T17:33:17+00:00"
+    },
+    {
+      "name": "symfony/deprecation-contracts",
+      "version": "v3.6.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git",
+        "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/63afe740e99a13ba87ec199bb07bbdee937a5b62",
+        "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=8.1"
+      },
+      "type": "library",
+      "extra": {
+        "thanks": {
+          "url": "https://github.com/symfony/contracts",
+          "name": "symfony/contracts"
+        },
+        "branch-alias": {
+          "dev-main": "3.6-dev"
+        }
+      },
+      "autoload": {
+        "files": [
+          "function.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Nicolas Grekas",
+          "email": "p@tchwork.com"
+        },
+        {
+          "name": "Symfony Community",
+          "homepage": "https://symfony.com/contributors"
+        }
+      ],
+      "description": "A generic function and convention to trigger deprecation notices",
+      "homepage": "https://symfony.com",
+      "support": {
+        "source": "https://github.com/symfony/deprecation-contracts/tree/v3.6.0"
+      },
+      "funding": [
+        {
+          "url": "https://symfony.com/sponsor",
+          "type": "custom"
+        },
+        {
+          "url": "https://github.com/fabpot",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2024-09-25T14:21:43+00:00"
+    },
+    {
+      "name": "symfony/options-resolver",
+      "version": "v6.4.25",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/options-resolver.git",
+        "reference": "d28e7e2db8a73e9511df892d36445f61314bbebe"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/options-resolver/zipball/d28e7e2db8a73e9511df892d36445f61314bbebe",
+        "reference": "d28e7e2db8a73e9511df892d36445f61314bbebe",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=8.1",
+        "symfony/deprecation-contracts": "^2.5|^3"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Symfony\\Component\\OptionsResolver\\": ""
+        },
+        "exclude-from-classmap": [
+          "/Tests/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Fabien Potencier",
+          "email": "fabien@symfony.com"
+        },
+        {
+          "name": "Symfony Community",
+          "homepage": "https://symfony.com/contributors"
+        }
+      ],
+      "description": "Provides an improved replacement for the array_replace PHP function",
+      "homepage": "https://symfony.com",
+      "keywords": [
+        "config",
+        "configuration",
+        "options"
+      ],
+      "support": {
+        "source": "https://github.com/symfony/options-resolver/tree/v6.4.25"
+      },
+      "funding": [
+        {
+          "url": "https://symfony.com/sponsor",
+          "type": "custom"
+        },
+        {
+          "url": "https://github.com/fabpot",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/nicolas-grekas",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2025-08-04T17:06:28+00:00"
+    },
+    {
+      "name": "symfony/polyfill-mbstring",
+      "version": "v1.33.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-mbstring.git",
+        "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/6d857f4d76bd4b343eac26d6b539585d2bc56493",
+        "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493",
+        "shasum": ""
+      },
+      "require": {
+        "ext-iconv": "*",
+        "php": ">=7.2"
+      },
+      "provide": {
+        "ext-mbstring": "*"
+      },
+      "suggest": {
+        "ext-mbstring": "For best performance"
+      },
+      "type": "library",
+      "extra": {
+        "thanks": {
+          "url": "https://github.com/symfony/polyfill",
+          "name": "symfony/polyfill"
+        }
+      },
+      "autoload": {
+        "files": [
+          "bootstrap.php"
+        ],
+        "psr-4": {
+          "Symfony\\Polyfill\\Mbstring\\": ""
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Nicolas Grekas",
+          "email": "p@tchwork.com"
+        },
+        {
+          "name": "Symfony Community",
+          "homepage": "https://symfony.com/contributors"
+        }
+      ],
+      "description": "Symfony polyfill for the Mbstring extension",
+      "homepage": "https://symfony.com",
+      "keywords": [
+        "compatibility",
+        "mbstring",
+        "polyfill",
+        "portable",
+        "shim"
+      ],
+      "support": {
+        "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.33.0"
+      },
+      "funding": [
+        {
+          "url": "https://symfony.com/sponsor",
+          "type": "custom"
+        },
+        {
+          "url": "https://github.com/fabpot",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/nicolas-grekas",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2024-12-23T08:48:59+00:00"
+    },
+    {
+      "name": "symfony/polyfill-php80",
+      "version": "v1.33.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php80.git",
+        "reference": "0cc9dd0f17f61d8131e7df6b84bd344899fe2608"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/0cc9dd0f17f61d8131e7df6b84bd344899fe2608",
+        "reference": "0cc9dd0f17f61d8131e7df6b84bd344899fe2608",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.2"
+      },
+      "type": "library",
+      "extra": {
+        "thanks": {
+          "url": "https://github.com/symfony/polyfill",
+          "name": "symfony/polyfill"
+        }
+      },
+      "autoload": {
+        "files": [
+          "bootstrap.php"
+        ],
+        "psr-4": {
+          "Symfony\\Polyfill\\Php80\\": ""
+        },
+        "classmap": [
+          "Resources/stubs"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Ion Bazan",
+          "email": "ion.bazan@gmail.com"
+        },
+        {
+          "name": "Nicolas Grekas",
+          "email": "p@tchwork.com"
+        },
+        {
+          "name": "Symfony Community",
+          "homepage": "https://symfony.com/contributors"
+        }
+      ],
+      "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+      "homepage": "https://symfony.com",
+      "keywords": [
+        "compatibility",
+        "polyfill",
+        "portable",
+        "shim"
+      ],
+      "support": {
+        "source": "https://github.com/symfony/polyfill-php80/tree/v1.33.0"
+      },
+      "funding": [
+        {
+          "url": "https://symfony.com/sponsor",
+          "type": "custom"
+        },
+        {
+          "url": "https://github.com/fabpot",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/nicolas-grekas",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2025-01-02T08:10:11+00:00"
+    },
+    {
+      "name": "symfony/polyfill-php81",
+      "version": "v1.33.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php81.git",
+        "reference": "4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/polyfill-php81/zipball/4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c",
+        "reference": "4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.2"
+      },
+      "type": "library",
+      "extra": {
+        "thanks": {
+          "url": "https://github.com/symfony/polyfill",
+          "name": "symfony/polyfill"
+        }
+      },
+      "autoload": {
+        "files": [
+          "bootstrap.php"
+        ],
+        "psr-4": {
+          "Symfony\\Polyfill\\Php81\\": ""
+        },
+        "classmap": [
+          "Resources/stubs"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Nicolas Grekas",
+          "email": "p@tchwork.com"
+        },
+        {
+          "name": "Symfony Community",
+          "homepage": "https://symfony.com/contributors"
+        }
+      ],
+      "description": "Symfony polyfill backporting some PHP 8.1+ features to lower PHP versions",
+      "homepage": "https://symfony.com",
+      "keywords": [
+        "compatibility",
+        "polyfill",
+        "portable",
+        "shim"
+      ],
+      "support": {
+        "source": "https://github.com/symfony/polyfill-php81/tree/v1.33.0"
+      },
+      "funding": [
+        {
+          "url": "https://symfony.com/sponsor",
+          "type": "custom"
+        },
+        {
+          "url": "https://github.com/fabpot",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/nicolas-grekas",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2024-09-09T11:45:10+00:00"
+    },
+    {
+      "name": "symfony/service-contracts",
+      "version": "v3.6.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/service-contracts.git",
+        "reference": "f021b05a130d35510bd6b25fe9053c2a8a15d5d4"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/service-contracts/zipball/f021b05a130d35510bd6b25fe9053c2a8a15d5d4",
+        "reference": "f021b05a130d35510bd6b25fe9053c2a8a15d5d4",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=8.1",
+        "psr/container": "^1.1|^2.0",
+        "symfony/deprecation-contracts": "^2.5|^3"
+      },
+      "conflict": {
+        "ext-psr": "<1.1|>=2"
+      },
+      "type": "library",
+      "extra": {
+        "thanks": {
+          "url": "https://github.com/symfony/contracts",
+          "name": "symfony/contracts"
+        },
+        "branch-alias": {
+          "dev-main": "3.6-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Symfony\\Contracts\\Service\\": ""
+        },
+        "exclude-from-classmap": [
+          "/Test/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Nicolas Grekas",
+          "email": "p@tchwork.com"
+        },
+        {
+          "name": "Symfony Community",
+          "homepage": "https://symfony.com/contributors"
+        }
+      ],
+      "description": "Generic abstractions related to writing services",
+      "homepage": "https://symfony.com",
+      "keywords": [
+        "abstractions",
+        "contracts",
+        "decoupling",
+        "interfaces",
+        "interoperability",
+        "standards"
+      ],
+      "support": {
+        "source": "https://github.com/symfony/service-contracts/tree/v3.6.0"
+      },
+      "funding": [
+        {
+          "url": "https://symfony.com/sponsor",
+          "type": "custom"
+        },
+        {
+          "url": "https://github.com/fabpot",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2025-04-25T09:37:31+00:00"
+    },
+    {
+      "name": "woocommerce/action-scheduler",
+      "version": "3.9.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/woocommerce/action-scheduler.git",
+        "reference": "c58cdbab17651303d406cd3b22cf9d75c71c986c"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/woocommerce/action-scheduler/zipball/c58cdbab17651303d406cd3b22cf9d75c71c986c",
+        "reference": "c58cdbab17651303d406cd3b22cf9d75c71c986c",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.2"
+      },
+      "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "woocommerce/woocommerce-sniffs": "0.1.0",
+        "wp-cli/wp-cli": "~2.5.0",
+        "yoast/phpunit-polyfills": "^2.0"
+      },
+      "type": "wordpress-plugin",
+      "extra": {
+        "scripts-description": {
+          "test": "Run unit tests",
+          "phpcs": "Analyze code against the WordPress coding standards with PHP_CodeSniffer",
+          "phpcbf": "Fix coding standards warnings/errors automatically with PHP Code Beautifier"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-3.0-or-later"
+      ],
+      "description": "Action Scheduler for WordPress and WooCommerce",
+      "homepage": "https://actionscheduler.org/",
+      "support": {
+        "issues": "https://github.com/woocommerce/action-scheduler/issues",
+        "source": "https://github.com/woocommerce/action-scheduler/tree/3.9.3"
+      },
+      "time": "2025-07-15T09:32:30+00:00"
+    },
+    {
+      "name": "x-wp/admin-notice-manager",
+      "version": "v1.0.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/x-wp/admin-notice-manager.git",
+        "reference": "6751e677947480950c086d8bff7c555cab23eec7"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/x-wp/admin-notice-manager/zipball/6751e677947480950c086d8bff7c555cab23eec7",
+        "reference": "6751e677947480950c086d8bff7c555cab23eec7",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=8.0",
+        "x-wp/helper-functions": "^1.16",
+        "x-wp/helper-traits": "^1.16"
+      },
+      "replace": {
+        "oblak/admin-notice-manager": "*"
+      },
+      "require-dev": {
+        "oblak/wordpress-coding-standard": "^1",
+        "php-stubs/wordpress-stubs": "^6.5",
+        "phpstan/extension-installer": "^1.3",
+        "phpstan/phpstan": "^1.10",
+        "phpstan/phpstan-deprecation-rules": "^1.1",
+        "swissspidy/phpstan-no-private": "^0.2.0",
+        "szepeviktor/phpstan-wordpress": "^1.3"
+      },
+      "suggest": {
+        "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+      },
+      "type": "library",
+      "autoload": {
+        "files": [
+          "src/Functions/xwp-anm-fns.php",
+          "src/Functions/xwp-anm-init.php"
+        ],
+        "psr-4": {
+          "XWP\\ANM\\": "src/"
+        },
+        "classmap": [
+          "src/Core/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-only"
+      ],
+      "authors": [
+        {
+          "name": "Sibin Grasic",
+          "email": "i.am@sib.ing"
+        }
+      ],
+      "description": "Simplifies the process of working with admin notices in WordPress.",
+      "homepage": "https://extended.wp.rs/docs/packages/admin-notice-manager",
+      "keywords": [
+        "admin",
+        "admin notices",
+        "notices",
+        "wordpress"
+      ],
+      "support": {
+        "issues": "https://github.com/x-wp/admin-notice-manager/issues",
+        "source": "https://github.com/x-wp/admin-notice-manager/tree/v1.0.2"
+      },
+      "time": "2024-12-16T23:04:19+00:00"
+    },
+    {
+      "name": "x-wp/asset-loader",
+      "version": "v1.2.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/x-wp/asset-loader.git",
+        "reference": "03aec6caaa239c9e52a19af99304f014c14adca0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/x-wp/asset-loader/zipball/03aec6caaa239c9e52a19af99304f014c14adca0",
+        "reference": "03aec6caaa239c9e52a19af99304f014c14adca0",
+        "shasum": ""
+      },
+      "require": {
+        "automattic/jetpack-constants": "^2 | ^3",
+        "php": ">=8.0",
+        "x-wp/helper-functions": "^1.18",
+        "x-wp/helper-traits": "^1.9"
+      },
+      "provide": {
+        "x-wp/asset-loader-implementation": "1.0"
+      },
+      "require-dev": {
+        "oblak/wordpress-coding-standard": "^1",
+        "php-stubs/wordpress-stubs": "^6.5",
+        "phpstan/extension-installer": "^1.3",
+        "phpstan/phpstan": "^1.10",
+        "phpstan/phpstan-deprecation-rules": "^1.1",
+        "swissspidy/phpstan-no-private": "^0.2.0",
+        "szepeviktor/phpstan-wordpress": "^1.3"
+      },
+      "suggest": {
+        "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+      },
+      "type": "library",
+      "autoload": {
+        "files": [
+          "src/Functions/xwp-loader-init.php"
+        ],
+        "psr-4": {
+          "XWP\\Dependency\\": "src/"
+        },
+        "classmap": [
+          "src/Core/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-only"
+      ],
+      "authors": [
+        {
+          "name": "Sibin Grasic",
+          "email": "sibin.grasic@oblak.studio"
+        }
+      ],
+      "description": "Simple Asset Loader for WordPress",
+      "support": {
+        "issues": "https://github.com/x-wp/asset-loader/issues",
+        "source": "https://github.com/x-wp/asset-loader/tree/v1.2.0"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/seebeen",
+          "type": "github"
+        }
+      ],
+      "time": "2025-05-13T16:58:49+00:00"
+    },
+    {
+      "name": "x-wp/di",
+      "version": "v2.0.0-alpha.9",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/x-wp/di.git",
+        "reference": "73a3ff85e09728017057468283ae9b4089ed9fec"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/x-wp/di/zipball/73a3ff85e09728017057468283ae9b4089ed9fec",
+        "reference": "73a3ff85e09728017057468283ae9b4089ed9fec",
+        "shasum": ""
+      },
+      "require": {
+        "automattic/jetpack-constants": "^2 || ^3",
+        "php": ">=8.0",
+        "php-di/php-di": "^7",
+        "symfony/polyfill-php81": "^1.31",
+        "x-wp/helper-classes": "^1.13",
+        "x-wp/helper-functions": "^1.13"
+      },
+      "conflict": {
+        "oblak/wp-hook-di": "*"
+      },
+      "provide": {
+        "psr/container-implementation": "1.1 || 2.0",
+        "x-wp/di-implementation": "self.version"
+      },
+      "require-dev": {
+        "oblak/wordpress-coding-standard": "^1.1",
+        "php-stubs/woocommerce-stubs": "^9.5",
+        "php-stubs/wordpress-stubs": "^6.6",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan": "^1.12",
+        "phpstan/phpstan-deprecation-rules": "^1.2",
+        "swissspidy/phpstan-no-private": "^0.2",
+        "symfony/polyfill-php82": "^1.31",
+        "symfony/var-dumper": "^5.4",
+        "szepeviktor/phpstan-wordpress": "^1.3",
+        "wp-cli/wp-cli": "^2.11"
+      },
+      "suggest": {
+        "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+      },
+      "type": "library",
+      "autoload": {
+        "files": [
+          "src/Functions/xwp-di-container-fns.php",
+          "src/Functions/xwp-di-helper-fns.php"
+        ],
+        "psr-4": {
+          "XWP\\DI\\": "src/"
+        },
+        "classmap": [
+          "src/Global/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-only"
+      ],
+      "authors": [
+        {
+          "name": "Sibin Grasic",
+          "email": "sibin.grasic@oblak.studio"
+        }
+      ],
+      "description": "The dependency injection container for WordPress",
+      "keywords": [
+        "actions",
+        "dependency-injection",
+        "di",
+        "filters",
+        "hooks",
+        "wordpress"
+      ],
+      "support": {
+        "issues": "https://github.com/x-wp/hook-manager/issues",
+        "source": "https://github.com/x-wp/di/tree/v2.0.0-alpha.9"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/seebeen",
+          "type": "github"
+        }
+      ],
+      "time": "2025-10-03T13:27:42+00:00"
+    },
+    {
+      "name": "x-wp/helper-classes",
+      "version": "v1.21.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/x-wp/helper-classes.git",
+        "reference": "9d0e4611a41846e5407c61548d0de2f7da9c7478"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/x-wp/helper-classes/zipball/9d0e4611a41846e5407c61548d0de2f7da9c7478",
+        "reference": "9d0e4611a41846e5407c61548d0de2f7da9c7478",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=8.0",
+        "x-wp/helper-traits": "^1"
+      },
+      "suggest": {
+        "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "XWP\\Helper\\Classes\\": ""
+        },
+        "classmap": [
+          "WP/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-only"
+      ],
+      "authors": [
+        {
+          "name": "Sibin Grasic",
+          "email": "sibin.grasic@oblak.studio"
+        }
+      ],
+      "description": "Generic abstraction related to xWP packages",
+      "keywords": [
+        "abstractions",
+        "contracts",
+        "decoupling",
+        "extended-wp",
+        "interfaces",
+        "interoperability",
+        "standards"
+      ],
+      "support": {
+        "issues": "https://github.com/x-wp/helper-classes/issues",
+        "source": "https://github.com/x-wp/helper-classes/tree/v1.21.1"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/seebeen",
+          "type": "github"
+        }
+      ],
+      "time": "2025-02-11T18:24:14+00:00"
+    },
+    {
+      "name": "x-wp/helper-functions",
+      "version": "v1.21.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/x-wp/helper-functions.git",
+        "reference": "b6696bc39b68e3df1b9da77c7d4226347861045c"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/x-wp/helper-functions/zipball/b6696bc39b68e3df1b9da77c7d4226347861045c",
+        "reference": "b6696bc39b68e3df1b9da77c7d4226347861045c",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=8.0"
+      },
+      "suggest": {
+        "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+      },
+      "type": "library",
+      "autoload": {
+        "files": [
+          "xwp-helper-fns-arr.php",
+          "xwp-helper-fns-meta.php",
+          "xwp-helper-fns-num.php",
+          "xwp-helper-fns-req.php",
+          "xwp-helper-fns.php"
+        ],
+        "psr-4": {
+          "XWP\\Helper\\Functions\\": "."
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-only"
+      ],
+      "authors": [
+        {
+          "name": "Sibin Grasic",
+          "email": "sibin.grasic@oblak.studio"
+        }
+      ],
+      "description": "Various traits related to xWP packages",
+      "keywords": [
+        "contracts",
+        "decoupling",
+        "extended-wp",
+        "interfaces",
+        "interoperability",
+        "standards",
+        "traits"
+      ],
+      "support": {
+        "issues": "https://github.com/x-wp/helper-functions/issues",
+        "source": "https://github.com/x-wp/helper-functions/tree/v1.21.1"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/seebeen",
+          "type": "github"
+        }
+      ],
+      "time": "2025-06-08T13:14:33+00:00"
+    },
+    {
+      "name": "x-wp/helper-traits",
+      "version": "v1.21.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/x-wp/helper-traits.git",
+        "reference": "c341b8ad27de9b1a73e2d53dc8702897a0cfba18"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/x-wp/helper-traits/zipball/c341b8ad27de9b1a73e2d53dc8702897a0cfba18",
+        "reference": "c341b8ad27de9b1a73e2d53dc8702897a0cfba18",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=8.0"
+      },
+      "suggest": {
+        "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "XWP\\Helper\\Traits\\": ""
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-only"
+      ],
+      "authors": [
+        {
+          "name": "Sibin Grasic",
+          "email": "sibin.grasic@oblak.studio"
+        }
+      ],
+      "description": "Various traits related to xWP packages",
+      "keywords": [
+        "contracts",
+        "decoupling",
+        "extended-wp",
+        "interfaces",
+        "interoperability",
+        "standards",
+        "traits"
+      ],
+      "support": {
+        "issues": "https://github.com/x-wp/helper-traits/issues",
+        "source": "https://github.com/x-wp/helper-traits/tree/v1.21.1"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/seebeen",
+          "type": "github"
+        }
+      ],
+      "time": "2025-06-08T10:17:19+00:00"
+    },
+    {
+      "name": "x-wp/updater",
+      "version": "v3.0.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/x-wp/updater.git",
+        "reference": "d540c1f903758afb8f38dae9794fd570dcf2e447"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/x-wp/updater/zipball/d540c1f903758afb8f38dae9794fd570dcf2e447",
+        "reference": "d540c1f903758afb8f38dae9794fd570dcf2e447",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=8.0",
+        "x-wp/helper-classes": "^1.19",
+        "x-wp/helper-functions": "^1.19"
+      },
+      "require-dev": {
+        "oblak/wordpress-coding-standard": "^1.1.1",
+        "php-stubs/wordpress-stubs": "^6.5",
+        "phpstan/extension-installer": "^1.3",
+        "phpstan/phpstan": "^1.10",
+        "phpstan/phpstan-deprecation-rules": "^1.1",
+        "swissspidy/phpstan-no-private": "^0.2.0",
+        "symfony/var-dumper": "^5.4",
+        "szepeviktor/phpstan-wordpress": "^1.3"
+      },
+      "suggest": {
+        "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+      },
+      "type": "library",
+      "autoload": {
+        "files": [
+          "src/Functions/xwp-updater-bootstrap.php",
+          "src/Functions/xwp-updater-util-fns.php"
+        ],
+        "psr-4": {
+          "XWP\\Updater\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-2.0-only"
+      ],
+      "authors": [
+        {
+          "name": "Sibin Grasic",
+          "email": "sibin.grasic@oblak.studio",
+          "homepage": "https://oblak.host",
+          "role": "Developer"
+        }
+      ],
+      "description": "Simplifies the process of updating WordPress packages from custom repositories.",
+      "keywords": [
+        "composer",
+        "package",
+        "updater",
+        "wordpress"
+      ],
+      "support": {
+        "issues": "https://github.com/oblakstudio/wp-package-updater/issues",
+        "source": "https://github.com/x-wp/updater/tree/v3.0.1"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/seebeen",
+          "type": "github"
+        }
+      ],
+      "time": "2025-05-16T13:39:39+00:00"
+    },
+    {
+      "name": "yethee/tiktoken",
+      "version": "0.7.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yethee/tiktoken-php.git",
+        "reference": "16fa1045ce83375db88d74d503bbc72ff0d86c9e"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/yethee/tiktoken-php/zipball/16fa1045ce83375db88d74d503bbc72ff0d86c9e",
+        "reference": "16fa1045ce83375db88d74d503bbc72ff0d86c9e",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^8.1",
+        "symfony/service-contracts": "^2.5 || ^3.0"
+      },
+      "require-dev": {
+        "doctrine/coding-standard": "^12.0",
+        "mikey179/vfsstream": "^1.6.11",
+        "phpbench/phpbench": "^1.2",
+        "phpunit/phpunit": "^10.5.20",
+        "psalm/plugin-phpunit": "^0.19.0",
+        "vimeo/psalm": "5.26.1"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Yethee\\Tiktoken\\": "src"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "PHP version of tiktoken",
+      "keywords": [
+        "bpe",
+        "decode",
+        "encode",
+        "openai",
+        "tiktoken",
+        "tokenizer"
+      ],
+      "support": {
+        "issues": "https://github.com/yethee/tiktoken-php/issues",
+        "source": "https://github.com/yethee/tiktoken-php/tree/0.7.0"
+      },
+      "time": "2024-10-12T17:43:13+00:00"
+    }
+  ],
+  "packages-dev": [
+    {
+      "name": "dealerdirect/phpcodesniffer-composer-installer",
+      "version": "v1.1.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PHPCSStandards/composer-installer.git",
+        "reference": "e9cf5e4bbf7eeaf9ef5db34938942602838fc2b1"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/PHPCSStandards/composer-installer/zipball/e9cf5e4bbf7eeaf9ef5db34938942602838fc2b1",
+        "reference": "e9cf5e4bbf7eeaf9ef5db34938942602838fc2b1",
+        "shasum": ""
+      },
+      "require": {
+        "composer-plugin-api": "^2.2",
+        "php": ">=5.4",
+        "squizlabs/php_codesniffer": "^2.0 || ^3.1.0 || ^4.0"
+      },
+      "require-dev": {
+        "composer/composer": "^2.2",
+        "ext-json": "*",
+        "ext-zip": "*",
+        "php-parallel-lint/php-parallel-lint": "^1.4.0",
+        "phpcompatibility/php-compatibility": "^9.0",
+        "yoast/phpunit-polyfills": "^1.0"
+      },
+      "type": "composer-plugin",
+      "extra": {
+        "class": "PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin"
+      },
+      "autoload": {
+        "psr-4": {
+          "PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Franck Nijhof",
+          "email": "opensource@frenck.dev",
+          "homepage": "https://frenck.dev",
+          "role": "Open source developer"
+        },
+        {
+          "name": "Contributors",
+          "homepage": "https://github.com/PHPCSStandards/composer-installer/graphs/contributors"
+        }
+      ],
+      "description": "PHP_CodeSniffer Standards Composer Installer Plugin",
+      "keywords": [
+        "PHPCodeSniffer",
+        "PHP_CodeSniffer",
+        "code quality",
+        "codesniffer",
+        "composer",
+        "installer",
+        "phpcbf",
+        "phpcs",
+        "plugin",
+        "qa",
+        "quality",
+        "standard",
+        "standards",
+        "style guide",
+        "stylecheck",
+        "tests"
+      ],
+      "support": {
+        "issues": "https://github.com/PHPCSStandards/composer-installer/issues",
+        "security": "https://github.com/PHPCSStandards/composer-installer/security/policy",
+        "source": "https://github.com/PHPCSStandards/composer-installer"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/PHPCSStandards",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/jrfnl",
+          "type": "github"
+        },
+        {
+          "url": "https://opencollective.com/php_codesniffer",
+          "type": "open_collective"
+        },
+        {
+          "url": "https://thanks.dev/u/gh/phpcsstandards",
+          "type": "thanks_dev"
+        }
+      ],
+      "time": "2025-07-17T20:45:56+00:00"
+    },
+    {
+      "name": "oblak/wordpress-coding-standard",
+      "version": "v1.3.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/oblakstudio/wordpress-coding-standards.git",
+        "reference": "b9c6fd5c58edccc464927c9b9f239b0ee0692daf"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/oblakstudio/wordpress-coding-standards/zipball/b9c6fd5c58edccc464927c9b9f239b0ee0692daf",
+        "reference": "b9c6fd5c58edccc464927c9b9f239b0ee0692daf",
+        "shasum": ""
+      },
+      "require": {
+        "ext-filter": "*",
+        "php": ">=7.4",
+        "phpcompatibility/php-compatibility": "^9",
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "phpcsstandards/phpcsextra": "^1.1",
+        "phpcsstandards/phpcsutils": "^1.0",
+        "slevomat/coding-standard": "^8.14",
+        "squizlabs/php_codesniffer": "^3.8",
+        "wp-coding-standards/wpcs": "^3"
+      },
+      "require-dev": {
+        "phpcsstandards/phpcsdevtools": "^1.2.0"
+      },
+      "suggest": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+      },
+      "type": "phpcodesniffer-standard",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Contributors",
+          "homepage": "https://github.com/oblakstudio/wordpress-cofing-standard/graphs/contributors"
+        }
+      ],
+      "keywords": [
+        "phpcs",
+        "standards",
+        "static analysis",
+        "wordpress"
+      ],
+      "support": {
+        "issues": "https://github.com/oblakstudio/wordpress-coding-standards/issues",
+        "source": "https://github.com/oblakstudio/wordpress-coding-standards/tree/v1.3.0"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/seebeen",
+          "type": "github"
+        }
+      ],
+      "time": "2025-04-25T15:40:25+00:00"
+    },
+    {
+      "name": "php-stubs/wordpress-stubs",
+      "version": "v6.8.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-stubs/wordpress-stubs.git",
+        "reference": "abeb5a8b58fda7ac21f15ee596f302f2959a7114"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/abeb5a8b58fda7ac21f15ee596f302f2959a7114",
+        "reference": "abeb5a8b58fda7ac21f15ee596f302f2959a7114",
+        "shasum": ""
+      },
+      "conflict": {
+        "phpdocumentor/reflection-docblock": "5.6.1"
+      },
+      "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "nikic/php-parser": "^5.5",
+        "php": "^7.4 || ^8.0",
+        "php-stubs/generator": "^0.8.3",
+        "phpdocumentor/reflection-docblock": "^5.4.1",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^9.5",
+        "szepeviktor/phpcs-psr-12-neutron-hybrid-ruleset": "^1.1.1",
+        "wp-coding-standards/wpcs": "3.1.0 as 2.3.0"
+      },
+      "suggest": {
+        "paragonie/sodium_compat": "Pure PHP implementation of libsodium",
+        "symfony/polyfill-php80": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+        "szepeviktor/phpstan-wordpress": "WordPress extensions for PHPStan"
+      },
+      "type": "library",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "WordPress function and class declaration stubs for static analysis.",
+      "homepage": "https://github.com/php-stubs/wordpress-stubs",
+      "keywords": [
+        "PHPStan",
+        "static analysis",
+        "wordpress"
+      ],
+      "support": {
+        "issues": "https://github.com/php-stubs/wordpress-stubs/issues",
+        "source": "https://github.com/php-stubs/wordpress-stubs/tree/v6.8.3"
+      },
+      "time": "2025-09-30T20:58:47+00:00"
+    },
+    {
+      "name": "php-stubs/wp-cli-stubs",
+      "version": "v2.12.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-stubs/wp-cli-stubs.git",
+        "reference": "af16401e299a3fd2229bd0fa9a037638a4174a9d"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-stubs/wp-cli-stubs/zipball/af16401e299a3fd2229bd0fa9a037638a4174a9d",
+        "reference": "af16401e299a3fd2229bd0fa9a037638a4174a9d",
+        "shasum": ""
+      },
+      "require": {
+        "php-stubs/wordpress-stubs": "^4.7 || ^5.0 || ^6.0"
+      },
+      "require-dev": {
+        "php": "~7.3 || ~8.0",
+        "php-stubs/generator": "^0.8.0"
+      },
+      "suggest": {
+        "symfony/polyfill-php73": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+        "szepeviktor/phpstan-wordpress": "WordPress extensions for PHPStan"
+      },
+      "type": "library",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "WP-CLI function and class declaration stubs for static analysis.",
+      "homepage": "https://github.com/php-stubs/wp-cli-stubs",
+      "keywords": [
+        "PHPStan",
+        "static analysis",
+        "wordpress",
+        "wp-cli"
+      ],
+      "support": {
+        "issues": "https://github.com/php-stubs/wp-cli-stubs/issues",
+        "source": "https://github.com/php-stubs/wp-cli-stubs/tree/v2.12.0"
+      },
+      "time": "2025-06-10T09:58:05+00:00"
+    },
+    {
+      "name": "phpcompatibility/php-compatibility",
+      "version": "9.3.5",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PHPCompatibility/PHPCompatibility.git",
+        "reference": "9fb324479acf6f39452e0655d2429cc0d3914243"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibility/zipball/9fb324479acf6f39452e0655d2429cc0d3914243",
+        "reference": "9fb324479acf6f39452e0655d2429cc0d3914243",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.3",
+        "squizlabs/php_codesniffer": "^2.3 || ^3.0.2"
+      },
+      "conflict": {
+        "squizlabs/php_codesniffer": "2.6.2"
+      },
+      "require-dev": {
+        "phpunit/phpunit": "~4.5 || ^5.0 || ^6.0 || ^7.0"
+      },
+      "suggest": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5 || This Composer plugin will sort out the PHPCS 'installed_paths' automatically.",
+        "roave/security-advisories": "dev-master || Helps prevent installing dependencies with known security issues."
+      },
+      "type": "phpcodesniffer-standard",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "authors": [
+        {
+          "name": "Wim Godden",
+          "homepage": "https://github.com/wimg",
+          "role": "lead"
+        },
+        {
+          "name": "Juliette Reinders Folmer",
+          "homepage": "https://github.com/jrfnl",
+          "role": "lead"
+        },
+        {
+          "name": "Contributors",
+          "homepage": "https://github.com/PHPCompatibility/PHPCompatibility/graphs/contributors"
+        }
+      ],
+      "description": "A set of sniffs for PHP_CodeSniffer that checks for PHP cross-version compatibility.",
+      "homepage": "http://techblog.wimgodden.be/tag/codesniffer/",
+      "keywords": [
+        "compatibility",
+        "phpcs",
+        "standards"
+      ],
+      "support": {
+        "issues": "https://github.com/PHPCompatibility/PHPCompatibility/issues",
+        "source": "https://github.com/PHPCompatibility/PHPCompatibility"
+      },
+      "time": "2019-12-27T09:44:58+00:00"
+    },
+    {
+      "name": "phpcompatibility/phpcompatibility-paragonie",
+      "version": "1.3.4",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PHPCompatibility/PHPCompatibilityParagonie.git",
+        "reference": "244d7b04fc4bc2117c15f5abe23eb933b5f02bbf"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibilityParagonie/zipball/244d7b04fc4bc2117c15f5abe23eb933b5f02bbf",
+        "reference": "244d7b04fc4bc2117c15f5abe23eb933b5f02bbf",
+        "shasum": ""
+      },
+      "require": {
+        "phpcompatibility/php-compatibility": "^9.0"
+      },
+      "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "paragonie/random_compat": "dev-master",
+        "paragonie/sodium_compat": "dev-master"
+      },
+      "suggest": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0 || This Composer plugin will sort out the PHP_CodeSniffer 'installed_paths' automatically.",
+        "roave/security-advisories": "dev-master || Helps prevent installing dependencies with known security issues."
+      },
+      "type": "phpcodesniffer-standard",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "authors": [
+        {
+          "name": "Wim Godden",
+          "role": "lead"
+        },
+        {
+          "name": "Juliette Reinders Folmer",
+          "role": "lead"
+        }
+      ],
+      "description": "A set of rulesets for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects, while accounting for polyfills provided by the Paragonie polyfill libraries.",
+      "homepage": "http://phpcompatibility.com/",
+      "keywords": [
+        "compatibility",
+        "paragonie",
+        "phpcs",
+        "polyfill",
+        "standards",
+        "static analysis"
+      ],
+      "support": {
+        "issues": "https://github.com/PHPCompatibility/PHPCompatibilityParagonie/issues",
+        "security": "https://github.com/PHPCompatibility/PHPCompatibilityParagonie/security/policy",
+        "source": "https://github.com/PHPCompatibility/PHPCompatibilityParagonie"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/PHPCompatibility",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/jrfnl",
+          "type": "github"
+        },
+        {
+          "url": "https://opencollective.com/php_codesniffer",
+          "type": "open_collective"
+        },
+        {
+          "url": "https://thanks.dev/u/gh/phpcompatibility",
+          "type": "thanks_dev"
+        }
+      ],
+      "time": "2025-09-19T17:43:28+00:00"
+    },
+    {
+      "name": "phpcompatibility/phpcompatibility-wp",
+      "version": "2.1.8",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PHPCompatibility/PHPCompatibilityWP.git",
+        "reference": "7c8d18b4d90dac9e86b0869a608fa09158e168fa"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibilityWP/zipball/7c8d18b4d90dac9e86b0869a608fa09158e168fa",
+        "reference": "7c8d18b4d90dac9e86b0869a608fa09158e168fa",
+        "shasum": ""
+      },
+      "require": {
+        "phpcompatibility/php-compatibility": "^9.0",
+        "phpcompatibility/phpcompatibility-paragonie": "^1.0",
+        "squizlabs/php_codesniffer": "^3.3"
+      },
+      "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+      },
+      "suggest": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0 || This Composer plugin will sort out the PHP_CodeSniffer 'installed_paths' automatically.",
+        "roave/security-advisories": "dev-master || Helps prevent installing dependencies with known security issues."
+      },
+      "type": "phpcodesniffer-standard",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "authors": [
+        {
+          "name": "Wim Godden",
+          "role": "lead"
+        },
+        {
+          "name": "Juliette Reinders Folmer",
+          "role": "lead"
+        }
+      ],
+      "description": "A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects, while accounting for polyfills provided by WordPress.",
+      "homepage": "http://phpcompatibility.com/",
+      "keywords": [
+        "compatibility",
+        "phpcs",
+        "standards",
+        "static analysis",
+        "wordpress"
+      ],
+      "support": {
+        "issues": "https://github.com/PHPCompatibility/PHPCompatibilityWP/issues",
+        "security": "https://github.com/PHPCompatibility/PHPCompatibilityWP/security/policy",
+        "source": "https://github.com/PHPCompatibility/PHPCompatibilityWP"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/PHPCompatibility",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/jrfnl",
+          "type": "github"
+        },
+        {
+          "url": "https://opencollective.com/php_codesniffer",
+          "type": "open_collective"
+        },
+        {
+          "url": "https://thanks.dev/u/gh/phpcompatibility",
+          "type": "thanks_dev"
+        }
+      ],
+      "time": "2025-10-18T00:05:59+00:00"
+    },
+    {
+      "name": "phpcsstandards/phpcsextra",
+      "version": "1.4.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PHPCSStandards/PHPCSExtra.git",
+        "reference": "8e89a01c7b8fed84a12a2a7f5a23a44cdbe4f62e"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/PHPCSStandards/PHPCSExtra/zipball/8e89a01c7b8fed84a12a2a7f5a23a44cdbe4f62e",
+        "reference": "8e89a01c7b8fed84a12a2a7f5a23a44cdbe4f62e",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.4",
+        "phpcsstandards/phpcsutils": "^1.1.2",
+        "squizlabs/php_codesniffer": "^3.13.4 || ^4.0"
+      },
+      "require-dev": {
+        "php-parallel-lint/php-console-highlighter": "^1.0",
+        "php-parallel-lint/php-parallel-lint": "^1.4.0",
+        "phpcsstandards/phpcsdevcs": "^1.1.6",
+        "phpcsstandards/phpcsdevtools": "^1.2.1",
+        "phpunit/phpunit": "^4.5 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.3.4"
+      },
+      "type": "phpcodesniffer-standard",
+      "extra": {
+        "branch-alias": {
+          "dev-stable": "1.x-dev",
+          "dev-develop": "1.x-dev"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "authors": [
+        {
+          "name": "Juliette Reinders Folmer",
+          "homepage": "https://github.com/jrfnl",
+          "role": "lead"
+        },
+        {
+          "name": "Contributors",
+          "homepage": "https://github.com/PHPCSStandards/PHPCSExtra/graphs/contributors"
+        }
+      ],
+      "description": "A collection of sniffs and standards for use with PHP_CodeSniffer.",
+      "keywords": [
+        "PHP_CodeSniffer",
+        "phpcbf",
+        "phpcodesniffer-standard",
+        "phpcs",
+        "standards",
+        "static analysis"
+      ],
+      "support": {
+        "issues": "https://github.com/PHPCSStandards/PHPCSExtra/issues",
+        "security": "https://github.com/PHPCSStandards/PHPCSExtra/security/policy",
+        "source": "https://github.com/PHPCSStandards/PHPCSExtra"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/PHPCSStandards",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/jrfnl",
+          "type": "github"
+        },
+        {
+          "url": "https://opencollective.com/php_codesniffer",
+          "type": "open_collective"
+        },
+        {
+          "url": "https://thanks.dev/u/gh/phpcsstandards",
+          "type": "thanks_dev"
+        }
+      ],
+      "time": "2025-10-28T17:00:02+00:00"
+    },
+    {
+      "name": "phpcsstandards/phpcsutils",
+      "version": "1.1.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PHPCSStandards/PHPCSUtils.git",
+        "reference": "8b8e17615d04f2fc2cd46fc1d2fd888fa21b3cf9"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/PHPCSStandards/PHPCSUtils/zipball/8b8e17615d04f2fc2cd46fc1d2fd888fa21b3cf9",
+        "reference": "8b8e17615d04f2fc2cd46fc1d2fd888fa21b3cf9",
+        "shasum": ""
+      },
+      "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.1 || ^0.5 || ^0.6.2 || ^0.7 || ^1.0",
+        "php": ">=5.4",
+        "squizlabs/php_codesniffer": "^3.13.3 || ^4.0"
+      },
+      "require-dev": {
+        "ext-filter": "*",
+        "php-parallel-lint/php-console-highlighter": "^1.0",
+        "php-parallel-lint/php-parallel-lint": "^1.4.0",
+        "phpcsstandards/phpcsdevcs": "^1.1.6",
+        "yoast/phpunit-polyfills": "^1.1.0 || ^2.0.0 || ^3.0.0"
+      },
+      "type": "phpcodesniffer-standard",
+      "extra": {
+        "branch-alias": {
+          "dev-stable": "1.x-dev",
+          "dev-develop": "1.x-dev"
+        }
+      },
+      "autoload": {
+        "classmap": [
+          "PHPCSUtils/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "authors": [
+        {
+          "name": "Juliette Reinders Folmer",
+          "homepage": "https://github.com/jrfnl",
+          "role": "lead"
+        },
+        {
+          "name": "Contributors",
+          "homepage": "https://github.com/PHPCSStandards/PHPCSUtils/graphs/contributors"
+        }
+      ],
+      "description": "A suite of utility functions for use with PHP_CodeSniffer",
+      "homepage": "https://phpcsutils.com/",
+      "keywords": [
+        "PHP_CodeSniffer",
+        "phpcbf",
+        "phpcodesniffer-standard",
+        "phpcs",
+        "phpcs3",
+        "phpcs4",
+        "standards",
+        "static analysis",
+        "tokens",
+        "utility"
+      ],
+      "support": {
+        "docs": "https://phpcsutils.com/",
+        "issues": "https://github.com/PHPCSStandards/PHPCSUtils/issues",
+        "security": "https://github.com/PHPCSStandards/PHPCSUtils/security/policy",
+        "source": "https://github.com/PHPCSStandards/PHPCSUtils"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/PHPCSStandards",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/jrfnl",
+          "type": "github"
+        },
+        {
+          "url": "https://opencollective.com/php_codesniffer",
+          "type": "open_collective"
+        },
+        {
+          "url": "https://thanks.dev/u/gh/phpcsstandards",
+          "type": "thanks_dev"
+        }
+      ],
+      "time": "2025-10-16T16:39:32+00:00"
+    },
+    {
+      "name": "phpstan/extension-installer",
+      "version": "1.4.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/phpstan/extension-installer.git",
+        "reference": "85e90b3942d06b2326fba0403ec24fe912372936"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/phpstan/extension-installer/zipball/85e90b3942d06b2326fba0403ec24fe912372936",
+        "reference": "85e90b3942d06b2326fba0403ec24fe912372936",
+        "shasum": ""
+      },
+      "require": {
+        "composer-plugin-api": "^2.0",
+        "php": "^7.2 || ^8.0",
+        "phpstan/phpstan": "^1.9.0 || ^2.0"
+      },
+      "require-dev": {
+        "composer/composer": "^2.0",
+        "php-parallel-lint/php-parallel-lint": "^1.2.0",
+        "phpstan/phpstan-strict-rules": "^0.11 || ^0.12 || ^1.0"
+      },
+      "type": "composer-plugin",
+      "extra": {
+        "class": "PHPStan\\ExtensionInstaller\\Plugin"
+      },
+      "autoload": {
+        "psr-4": {
+          "PHPStan\\ExtensionInstaller\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "Composer plugin for automatic installation of PHPStan extensions",
+      "keywords": [
+        "dev",
+        "static analysis"
+      ],
+      "support": {
+        "issues": "https://github.com/phpstan/extension-installer/issues",
+        "source": "https://github.com/phpstan/extension-installer/tree/1.4.3"
+      },
+      "time": "2024-09-04T20:21:43+00:00"
+    },
+    {
+      "name": "phpstan/phpdoc-parser",
+      "version": "2.3.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/phpstan/phpdoc-parser.git",
+        "reference": "1e0cd5370df5dd2e556a36b9c62f62e555870495"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/1e0cd5370df5dd2e556a36b9c62f62e555870495",
+        "reference": "1e0cd5370df5dd2e556a36b9c62f62e555870495",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.4 || ^8.0"
+      },
+      "require-dev": {
+        "doctrine/annotations": "^2.0",
+        "nikic/php-parser": "^5.3.0",
+        "php-parallel-lint/php-parallel-lint": "^1.2",
+        "phpstan/extension-installer": "^1.0",
+        "phpstan/phpstan": "^2.0",
+        "phpstan/phpstan-phpunit": "^2.0",
+        "phpstan/phpstan-strict-rules": "^2.0",
+        "phpunit/phpunit": "^9.6",
+        "symfony/process": "^5.2"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "PHPStan\\PhpDocParser\\": [
+            "src/"
+          ]
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "PHPDoc parser with support for nullable, intersection and generic types",
+      "support": {
+        "issues": "https://github.com/phpstan/phpdoc-parser/issues",
+        "source": "https://github.com/phpstan/phpdoc-parser/tree/2.3.0"
+      },
+      "time": "2025-08-30T15:50:23+00:00"
+    },
+    {
+      "name": "phpstan/phpstan",
+      "version": "1.12.32",
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2770dcdf5078d0b0d53f94317e06affe88419aa8",
+        "reference": "2770dcdf5078d0b0d53f94317e06affe88419aa8",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.2|^8.0"
+      },
+      "conflict": {
+        "phpstan/phpstan-shim": "*"
+      },
+      "bin": [
+        "phpstan",
+        "phpstan.phar"
+      ],
+      "type": "library",
+      "autoload": {
+        "files": [
+          "bootstrap.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "PHPStan - PHP Static Analysis Tool",
+      "keywords": [
+        "dev",
+        "static analysis"
+      ],
+      "support": {
+        "docs": "https://phpstan.org/user-guide/getting-started",
+        "forum": "https://github.com/phpstan/phpstan/discussions",
+        "issues": "https://github.com/phpstan/phpstan/issues",
+        "security": "https://github.com/phpstan/phpstan/security/policy",
+        "source": "https://github.com/phpstan/phpstan-src"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/ondrejmirtes",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/phpstan",
+          "type": "github"
+        }
+      ],
+      "time": "2025-09-30T10:16:31+00:00"
+    },
+    {
+      "name": "phpstan/phpstan-deprecation-rules",
+      "version": "1.2.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/phpstan/phpstan-deprecation-rules.git",
+        "reference": "f94d246cc143ec5a23da868f8f7e1393b50eaa82"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/f94d246cc143ec5a23da868f8f7e1393b50eaa82",
+        "reference": "f94d246cc143ec5a23da868f8f7e1393b50eaa82",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.2 || ^8.0",
+        "phpstan/phpstan": "^1.12"
+      },
+      "require-dev": {
+        "php-parallel-lint/php-parallel-lint": "^1.2",
+        "phpstan/phpstan-phpunit": "^1.0",
+        "phpunit/phpunit": "^9.5"
+      },
+      "type": "phpstan-extension",
+      "extra": {
+        "phpstan": {
+          "includes": [
+            "rules.neon"
+          ]
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "PHPStan\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "PHPStan rules for detecting usage of deprecated classes, methods, properties, constants and traits.",
+      "support": {
+        "issues": "https://github.com/phpstan/phpstan-deprecation-rules/issues",
+        "source": "https://github.com/phpstan/phpstan-deprecation-rules/tree/1.2.1"
+      },
+      "time": "2024-09-11T15:52:35+00:00"
+    },
+    {
+      "name": "slevomat/coding-standard",
+      "version": "8.22.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/slevomat/coding-standard.git",
+        "reference": "1dd80bf3b93692bedb21a6623c496887fad05fec"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/1dd80bf3b93692bedb21a6623c496887fad05fec",
+        "reference": "1dd80bf3b93692bedb21a6623c496887fad05fec",
+        "shasum": ""
+      },
+      "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2 || ^0.7 || ^1.1.2",
+        "php": "^7.4 || ^8.0",
+        "phpstan/phpdoc-parser": "^2.3.0",
+        "squizlabs/php_codesniffer": "^3.13.4"
+      },
+      "require-dev": {
+        "phing/phing": "3.0.1|3.1.0",
+        "php-parallel-lint/php-parallel-lint": "1.4.0",
+        "phpstan/phpstan": "2.1.24",
+        "phpstan/phpstan-deprecation-rules": "2.0.3",
+        "phpstan/phpstan-phpunit": "2.0.7",
+        "phpstan/phpstan-strict-rules": "2.0.6",
+        "phpunit/phpunit": "9.6.8|10.5.48|11.4.4|11.5.36|12.3.10"
+      },
+      "type": "phpcodesniffer-standard",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "8.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "SlevomatCodingStandard\\": "SlevomatCodingStandard/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "Slevomat Coding Standard for PHP_CodeSniffer complements Consistence Coding Standard by providing sniffs with additional checks.",
+      "keywords": [
+        "dev",
+        "phpcs"
+      ],
+      "support": {
+        "issues": "https://github.com/slevomat/coding-standard/issues",
+        "source": "https://github.com/slevomat/coding-standard/tree/8.22.1"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/kukulich",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/slevomat/coding-standard",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2025-09-13T08:53:30+00:00"
+    },
+    {
+      "name": "squizlabs/php_codesniffer",
+      "version": "3.13.5",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
+        "reference": "0ca86845ce43291e8f5692c7356fccf3bcf02bf4"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/0ca86845ce43291e8f5692c7356fccf3bcf02bf4",
+        "reference": "0ca86845ce43291e8f5692c7356fccf3bcf02bf4",
+        "shasum": ""
+      },
+      "require": {
+        "ext-simplexml": "*",
+        "ext-tokenizer": "*",
+        "ext-xmlwriter": "*",
+        "php": ">=5.4.0"
+      },
+      "require-dev": {
+        "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.3.4"
+      },
+      "bin": [
+        "bin/phpcbf",
+        "bin/phpcs"
+      ],
+      "type": "library",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "BSD-3-Clause"
+      ],
+      "authors": [
+        {
+          "name": "Greg Sherwood",
+          "role": "Former lead"
+        },
+        {
+          "name": "Juliette Reinders Folmer",
+          "role": "Current lead"
+        },
+        {
+          "name": "Contributors",
+          "homepage": "https://github.com/PHPCSStandards/PHP_CodeSniffer/graphs/contributors"
+        }
+      ],
+      "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+      "homepage": "https://github.com/PHPCSStandards/PHP_CodeSniffer",
+      "keywords": [
+        "phpcs",
+        "standards",
+        "static analysis"
+      ],
+      "support": {
+        "issues": "https://github.com/PHPCSStandards/PHP_CodeSniffer/issues",
+        "security": "https://github.com/PHPCSStandards/PHP_CodeSniffer/security/policy",
+        "source": "https://github.com/PHPCSStandards/PHP_CodeSniffer",
+        "wiki": "https://github.com/PHPCSStandards/PHP_CodeSniffer/wiki"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/PHPCSStandards",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/jrfnl",
+          "type": "github"
+        },
+        {
+          "url": "https://opencollective.com/php_codesniffer",
+          "type": "open_collective"
+        },
+        {
+          "url": "https://thanks.dev/u/gh/phpcsstandards",
+          "type": "thanks_dev"
+        }
+      ],
+      "time": "2025-11-04T16:30:35+00:00"
+    },
+    {
+      "name": "swissspidy/phpstan-no-private",
+      "version": "v0.2.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/swissspidy/phpstan-no-private.git",
+        "reference": "f7a1890e350c8d8bf26370426a971d7490ae4245"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/swissspidy/phpstan-no-private/zipball/f7a1890e350c8d8bf26370426a971d7490ae4245",
+        "reference": "f7a1890e350c8d8bf26370426a971d7490ae4245",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.2 || ^8.0",
+        "phpstan/phpstan": "^1.10.3"
+      },
+      "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
+        "php-parallel-lint/php-parallel-lint": "^1.2",
+        "phpstan/phpstan-php-parser": "^1.1",
+        "phpstan/phpstan-phpunit": "^1.0",
+        "phpunit/phpunit": "^9.5",
+        "slevomat/coding-standard": "^8.8.0",
+        "squizlabs/php_codesniffer": "^3.5.3"
+      },
+      "type": "phpstan-extension",
+      "extra": {
+        "phpstan": {
+          "includes": [
+            "rules.neon"
+          ]
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Swissspidy\\PHPStan\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "PHPStan rules for detecting usage of pseudo-private functions, classes, and methods.",
+      "support": {
+        "issues": "https://github.com/swissspidy/phpstan-no-private/issues",
+        "source": "https://github.com/swissspidy/phpstan-no-private/tree/v0.2.1"
+      },
+      "time": "2024-06-05T10:03:17+00:00"
+    },
+    {
+      "name": "symfony/polyfill-php73",
+      "version": "v1.33.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/polyfill-php73.git",
+        "reference": "0f68c03565dcaaf25a890667542e8bd75fe7e5bb"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/0f68c03565dcaaf25a890667542e8bd75fe7e5bb",
+        "reference": "0f68c03565dcaaf25a890667542e8bd75fe7e5bb",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.2"
+      },
+      "type": "library",
+      "extra": {
+        "thanks": {
+          "url": "https://github.com/symfony/polyfill",
+          "name": "symfony/polyfill"
+        }
+      },
+      "autoload": {
+        "files": [
+          "bootstrap.php"
+        ],
+        "psr-4": {
+          "Symfony\\Polyfill\\Php73\\": ""
+        },
+        "classmap": [
+          "Resources/stubs"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Nicolas Grekas",
+          "email": "p@tchwork.com"
+        },
+        {
+          "name": "Symfony Community",
+          "homepage": "https://symfony.com/contributors"
+        }
+      ],
+      "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+      "homepage": "https://symfony.com",
+      "keywords": [
+        "compatibility",
+        "polyfill",
+        "portable",
+        "shim"
+      ],
+      "support": {
+        "source": "https://github.com/symfony/polyfill-php73/tree/v1.33.0"
+      },
+      "funding": [
+        {
+          "url": "https://symfony.com/sponsor",
+          "type": "custom"
+        },
+        {
+          "url": "https://github.com/fabpot",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/nicolas-grekas",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2024-09-09T11:45:10+00:00"
+    },
+    {
+      "name": "symfony/var-dumper",
+      "version": "v6.4.26",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/var-dumper.git",
+        "reference": "cfae1497a2f1eaad78dbc0590311c599c7178d4a"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/var-dumper/zipball/cfae1497a2f1eaad78dbc0590311c599c7178d4a",
+        "reference": "cfae1497a2f1eaad78dbc0590311c599c7178d4a",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=8.1",
+        "symfony/deprecation-contracts": "^2.5|^3",
+        "symfony/polyfill-mbstring": "~1.0"
+      },
+      "conflict": {
+        "symfony/console": "<5.4"
+      },
+      "require-dev": {
+        "symfony/console": "^5.4|^6.0|^7.0",
+        "symfony/error-handler": "^6.3|^7.0",
+        "symfony/http-kernel": "^5.4|^6.0|^7.0",
+        "symfony/process": "^5.4|^6.0|^7.0",
+        "symfony/uid": "^5.4|^6.0|^7.0",
+        "twig/twig": "^2.13|^3.0.4"
+      },
+      "bin": [
+        "Resources/bin/var-dump-server"
+      ],
+      "type": "library",
+      "autoload": {
+        "files": [
+          "Resources/functions/dump.php"
+        ],
+        "psr-4": {
+          "Symfony\\Component\\VarDumper\\": ""
+        },
+        "exclude-from-classmap": [
+          "/Tests/"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Nicolas Grekas",
+          "email": "p@tchwork.com"
+        },
+        {
+          "name": "Symfony Community",
+          "homepage": "https://symfony.com/contributors"
+        }
+      ],
+      "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+      "homepage": "https://symfony.com",
+      "keywords": [
+        "debug",
+        "dump"
+      ],
+      "support": {
+        "source": "https://github.com/symfony/var-dumper/tree/v6.4.26"
+      },
+      "funding": [
+        {
+          "url": "https://symfony.com/sponsor",
+          "type": "custom"
+        },
+        {
+          "url": "https://github.com/fabpot",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/nicolas-grekas",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2025-09-25T15:37:27+00:00"
+    },
+    {
+      "name": "szepeviktor/phpstan-wordpress",
+      "version": "v1.3.5",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/szepeviktor/phpstan-wordpress.git",
+        "reference": "7f8cfe992faa96b6a33bbd75c7bace98864161e7"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/szepeviktor/phpstan-wordpress/zipball/7f8cfe992faa96b6a33bbd75c7bace98864161e7",
+        "reference": "7f8cfe992faa96b6a33bbd75c7bace98864161e7",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.2 || ^8.0",
+        "php-stubs/wordpress-stubs": "^4.7 || ^5.0 || ^6.0",
+        "phpstan/phpstan": "^1.10.31",
+        "symfony/polyfill-php73": "^1.12.0"
+      },
+      "require-dev": {
+        "composer/composer": "^2.1.14",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "php-parallel-lint/php-parallel-lint": "^1.1",
+        "phpstan/phpstan-strict-rules": "^1.2",
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "szepeviktor/phpcs-psr-12-neutron-hybrid-ruleset": "^1.0",
+        "wp-coding-standards/wpcs": "3.1.0 as 2.3.0"
+      },
+      "suggest": {
+        "swissspidy/phpstan-no-private": "Detect usage of internal core functions, classes and methods"
+      },
+      "type": "phpstan-extension",
+      "extra": {
+        "phpstan": {
+          "includes": [
+            "extension.neon"
+          ]
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "SzepeViktor\\PHPStan\\WordPress\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "WordPress extensions for PHPStan",
+      "keywords": [
+        "PHPStan",
+        "code analyse",
+        "code analysis",
+        "static analysis",
+        "wordpress"
+      ],
+      "support": {
+        "issues": "https://github.com/szepeviktor/phpstan-wordpress/issues",
+        "source": "https://github.com/szepeviktor/phpstan-wordpress/tree/v1.3.5"
+      },
+      "time": "2024-06-28T22:27:19+00:00"
+    },
+    {
+      "name": "wp-coding-standards/wpcs",
+      "version": "3.2.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WordPress/WordPress-Coding-Standards.git",
+        "reference": "d2421de7cec3274ae622c22c744de9a62c7925af"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/d2421de7cec3274ae622c22c744de9a62c7925af",
+        "reference": "d2421de7cec3274ae622c22c744de9a62c7925af",
+        "shasum": ""
+      },
+      "require": {
+        "ext-filter": "*",
+        "ext-libxml": "*",
+        "ext-tokenizer": "*",
+        "ext-xmlreader": "*",
+        "php": ">=5.4",
+        "phpcsstandards/phpcsextra": "^1.4.0",
+        "phpcsstandards/phpcsutils": "^1.1.0",
+        "squizlabs/php_codesniffer": "^3.13.0"
+      },
+      "require-dev": {
+        "php-parallel-lint/php-console-highlighter": "^1.0.0",
+        "php-parallel-lint/php-parallel-lint": "^1.4.0",
+        "phpcompatibility/php-compatibility": "^9.0",
+        "phpcsstandards/phpcsdevtools": "^1.2.0",
+        "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0"
+      },
+      "suggest": {
+        "ext-iconv": "For improved results",
+        "ext-mbstring": "For improved results"
+      },
+      "type": "phpcodesniffer-standard",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Contributors",
+          "homepage": "https://github.com/WordPress/WordPress-Coding-Standards/graphs/contributors"
+        }
+      ],
+      "description": "PHP_CodeSniffer rules (sniffs) to enforce WordPress coding conventions",
+      "keywords": [
+        "phpcs",
+        "standards",
+        "static analysis",
+        "wordpress"
+      ],
+      "support": {
+        "issues": "https://github.com/WordPress/WordPress-Coding-Standards/issues",
+        "source": "https://github.com/WordPress/WordPress-Coding-Standards",
+        "wiki": "https://github.com/WordPress/WordPress-Coding-Standards/wiki"
+      },
+      "funding": [
+        {
+          "url": "https://opencollective.com/php_codesniffer",
+          "type": "custom"
+        }
+      ],
+      "time": "2025-07-24T20:08:31+00:00"
+    },
+    {
+      "name": "wpsyntex/polylang-stubs",
+      "version": "3.7.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/polylang/polylang-stubs.git",
+        "reference": "9cdf850319b71fbff44ac121d6f71ae41bc8d7d3"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/polylang/polylang-stubs/zipball/9cdf850319b71fbff44ac121d6f71ae41bc8d7d3",
+        "reference": "9cdf850319b71fbff44ac121d6f71ae41bc8d7d3",
+        "shasum": ""
+      },
+      "require-dev": {
+        "php": "^7.3 || ^8.0",
+        "php-stubs/generator": "^0.8"
+      },
+      "suggest": {
+        "wpsyntex/polylang-phpstan": "Polylang extension for PHPStan"
+      },
+      "type": "library",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "GPL-3.0-or-later"
+      ],
+      "description": "Polylang and Polylang Pro function and class declaration stubs for static analysis.",
+      "homepage": "https://polylang.pro",
+      "support": {
+        "issues": "https://github.com/polylang/polylang-stubs/issues",
+        "source": "https://github.com/polylang/polylang-stubs/tree/3.7.3"
+      },
+      "time": "2025-07-17T11:36:51+00:00"
+    }
+  ],
+  "aliases": [],
+  "minimum-stability": "alpha",
+  "stability-flags": {
+    "x-wp/di": 15
+  },
+  "prefer-stable": true,
+  "prefer-lowest": false,
+  "platform": {},
+  "platform-dev": {},
+  "platform-overrides": {
+    "php": "8.1"
+  },
+  "plugin-api-version": "2.6.0"
+}

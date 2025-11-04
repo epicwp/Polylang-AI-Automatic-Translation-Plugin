@@ -1,0 +1,3726 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Abstract_Single_Translation_Handler\\:\\:get_translation_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Abstract_Single_Translation_Handler.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Abstract_Single_Translation_Handler\\:\\:\\$language_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Abstract_Single_Translation_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Action_Scheduler\\\\Abstract_Single_Translation_Background_Processor\\:\\:get_pending_translation_actions\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Action_Scheduler/Abstract_Single_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Action_Scheduler\\\\Abstract_Single_Translation_Background_Processor\\:\\:get_translation_status\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Action_Scheduler/Abstract_Single_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Action_Scheduler\\\\Abstract_Single_Translation_Background_Processor\\:\\:handle_translation\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Action_Scheduler/Abstract_Single_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Action_Scheduler\\\\Abstract_Single_Translation_Background_Processor\\:\\:log_error\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Action_Scheduler/Abstract_Single_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Action_Scheduler\\\\Abstract_Single_Translation_Background_Processor\\:\\:prepare_action_args\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Action_Scheduler/Abstract_Single_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Action_Scheduler\\\\Abstract_Single_Translation_Background_Processor\\:\\:prepare_action_args\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Action_Scheduler/Abstract_Single_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Action_Scheduler\\\\Abstract_Single_Translation_Background_Processor\\:\\:process_item\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Action_Scheduler/Abstract_Single_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Action_Scheduler\\\\Abstract_Single_Translation_Background_Processor\\:\\:schedule_translation\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Action_Scheduler/Abstract_Single_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Action_Scheduler\\\\Action_Scheduler_Health_Check\\:\\:check_action_scheduler_health\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Action_Scheduler/Action_Scheduler_Health_Check.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Action_Scheduler\\\\Action_Scheduler_Health_Check\\:\\:last_cron_trigger\\(\\) should return int but returns int\\|string\\.$#"
+			count: 1
+			path: src/Legacy/Action_Scheduler/Action_Scheduler_Health_Check.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Array_Chunker\\:\\:__construct\\(\\) has parameter \\$strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Array_Chunker.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Array_Chunker\\:\\:chunk\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Array_Chunker.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Array_Chunker\\:\\:get_excluded_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Array_Chunker.php
+
+		-
+			message: "#^Parameter \\#1 \\$json of method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Array_Chunker\\:\\:count_tokens\\(\\) expects string, string\\|false given\\.$#"
+			count: 3
+			path: src/Legacy/Array_Chunker.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Array_Chunker\\:\\:\\$encoder has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Array_Chunker.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Array_Chunker\\:\\:\\$excluded_strings has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Array_Chunker.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Array_Chunker\\:\\:\\$strings has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Array_Chunker.php
+
+		-
+			message: "#^Binary operation \"\\+\" between array\\<int, non\\-empty\\-string\\>\\|bool\\|int\\|string and 1 results in an error\\.$#"
+			count: 1
+			path: src/Legacy/Bulk/Query/Term_Query.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Bulk\\\\Query\\\\Term_Query\\:\\:__construct\\(\\) has parameter \\$statuses with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Bulk/Query/Term_Query.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Bulk\\\\Query\\\\Term_Query\\:\\:get_all_ids\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Bulk/Query/Term_Query.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Bulk\\\\Query\\\\Term_Query\\:\\:get_all_ids\\(\\) should return array but returns array\\<int, int\\>\\|WP_Error\\.$#"
+			count: 1
+			path: src/Legacy/Bulk/Query/Term_Query.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Bulk\\\\Query\\\\Term_Query\\:\\:get_translatable_ids\\(\\) has parameter \\$languages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Bulk/Query/Term_Query.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Bulk\\\\Query\\\\Term_Query\\:\\:get_translatable_ids\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Bulk/Query/Term_Query.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Bulk\\\\Query\\\\Term_Query\\:\\:\\$statuses is never read, only written\\.$#"
+			count: 1
+			path: src/Legacy/Bulk/Query/Term_Query.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Constants\\:\\:get_excluded_copy_meta_fields\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Constants.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Constants\\:\\:\\$excluded_copy_meta_fields has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Constants.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\Abstract_Content_String_Editor\\:\\:get_excluded_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/Abstract_Content_String_Editor.php
+
+		-
+			message: "#^Access to an undefined property voku\\\\helper\\\\SimpleHtmlDomInterface\\:\\:\\$childElementCount\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/HTML_Content_String_Editor.php
+
+		-
+			message: "#^Access to an undefined property voku\\\\helper\\\\SimpleHtmlDomInterface\\:\\:\\$nodeType\\.$#"
+			count: 2
+			path: src/Legacy/Content_String_Editor/HTML_Content_String_Editor.php
+
+		-
+			message: "#^Access to an undefined property voku\\\\helper\\\\SimpleHtmlDomInterface\\:\\:\\$tagName\\.$#"
+			count: 2
+			path: src/Legacy/Content_String_Editor/HTML_Content_String_Editor.php
+
+		-
+			message: "#^Access to an undefined property voku\\\\helper\\\\SimpleHtmlDomInterface\\:\\:\\$textContent\\.$#"
+			count: 5
+			path: src/Legacy/Content_String_Editor/HTML_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\HTML_Content_String_Editor\\:\\:is_allowed_tag\\(\\) is unused\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/HTML_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\HTML_Content_String_Editor\\:\\:order_search_replace_pairs\\(\\) should return array\\<string, mixed\\> but returns array\\<int, mixed\\>\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/HTML_Content_String_Editor.php
+
+		-
+			message: "#^Argument of an invalid type array\\|object supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:__construct\\(\\) has parameter \\$translatable_keys with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:encode_block_content\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:encode_block_content\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:extract_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:extract_strings_from_blocks\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:extract_strings_recursive\\(\\) has parameter \\$data with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:replace_strings\\(\\) has parameter \\$search_replace_pairs with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:replace_strings_in_blocks\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:replace_strings_in_blocks\\(\\) has parameter \\$translations_lookup with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:replace_strings_in_blocks\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:replace_strings_recursive\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:replace_strings_recursive\\(\\) has parameter \\$translations_lookup with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:sanitize_string\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:sanitize_string\\(\\) has parameter \\$string with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function trim expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Content_String_Editor\\\\WP_Block_Content_String_Editor\\:\\:\\$translatable_keys type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Content_String_Editor/WP_Block_Content_String_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Exceptions\\\\Translation_API_Exception\\:\\:__construct\\(\\) has parameter \\$code with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Exceptions/Translation_API_Exception.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Exceptions\\\\Translation_API_Exception\\:\\:__construct\\(\\) has parameter \\$message with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Exceptions/Translation_API_Exception.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Features\\:\\:is_url_replacement_enabled\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Features.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Features\\:\\:update_url_replacement\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Features.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:decode_json\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:encode_json\\(\\) has parameter \\$data with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:get_activate_taxonomies\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:get_active_post_types\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:get_changed_fields\\(\\) has parameter \\$after_array with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:get_changed_fields\\(\\) has parameter \\$available_fields with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:get_changed_fields\\(\\) has parameter \\$before_array with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:get_changed_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:get_flatten_post_meta\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:get_flatten_term_meta\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:log\\(\\) has parameter \\$context with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:number_strings_array\\(\\) has parameter \\$strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:number_strings_array\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Helpers.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Action_Scheduler_Trigger\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/action-scheduler-trigger.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 3
+			path: src/Legacy/Includes/action-scheduler-trigger.php
+
+		-
+			message: "#^Method Action_Scheduler_Handler\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/action-scheduler.php
+
+		-
+			message: "#^Method Action_Scheduler_Handler\\:\\:is_valid_request\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/Legacy/Includes/action-scheduler.php
+
+		-
+			message: "#^Method Action_Scheduler_Handler\\:\\:trigger_action_scheduler\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/Legacy/Includes/action-scheduler.php
+
+		-
+			message: "#^PHPDoc tag @return with type void is incompatible with native type WP_REST_Response\\.$#"
+			count: 1
+			path: src/Legacy/Includes/action-scheduler.php
+
+		-
+			message: "#^Property Action_Scheduler_Handler\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/action-scheduler.php
+
+		-
+			message: "#^Method Block_Editor_Handler\\:\\:extract_wp_block_strings\\(\\) has parameter \\$strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/block-editor.php
+
+		-
+			message: "#^Method Block_Editor_Handler\\:\\:extract_wp_block_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/block-editor.php
+
+		-
+			message: "#^Method Block_Editor_Handler\\:\\:filter_search_replace_pairs\\(\\) has parameter \\$extracted_strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/block-editor.php
+
+		-
+			message: "#^Method Block_Editor_Handler\\:\\:filter_search_replace_pairs\\(\\) has parameter \\$search_replace_pairs with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/block-editor.php
+
+		-
+			message: "#^Method Block_Editor_Handler\\:\\:filter_search_replace_pairs\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/block-editor.php
+
+		-
+			message: "#^Method Block_Editor_Handler\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/block-editor.php
+
+		-
+			message: "#^Method Block_Editor_Handler\\:\\:replace_wp_block_strings\\(\\) has parameter \\$search_replace_pairs with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/block-editor.php
+
+		-
+			message: "#^Property Block_Editor_Handler\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/block-editor.php
+
+		-
+			message: "#^Function acf_get_meta not found\\.$#"
+			count: 2
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:copy_acf_post_field_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:copy_acf_post_field_meta\\(\\) has parameter \\$source_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:copy_acf_post_field_meta\\(\\) has parameter \\$target_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:copy_acf_term_field_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:copy_acf_term_field_meta\\(\\) has parameter \\$source_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:copy_acf_term_field_meta\\(\\) has parameter \\$target_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:get_activated_post_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:get_activated_term_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:include_activated_post_meta_fields\\(\\) has parameter \\$fields with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:include_activated_post_meta_fields\\(\\) has parameter \\$post_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:include_activated_post_meta_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:include_activated_term_meta_fields\\(\\) has parameter \\$fields with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:include_activated_term_meta_fields\\(\\) has parameter \\$term_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:include_activated_term_meta_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Parameter \\#2 \\$meta_key of function update_post_meta expects string, int\\|string given\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Parameter \\#2 \\$meta_key of function update_term_meta expects string, int\\|string given\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:\\$acf_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Custom_Fields\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/custom-fields.php
+
+		-
+			message: "#^Call to an undefined method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_hashed_strings_list\\(\\)\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Call to method get_main_id\\(\\) on an unknown class Elementor\\\\Core\\\\Base\\\\Document\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Class Elementor\\\\Core\\\\Base\\\\Document not found\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:clear_elementor_cache\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:filter_available_post_translation_fields_for\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:filter_available_post_translation_fields_for\\(\\) has parameter \\$fields with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:filter_available_post_translation_fields_for\\(\\) has parameter \\$post_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:filter_elementor_post_translation_input\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:filter_elementor_post_translation_input\\(\\) has parameter \\$post with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:filter_elementor_post_translation_input\\(\\) has parameter \\$translation_input with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:handle_elementor_post_translation\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:handle_elementor_post_translation\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:handle_elementor_save_after\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:handle_elementor_save_after\\(\\) has parameter \\$editor_data with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:handle_elementor_save_after\\(\\) has parameter \\$post_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:handle_elementor_save_before\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:handle_elementor_save_before\\(\\) has parameter \\$document with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:populate_elementor_queue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:populate_elementor_queue\\(\\) has parameter \\$languages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:prepare_strings_for_translation\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:prepare_strings_for_translation\\(\\) has parameter \\$strings_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:translate_strings\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method Elementor_Integration\\:\\:translate_strings\\(\\) has parameter \\$hashed_strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Parameter \\#1 \\$post_type of function pll_is_translated_post_type expects string, string\\|false given\\.$#"
+			count: 2
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Property Elementor_Integration\\:\\:\\$content_editor has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Property Elementor_Integration\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Property Elementor_Integration\\:\\:\\$language_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/elementor-integration.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:combine_url_query_params\\(\\) has parameter \\$original_query with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:combine_url_query_params\\(\\) has parameter \\$translated_query with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:extract_query_params\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:extract_urls_from_html\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:get_body_html_from_buffer\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:get_body_html_from_buffer\\(\\) has parameter \\$buffer with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:get_body_html_from_buffer\\(\\) is unused\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:get_term_from_url\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:get_translated_post_url\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:get_translated_post_url\\(\\) has parameter \\$current_lang with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:get_translated_post_url\\(\\) has parameter \\$normalized_url with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:get_translated_term_url\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:get_translated_term_url\\(\\) has parameter \\$current_lang with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:get_translated_term_url\\(\\) has parameter \\$normalized_url with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:insert_body_html_into_buffer\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:insert_body_html_into_buffer\\(\\) has parameter \\$body_html with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:insert_body_html_into_buffer\\(\\) has parameter \\$buffer with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:insert_body_html_into_buffer\\(\\) is unused\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:process_url\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:process_url\\(\\) has parameter \\$content with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:process_url\\(\\) has parameter \\$current_lang with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:process_url\\(\\) has parameter \\$url_data with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:replace_urls\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:replace_urls\\(\\) has parameter \\$content with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Parameter \\#2 \\$array of function implode expects array\\<string\\>, array\\<string, array\\|string\\> given\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Parameter \\#3 \\$subject of function preg_replace expects array\\|string, string\\|false\\|null given\\.$#"
+			count: 2
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Internal_Link_Replacer\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 1
+			path: src/Legacy/Includes/internal-link-replacer.php
+
+		-
+			message: "#^Call to an undefined static method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:get_license_client\\(\\)\\.$#"
+			count: 1
+			path: src/Legacy/Includes/license.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\License_Manager\\:\\:add_license_link\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/license.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\License_Manager\\:\\:add_license_link\\(\\) has parameter \\$links with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/license.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\License_Manager\\:\\:check_license\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/license.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\License_Manager\\:\\:display_license_notice\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/license.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\License_Manager\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/license.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\License_Manager\\:\\:is_license_valid\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/license.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\License_Manager\\:\\:render_license_settings_output\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/license.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\License_Manager\\:\\:\\$client has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/license.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\License_Manager\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/license.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Menu_Translation\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/menu-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Menu_Translation\\:\\:handle_ajax_get_translation_section_html\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/menu-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Menu_Translation\\:\\:handle_menu_update\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/menu-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Menu_Translation\\:\\:handle_menu_update\\(\\) has parameter \\$menu_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/menu-translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Menu_Translation\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/menu-translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Menu_Translation\\:\\:\\$language_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/menu-translation.php
+
+		-
+			message: "#^Left side of && is always false\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Method Migrations_Handler\\:\\:check_version_and_run_migrations\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Method Migrations_Handler\\:\\:check_version_and_run_migrations\\(\\) has parameter \\$options with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Method Migrations_Handler\\:\\:check_version_and_run_migrations\\(\\) has parameter \\$upgrader_object with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Method Migrations_Handler\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Method Migrations_Handler\\:\\:get_migration_version\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Method Migrations_Handler\\:\\:handle_test_migration\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Method Migrations_Handler\\:\\:run_migration\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Method Migrations_Handler\\:\\:run_migrations\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Method Migrations_Handler\\:\\:store_migration_version\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Method Migrations_Handler\\:\\:store_migration_version\\(\\) invoked with 1 parameter, 0 required\\.$#"
+			count: 2
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Property Migrations_Handler\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Property Migrations_Handler\\:\\:\\$language_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Property Migrations_Handler\\:\\:\\$language_manager is never read, only written\\.$#"
+			count: 1
+			path: src/Legacy/Includes/migrations.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:handle_after_insert_post\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:handle_after_insert_post\\(\\) has parameter \\$post with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:handle_after_insert_post\\(\\) has parameter \\$post_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:handle_after_insert_post\\(\\) has parameter \\$update with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:handle_post_updated\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:handle_post_updated\\(\\) has parameter \\$post_after with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:handle_post_updated\\(\\) has parameter \\$post_before with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:handle_post_updated\\(\\) has parameter \\$post_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:tidy_on_save\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:tidy_on_save\\(\\) has parameter \\$post_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:transient_post_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:transient_post_meta\\(\\) has parameter \\$post_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Changes_Handler\\:\\:\\$language_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Handler\\:\\:filter_post_translation_input\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Handler\\:\\:filter_post_translation_input\\(\\) has parameter \\$args with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Handler\\:\\:filter_post_translation_input\\(\\) has parameter \\$entity with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Handler\\:\\:filter_post_translation_input\\(\\) has parameter \\$language with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Handler\\:\\:filter_post_translation_input\\(\\) has parameter \\$translation_input with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Handler\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Post_Translation_Handler\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:after_product_variation_save\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:after_product_variation_save\\(\\) has parameter \\$product with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:before_product_variation_save\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:before_product_variation_save\\(\\) has parameter \\$product with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:block_initial_meta_data_set\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:block_initial_meta_data_set\\(\\) has parameter \\$meta_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:block_initial_meta_data_set\\(\\) has parameter \\$meta_key with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:block_initial_meta_data_set\\(\\) has parameter \\$object_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:handle_product_created\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:handle_product_created\\(\\) has parameter \\$variation_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Product_Variation_Translations\\:\\:\\$language_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/product-variation-translations.php
+
+		-
+			message: "#^Callback expects 1 parameter, \\$accepted_args is set to 2\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Callback expects 1 parameter, \\$accepted_args is set to 3\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:add_meta_boxes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:enqueue_admin_scripts\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:exclude_custom_fields_from_copy\\(\\) has parameter \\$metas with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:exclude_custom_fields_from_copy\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:handle_ajax_cancel_post_translations\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:handle_ajax_check_translation_status\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:handle_ajax_clear_translation_error\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:handle_ajax_get_translation_errors\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:handle_ajax_process_post_translation\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:handle_ajax_queue_post_translations\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:register_ajax_hooks\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:register_hooks\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:register_ui_hooks\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:render_translator_metabox\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:save_post_meta_fields\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:\\$background_processor has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Post_Translation_Handler\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Static method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Settings\\:\\:get_active_translation_api_key\\(\\) invoked with 1 parameter, 0 required\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 15
+			path: src/Legacy/Includes/single-post-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:add_admin_init_hooks\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:add_term_translation_metabox\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:add_term_translation_metabox\\(\\) has parameter \\$taxonomy with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:add_term_translation_metabox\\(\\) has parameter \\$term with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:enqueue_admin_scripts\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:handle_ajax_cancel_term_translations\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:handle_ajax_check_translation_status\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:handle_ajax_clear_translation_error\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:handle_ajax_get_translation_errors\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:handle_ajax_process_term_translation\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:handle_ajax_queue_term_translations\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:register_ajax_hooks\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:register_hooks\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:save_term_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:save_term_meta\\(\\) has parameter \\$term_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:save_term_meta\\(\\) has parameter \\$tt_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:\\$background_processor has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Single_Term_Translation_Handler\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Static method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Settings\\:\\:get_active_translation_api_key\\(\\) invoked with 1 parameter, 0 required\\.$#"
+			count: 1
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 15
+			path: src/Legacy/Includes/single-term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\String_Translation_Handler\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/string-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\String_Translation_Handler\\:\\:handle_ajax_test_available_strings\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/string-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\String_Translation_Handler\\:\\:maybe_store_strings\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/string-translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\String_Translation_Handler\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/string-translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\String_Translation_Handler\\:\\:\\$strings_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/string-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:handle_after_insert_term\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:handle_after_insert_term\\(\\) has parameter \\$taxonomy with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:handle_after_insert_term\\(\\) has parameter \\$term_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:handle_after_insert_term\\(\\) has parameter \\$tt_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:handle_edited_term\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:handle_edited_term\\(\\) has parameter \\$taxonomy with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:handle_edited_term\\(\\) has parameter \\$term_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:handle_edited_term\\(\\) has parameter \\$tt_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:handle_pre_insert_term\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:handle_pre_insert_term\\(\\) has parameter \\$taxonomy with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:handle_pre_insert_term\\(\\) has parameter \\$term_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:tidy_on_save\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:tidy_on_save\\(\\) has parameter \\$term_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:transient_term_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:transient_term_meta\\(\\) has parameter \\$term_id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Parameter \\#2 \\$after_array of static method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Helpers\\:\\:get_changed_fields\\(\\) expects array, array\\<string, int\\|string\\>\\|false given\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Changes_Handler\\:\\:\\$language_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation-changes.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Handler\\:\\:filter_term_translation_input\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Handler\\:\\:filter_term_translation_input\\(\\) has parameter \\$args with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Handler\\:\\:filter_term_translation_input\\(\\) has parameter \\$entity with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Handler\\:\\:filter_term_translation_input\\(\\) has parameter \\$language with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Handler\\:\\:filter_term_translation_input\\(\\) has parameter \\$translation_input with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Handler\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Term_Translation_Handler\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/term-translation.php
+
+		-
+			message: "#^Callback expects 1 parameter, \\$accepted_args is set to 3\\.$#"
+			count: 1
+			path: src/Legacy/Includes/translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translation_Handler\\:\\:convert_language_codes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translation_Handler\\:\\:convert_language_codes\\(\\) has parameter \\$placeholders with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translation_Handler\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translation_Handler\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translation_Handler\\:\\:\\$language_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Includes/translation.php
+
+		-
+			message: "#^Function get_field not found\\.$#"
+			count: 3
+			path: src/Legacy/Integrations/ACF/ACF_Manager.php
+
+		-
+			message: "#^Function get_field_object not found\\.$#"
+			count: 3
+			path: src/Legacy/Integrations/ACF/ACF_Manager.php
+
+		-
+			message: "#^Function update_field not found\\.$#"
+			count: 2
+			path: src/Legacy/Integrations/ACF/ACF_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\ACF\\\\ACF_Manager\\:\\:assure_field_object\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/ACF/ACF_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\ACF\\\\ACF_Manager\\:\\:assure_field_object\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/ACF/ACF_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\ACF\\\\ACF_Manager\\:\\:get_all_acf_post_field_meta_keys\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/ACF/ACF_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\ACF\\\\ACF_Manager\\:\\:get_all_acf_term_field_meta_keys\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/ACF/ACF_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\ACF\\\\ACF_Manager\\:\\:should_translate_field\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/ACF/ACF_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\ACF\\\\ACF_Manager\\:\\:should_translate_field\\(\\) has parameter \\$field with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/ACF/ACF_Manager.php
+
+		-
+			message: "#^Parameter \\#1 \\$post_id of function get_post_meta expects int, float\\|int\\|string given\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/ACF/ACF_Manager.php
+
+		-
+			message: "#^Parameter \\#1 \\$term_id of function get_term_meta expects int, string given\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/ACF/ACF_Manager.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\ACF\\\\ACF_Manager\\:\\:\\$translatable_types type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/ACF/ACF_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:__construct\\(\\) has parameter \\$translatable_keys with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:extract_strings\\(\\) has parameter \\$change_hashes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:extract_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:extract_translatable_strings\\(\\) has parameter \\$change_hashes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:extract_translatable_strings\\(\\) has parameter \\$elementor_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:extract_translatable_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:get_changed_strings_hashes\\(\\) has parameter \\$new_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:get_changed_strings_hashes\\(\\) has parameter \\$old_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:get_changed_strings_hashes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:get_elementor_post_content\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:get_elementor_post_content_changes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:merge_elementor_post_content\\(\\) has parameter \\$source_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:merge_elementor_post_content\\(\\) has parameter \\$target_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:merge_elementor_post_content\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:remove_elementor_post_content_changes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:replace_translated_strings\\(\\) has parameter \\$elementor_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:replace_translated_strings\\(\\) has parameter \\$strings_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:replace_translated_strings\\(\\) has parameter \\$translated_strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:replace_translated_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:update_elementor_post_content\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Editor\\:\\:update_elementor_post_content\\(\\) has parameter \\$elementor_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Editor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:__construct\\(\\) has parameter \\$translatable_keys with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:extract_strings\\(\\) has parameter \\$change_hashes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:extract_translatable_strings\\(\\) has parameter \\$change_hashes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:extract_translatable_strings\\(\\) has parameter \\$elementor_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:extract_translatable_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:get_changed_strings_hashes\\(\\) has parameter \\$new_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:get_changed_strings_hashes\\(\\) has parameter \\$old_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:get_changed_strings_hashes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:get_elementor_post_content\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:get_elementor_post_content_changes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:merge_elementor_post_content\\(\\) has parameter \\$source_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:merge_elementor_post_content\\(\\) has parameter \\$target_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:merge_elementor_post_content\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:remove_elementor_post_content_changes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:replace_translated_strings\\(\\) has parameter \\$elementor_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:replace_translated_strings\\(\\) has parameter \\$strings_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:replace_translated_strings\\(\\) has parameter \\$translated_strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:replace_translated_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:update_elementor_post_content\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:update_elementor_post_content\\(\\) has parameter \\$elementor_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:\\$language_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:\\$merge_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Elementor_Content_Processor\\:\\:\\$string_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Elementor_Content_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:find_element_by_id\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:find_element_by_id\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_element\\(\\) has parameter \\$source_element with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_element\\(\\) has parameter \\$target_element with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_element\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_elementor_data\\(\\) has parameter \\$source_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_elementor_data\\(\\) has parameter \\$target_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_elementor_data\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_nested_array\\(\\) has parameter \\$source_array with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_nested_array\\(\\) has parameter \\$target_array with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_nested_array\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_settings\\(\\) has parameter \\$source_settings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_settings\\(\\) has parameter \\$target_settings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_settings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_single_item\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_single_item\\(\\) has parameter \\$source_item with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_single_item\\(\\) has parameter \\$target_item with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_translatable_setting\\(\\) has parameter \\$source_value with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:merge_translatable_setting\\(\\) has parameter \\$target_value with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:sanitize_string\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:sanitize_string\\(\\) has parameter \\$string with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:\\$key_validator has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\Merge_Manager\\:\\:\\$string_sanitizer has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/Merge_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:extract_strings\\(\\) has parameter \\$change_hashes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:extract_strings\\(\\) has parameter \\$elementor_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:extract_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:extract_strings_from_repeatable\\(\\) has parameter \\$change_hashes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:extract_strings_from_repeatable\\(\\) has parameter \\$items with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:extract_strings_from_repeatable\\(\\) has parameter \\$strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:extract_strings_from_settings\\(\\) has parameter \\$change_hashes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:extract_strings_from_settings\\(\\) has parameter \\$settings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:extract_strings_from_settings\\(\\) has parameter \\$strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:is_repeatable_structure\\(\\) has parameter \\$array with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:process_array_value\\(\\) has parameter \\$change_hashes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:process_array_value\\(\\) has parameter \\$strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:process_array_value\\(\\) has parameter \\$value with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:process_string_value\\(\\) has parameter \\$change_hashes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:process_string_value\\(\\) has parameter \\$strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:replace_strings\\(\\) has parameter \\$elementor_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:replace_strings\\(\\) has parameter \\$strings_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:replace_strings\\(\\) has parameter \\$translated_strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:replace_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:replace_strings_in_repeatable\\(\\) has parameter \\$items with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:replace_strings_in_repeatable\\(\\) has parameter \\$original with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:replace_strings_in_repeatable\\(\\) has parameter \\$translated with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:replace_strings_in_repeatable\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:replace_strings_in_settings\\(\\) has parameter \\$original with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:replace_strings_in_settings\\(\\) has parameter \\$settings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:replace_strings_in_settings\\(\\) has parameter \\$translated with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:replace_strings_in_settings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:sanitize_string\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:sanitize_string\\(\\) has parameter \\$string with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:should_process_value\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:\\$key_validator has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Manager\\:\\:\\$string_sanitizer has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Sanitizer\\:\\:sanitize_string\\(\\) has parameter \\$string with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Sanitizer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Integrations\\\\Elementor\\\\String_Sanitizer\\:\\:sanitize_string\\(\\) should return string but returns string\\|false\\.$#"
+			count: 1
+			path: src/Legacy/Integrations/Elementor/String_Sanitizer.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:get_available_languages\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:get_default_language\\(\\) should return string but returns string\\|false\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:get_language\\(\\) should return PLL_Language but returns PLL_Language\\|false\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:get_language_data\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:get_language_list_for_ui\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:get_languages_list\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:get_post_by_language\\(\\) should return int but returns int\\<0, max\\>\\|false\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:get_post_language\\(\\) should return string but returns string\\|false\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:get_post_translations\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:get_term_language\\(\\) should return string but returns string\\|false\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:get_term_translations\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:save_post_translations\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:save_post_translations\\(\\) has parameter \\$translations with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:save_term_translations\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:save_term_translations\\(\\) has parameter \\$translations with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:set_post_language\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Language_Manager\\:\\:set_term_language\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Language_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Migrations\\\\Migration\\:\\:get_all_post_ids\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Migrations/Migration.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Migrations\\\\Migration\\:\\:get_all_terms_ids\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Migrations/Migration.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Migrations\\\\Migration\\:\\:run\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Migrations/Migration.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Migrations\\\\Migration\\:\\:\\$language_manager has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Migrations/Migration.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Migrations\\\\Migration_2_2_8\\:\\:run\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Migrations/Migration_2_2_8.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Migrations\\\\Migration_Factory\\:\\:create_migration\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Migrations/Migration_Factory.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Migrations\\\\Migration_Interface\\:\\:run\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Migrations/Migration_Interface.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Models\\\\Translation_Models\\:\\:get_openai_models\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Models/Translation_Models.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Models\\\\Translation_Models\\:\\:get_openrouter_models\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Models/Translation_Models.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Post_Translation_Background_Processor\\:\\:get_post_translation_status\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Post_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Post_Translation_Background_Processor\\:\\:handle_post_translation\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Post_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Post_Translation_Background_Processor\\:\\:prepare_action_args\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Post_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Post_Translation_Background_Processor\\:\\:prepare_action_args\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Post_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Post_Translation_Background_Processor\\:\\:process_item\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Post_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Post_Translation_Background_Processor\\:\\:schedule_post_translation\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Post_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post\\:\\:get_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post\\:\\:get_translations\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post.php
+
+		-
+			message: "#^Access to an undefined property PLL_Admin\\|PLL_Frontend\\|PLL_REST_Request\\|PLL_Settings\\:\\:\\$sync\\.$#"
+			count: 2
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Call to function is_wp_error\\(\\) with int\\<0, max\\> will always evaluate to false\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:copy\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:delete_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:delete_meta\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:delete_meta\\(\\) has parameter \\$meta_key with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:polylang_free_copy_post\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:prepare_meta_translation_input\\(\\) has parameter \\$args with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:prepare_meta_translation_input\\(\\) has parameter \\$meta_keys with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:prepare_meta_translation_input\\(\\) invoked with 4 parameters, 1\\-3 required\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:prepare_meta_translation_input\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:prepare_translation_input\\(\\) has parameter \\$args with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:prepare_translation_input\\(\\) has parameter \\$field_keys with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:prepare_translation_input\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:process_queue_item\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:process_queue_item\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:save_entity_translations\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:save_entity_translations\\(\\) has parameter \\$translations with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:translate_meta_to\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:translate_meta_to\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:translate_to\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:translate_to\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:update\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:update_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:update_meta\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:update_meta\\(\\) has parameter \\$meta_key with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Manager\\:\\:update_meta\\(\\) has parameter \\$meta_value with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Parameter \\#2 \\$lang of method PLL_Translated_Object\\:\\:get\\(\\) expects int\\|PLL_Language\\|string, PLL_Language\\|false given\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^is_wp_error\\(int\\<0, max\\>\\) will always evaluate to false\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Queue_Manager\\:\\:delete_queue_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Queue_Manager\\:\\:get_available_fields\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Queue_Manager\\:\\:get_available_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Queue_Manager\\:\\:get_available_meta_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Queue_Manager\\:\\:update_queue_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Posts\\\\Translatable_Post_Queue_Manager\\:\\:update_queue_meta\\(\\) has parameter \\$queue with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Posts/Translatable_Post_Queue_Manager.php
+
+		-
+			message: "#^Call to an undefined method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_hashed_strings_list\\(\\)\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:add_processed_string\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:get_available_strings\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:get_processed_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:get_string_groups\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:get_string_translations\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:get_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:get_untranslated_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:mark_as_processed\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:remove_processed_string\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:translate_strings\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:translate_strings\\(\\) has parameter \\$strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:translate_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:update_available_strings\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:update_available_strings\\(\\) has parameter \\$strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:update_processed_strings\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:update_processed_strings\\(\\) has parameter \\$processed_strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:update_string\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Strings_Manager\\:\\:\\$processed_strings type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Strings_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Term_Translation_Background_Processor\\:\\:get_term_translation_status\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Term_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Term_Translation_Background_Processor\\:\\:handle_term_translation\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Term_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Term_Translation_Background_Processor\\:\\:prepare_action_args\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Term_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Term_Translation_Background_Processor\\:\\:prepare_action_args\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Term_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Term_Translation_Background_Processor\\:\\:process_item\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Term_Translation_Background_Processor.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Term_Translation_Background_Processor\\:\\:schedule_term_translation\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Term_Translation_Background_Processor.php
+
+		-
+			message: "#^Access to an undefined property WP_Error\\|WP_Term\\:\\:\\$name\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term\\:\\:get_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term\\:\\:get_translations\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term.php
+
+		-
+			message: "#^Call to an undefined method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_taxonomy\\(\\)\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Class EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager extends generic class EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager but does not specify its types\\: TQm$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:copy\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:copy\\(\\) has parameter \\$term_arr with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:delete_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:delete_meta\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:delete_meta\\(\\) has parameter \\$meta_key with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:ensure_parent_translation\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:prepare_meta_translation_input\\(\\) has parameter \\$meta_keys with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:prepare_meta_translation_input\\(\\) invoked with 3 parameters, 1\\-2 required\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:prepare_meta_translation_input\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:prepare_translation_input\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:prepare_translation_input\\(\\) has parameter \\$field_keys with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:prepare_translation_input\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:process_queue_item\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:process_queue_item\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:save_entity_translations\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:save_entity_translations\\(\\) has parameter \\$translations with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:translate_meta_to\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:translate_meta_to\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:translate_to\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:translate_to\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:update\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:update\\(\\) has parameter \\$term_arr with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:update_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:update_meta\\(\\) has parameter \\$id with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:update_meta\\(\\) has parameter \\$meta_key with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Manager\\:\\:update_meta\\(\\) has parameter \\$meta_value with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Queue_Manager\\:\\:delete_queue_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Queue_Manager\\:\\:get_available_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Queue_Manager\\:\\:get_available_meta_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Queue_Manager\\:\\:update_queue_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Terms\\\\Translatable_Term_Queue_Manager\\:\\:update_queue_meta\\(\\) has parameter \\$queue with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Terms/Translatable_Term_Queue_Manager.php
+
+		-
+			message: "#^Argument of an invalid type array\\<int, string\\>\\|false supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: src/Legacy/Text_Chunker.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Text_Chunker\\:\\:add_chunk\\(\\) has parameter \\$chunks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Text_Chunker.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Text_Chunker\\:\\:chunk\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Text_Chunker.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Text_Chunker\\:\\:glue_chunks\\(\\) has parameter \\$chunks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Text_Chunker.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Text_Chunker\\:\\:process_sentences\\(\\) has parameter \\$sentences with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Text_Chunker.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Text_Chunker\\:\\:process_sentences\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Text_Chunker.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Text_Chunker\\:\\:split_by_spaces\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Text_Chunker.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Text_Chunker\\:\\:split_into_sentences\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Text_Chunker.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Text_Chunker\\:\\:split_into_sentences\\(\\) should return array but returns array\\<int, string\\>\\|false\\.$#"
+			count: 1
+			path: src/Legacy/Text_Chunker.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Text_Chunker\\:\\:\\$encoder has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Text_Chunker.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_available_languages\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_custom_data_queue\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_custom_data_queue_for_language\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_meta_queue\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_meta_queue_for_language\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_missing_translations\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_queue\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_queue_for_language\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_queue_languages\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_translations\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity\\:\\:get_unprocessed_translations\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity.php
+
+		-
+			message: "#^Call to an undefined method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\<TQm of EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\>\\:\\:delete_meta\\(\\)\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Call to an undefined method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\<TQm of EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\>\\:\\:save_entity_translations\\(\\)\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Call to an undefined method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\<TQm of EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\>\\:\\:update_meta\\(\\)\\.$#"
+			count: 2
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:__call\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:__call\\(\\) has parameter \\$args with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:__call\\(\\) has parameter \\$method with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:add_translation_error\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:add_translation_error\\(\\) has parameter \\$error with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:get_translatable_entity\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:mark_processed\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:prepare_additional_placeholders\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:prepare_additional_placeholders\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:process_queue_item\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:update_exclude_from_translation\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:update_exclude_from_translation\\(\\) has parameter \\$exclude with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:update_translations\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Manager\\:\\:update_translations\\(\\) has parameter \\$translations with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Parameter \\#1 \\$callback of function call_user_func_array expects callable\\(\\)\\: mixed, array\\{EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager, mixed\\} given\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:add_custom_data_to_queue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:add_custom_data_to_queue\\(\\) has parameter \\$custom_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:add_meta_to_queue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:add_meta_to_queue\\(\\) has parameter \\$meta_keys with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:add_to_queue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:add_to_queue\\(\\) has parameter \\$fields with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:delete_queue_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:get_available_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:get_available_meta_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:populate_queue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:populate_queue\\(\\) has parameter \\$languages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:remove_custom_data_from_queue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:remove_from_queue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:remove_meta_from_queue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:tidy_queue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:update_queue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:update_queue\\(\\) has parameter \\$queue with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:update_queue_meta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translatable_Entity_Queue_Manager\\:\\:update_queue_meta\\(\\) has parameter \\$queue with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translatable_Entity_Queue_Manager.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Post_Meta_Translation\\:\\:get_available_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Post_Meta_Translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Post_Meta_Translation\\:\\:get_available_fields_for\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Post_Meta_Translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Post_Translation\\:\\:get_available_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Post_Translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Post_Translation\\:\\:get_available_fields_for\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Post_Translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Term_Meta_Translation\\:\\:get_available_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Term_Meta_Translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Term_Meta_Translation\\:\\:get_available_fields_for\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Term_Meta_Translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Term_Translation\\:\\:get_available_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Term_Translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Term_Translation\\:\\:get_available_fields_for\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Term_Translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Translation\\:\\:get_all\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Translation\\:\\:get_translation\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Translation\\:\\:set_field\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Translation\\:\\:set_field\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Translation.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Translation\\:\\:\\$translation has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Translation.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Translation_Interface\\:\\:get_available_fields\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Translation_Interface.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Translation_Interface\\:\\:get_available_fields_for\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translations/Translation_Interface.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\API_Client_Interface\\:\\:async_complete\\(\\) has parameter \\$messages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/API_Client_Interface.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\API_Client_Interface\\:\\:complete\\(\\) has parameter \\$messages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/API_Client_Interface.php
+
+		-
+			message: "#^Call to method getCode\\(\\) on an unknown class EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Exception\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Call to method getMessage\\(\\) on an unknown class EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Exception\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Caught class EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Exception not found\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Instantiated class EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translation_API_Exception not found\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:count_tokens\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:prepare_placeholders\\(\\) has parameter \\$additional_placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:prepare_placeholders\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:prepare_translation\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:prepare_translation\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:prepare_translation\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:process_chunks\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:process_chunks\\(\\) has parameter \\$chunks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:process_chunks\\(\\) has parameter \\$failed_chunks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:process_chunks\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:process_chunks\\(\\) has parameter \\$translated_chunks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:set_max_tokens\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_combined_content\\(\\) has parameter \\$fields with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_combined_content\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_combined_content\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_hashed_strings_list\\(\\) has parameter \\$hashed_strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_hashed_strings_list\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_hashed_strings_list\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_large_content\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_post\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_post\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_post\\(\\) should return EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Post_Translation but returns EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Translation\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_post_meta\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_post_meta\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_post_meta\\(\\) should return EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Post_Meta_Translation but returns EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Translation\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_product\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_product\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_product\\(\\) should return EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Product_Translation but returns EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Translation\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_term\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_term\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_term\\(\\) should return EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Term_Translation but returns EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Translation\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_term_meta\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_term_meta\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:translate_term_meta\\(\\) should return EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Term_Meta_Translation but returns EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translations\\\\Translation\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:\\$api_client has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:\\$max_prompt_tokens has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:\\$max_tokens has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:\\$prompt_handler has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:\\$response_handler has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\LLM_Translator\\:\\:\\$token_encoder has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Throwing object of an unknown class EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translation_API_Exception\\.$#"
+			count: 1
+			path: src/Legacy/Translator/LLM_Translator.php
+
+		-
+			message: "#^Access to an undefined property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:\\$api_client\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Access to an undefined property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:\\$content_chunker\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Access to an undefined property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:\\$max_prompt_tokens\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Access to an undefined property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:\\$prompt_handler\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Access to an undefined property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:\\$response_handler\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Access to an undefined property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:\\$token_encoder\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Call to an undefined method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_hashed_strings_list\\(\\)\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:filter_search_replace_pairs\\(\\) has parameter \\$extracted_strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:filter_search_replace_pairs\\(\\) has parameter \\$search_replace_pairs with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:filter_search_replace_pairs\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:hash_strings\\(\\) has parameter \\$strings with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:hash_strings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:translate\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:\\$content_editor has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Large_Content_Translator\\:\\:\\$max_tokens has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Large_Content_Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenAI\\\\API_Client\\:\\:async_complete\\(\\) has parameter \\$messages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenAI/API_Client.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenAI\\\\API_Client\\:\\:complete\\(\\) has parameter \\$messages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenAI/API_Client.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenAI\\\\API_Client\\:\\:\\$api_key has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenAI/API_Client.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenAI\\\\API_Client\\:\\:\\$client has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenAI/API_Client.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenAI\\\\API_Client\\:\\:\\$max_tokens has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenAI/API_Client.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenAI\\\\API_Client\\:\\:\\$model has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenAI/API_Client.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenAI\\\\Response_Handler\\:\\:handle_json_response\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenAI/Response_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenAI\\\\Response_Handler\\:\\:handle_response\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenAI/Response_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenAI\\\\Response_Handler\\:\\:handle_response\\(\\) has parameter \\$response with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenAI/Response_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenAI\\\\Token_Encoder\\:\\:set_model\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenAI/Token_Encoder.php
+
+		-
+			message: "#^Parameter \\#1 \\$model of method Yethee\\\\Tiktoken\\\\EncoderProvider\\:\\:getForModel\\(\\) expects non\\-empty\\-string, string given\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenAI/Token_Encoder.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\API_Client\\:\\:async_complete\\(\\) has parameter \\$messages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/API_Client.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\API_Client\\:\\:complete\\(\\) has parameter \\$messages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/API_Client.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\API_Client\\:\\:\\$api_key has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/API_Client.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\API_Client\\:\\:\\$client has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/API_Client.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\API_Client\\:\\:\\$max_tokens has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/API_Client.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\API_Client\\:\\:\\$model has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/API_Client.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\Response_Handler\\:\\:check_for_api_errors\\(\\) has parameter \\$result with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/Response_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\Response_Handler\\:\\:correct_nested_arrays\\(\\) has parameter \\$decoded with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/Response_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\Response_Handler\\:\\:correct_nested_arrays\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/Response_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\Response_Handler\\:\\:extract_content\\(\\) has parameter \\$result with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/Response_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\Response_Handler\\:\\:handle_json_response\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/Response_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\Response_Handler\\:\\:handle_response\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/Response_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\Response_Handler\\:\\:parse_api_response\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/Response_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\Response_Handler\\:\\:try_decode_json\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/Response_Handler.php
+
+		-
+			message: "#^Parameter \\#2 \\$subject of function preg_match expects string, array\\<int, string\\>\\|string\\|null given\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/Response_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\Token_Encoder\\:\\:set_model\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/Token_Encoder.php
+
+		-
+			message: "#^Parameter \\#1 \\$model of method Yethee\\\\Tiktoken\\\\EncoderProvider\\:\\:getForModel\\(\\) expects non\\-empty\\-string, string given\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/Token_Encoder.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\OpenRouter\\\\Token_Encoder\\:\\:\\$model is never read, only written\\.$#"
+			count: 1
+			path: src/Legacy/Translator/OpenRouter/Token_Encoder.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler\\:\\:get_prompt_messages\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler\\:\\:get_prompt_messages\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler\\:\\:get_prompt_messages_from_file\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler\\:\\:get_prompt_token_count\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler\\:\\:prepare_messages\\(\\) has parameter \\$messages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler\\:\\:prepare_messages\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler\\:\\:replace_message_placeholders\\(\\) has parameter \\$messages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler\\:\\:replace_message_placeholders\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler\\:\\:replace_message_placeholders\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler\\:\\:\\$token_encoder has no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler_Interface\\:\\:get_prompt_messages\\(\\) has parameter \\$chunk with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler_Interface.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler_Interface\\:\\:get_prompt_messages\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler_Interface.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler_Interface\\:\\:get_prompt_messages\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler_Interface.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Prompt_Handler_Interface\\:\\:get_prompt_token_count\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Prompt_Handler_Interface.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Response_Handler_Interface\\:\\:handle_response\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Response_Handler_Interface.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_post\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_post\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_post_meta\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_post_meta\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_product\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_product\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_term\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_term\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_term_meta\\(\\) has parameter \\$placeholders with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator\\:\\:translate_term_meta\\(\\) has parameter \\$translation_input with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator_Factory\\:\\:create_translator\\(\\) has parameter \\$args with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator_Factory.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator_Factory\\:\\:get_openai_translator\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator_Factory.php
+
+		-
+			message: "#^Method EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Translator\\\\Translator_Factory\\:\\:get_openai_translator\\(\\) has parameter \\$args with no type specified\\.$#"
+			count: 1
+			path: src/Legacy/Translator/Translator_Factory.php
+
+		-
+			message: "#^Property EPIC_WP\\\\Polylang_Automatic_AI_Translation\\\\Waiting_Message_Decorator\\:\\:\\$fun_suggestions type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Legacy/Waiting_Message_Decorator.php

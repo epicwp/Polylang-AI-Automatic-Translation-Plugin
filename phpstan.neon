@@ -1,0 +1,19 @@
+parameters:
+  level: 6
+  scanDirectories:
+    - vendor/woocommerce/action-scheduler/classes
+  scanFiles:
+    - stubs/const.php
+    - vendor/woocommerce/action-scheduler/functions.php
+    - vendor/php-stubs/wp-cli-stubs/wp-cli-stubs.php
+  paths:
+    - includes
+    - integrations
+    - src
+    - polylang-ai-automatic-translation.php
+  bootstrapFiles:
+    - vendor/wpsyntex/polylang-stubs/polylang-stubs.php
+  ignoreErrors:
+    -
+      identifier: missingType.iterableValue
+      path: src/Modules/Translator/Services/Bulk_Service.php

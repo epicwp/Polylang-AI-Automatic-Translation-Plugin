@@ -1,0 +1,9 @@
+.vscode
+build
+dist
+node_modules
+vendor
+polylang-ai-automatic-translation.zip
+.DS_Store
+.env
+.ddev/config.local.project.yaml

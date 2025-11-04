@@ -1,0 +1,13 @@
+{
+  "repositories": [{
+    "type": "path",
+    "url": "/home/venom/projects/composer/xwp/di",
+    "options": {
+      "symlink": true,
+      "versions": {
+        "x-wp/di": "2.0.0-alpha.999"
+      }
+    },
+    "canonical": true
+  }]
+}
