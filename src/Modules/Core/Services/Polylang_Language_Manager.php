@@ -7,6 +7,10 @@
 
 namespace PLLAT\Core\Services;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Common\Helpers;
 use PLLAT\Common\Interfaces\Language_Manager;
 

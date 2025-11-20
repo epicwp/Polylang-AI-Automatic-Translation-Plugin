@@ -1,6 +1,10 @@
 <?php
 namespace PLLAT\Translator\Models\Translatables;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Common\Helpers;
 use PLLAT\Translator\Enums\TranslatableMetaKey;
 use PLLAT\Translator\Models\Translations\Translation_Post;

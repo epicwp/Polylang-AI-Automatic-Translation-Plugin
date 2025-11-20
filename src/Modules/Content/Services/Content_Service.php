@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Content\Services;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Content\Handlers\Content_Change_Handler;
 use PLLAT\Content\Services\Interfaces\Content_Service as Content_Service_Interface;
 use PLLAT\Translator\Models\Job;

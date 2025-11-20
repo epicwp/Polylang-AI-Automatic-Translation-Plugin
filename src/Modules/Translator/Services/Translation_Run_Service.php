@@ -1,6 +1,10 @@
 <?php
 namespace PLLAT\Translator\Services;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Common\Utils\Memory_Manager;
 use PLLAT\Sync\Services\Sync_Service;
 use PLLAT\Translator\Enums\RunStatus;

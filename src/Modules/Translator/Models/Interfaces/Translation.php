@@ -1,6 +1,10 @@
 <?php
 namespace PLLAT\Translator\Models\Interfaces;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 interface Translation {
     /**
      * Get the available fields for translation.

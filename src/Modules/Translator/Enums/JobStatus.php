@@ -3,6 +3,10 @@
 // phpcs:disable PHPCompatibility.Variables.ForbiddenThisUseContexts.OutsideObjectContext
 namespace PLLAT\Translator\Enums;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 enum JobStatus: string {
     case Pending    = 'pending';
     case InProgress = 'in_progress';

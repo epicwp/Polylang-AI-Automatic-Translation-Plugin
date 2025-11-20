@@ -8,6 +8,10 @@
 
 namespace PLLAT\Settings;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Settings\Handlers\Settings_Ajax_Handler;
 use PLLAT\Settings\Handlers\Settings_Page_Handler;
 use PLLAT\Settings\Services\Settings_Form;

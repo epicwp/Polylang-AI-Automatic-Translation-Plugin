@@ -10,6 +10,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Single_Translator\Controllers;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Single_Translator\Services\Single_Translation_Service;
 use PLLAT\Translator\Repositories\Task_Repository;
 use XWP\DI\Decorators\REST_Handler;
@@ -155,7 +159,7 @@ class Single_Translation_REST_Controller extends \XWP_REST_Controller {
 
             return $this->success_response(
                 array(
-                    'message' => \__( 'Translation started successfully.', 'polylang-automatic-ai-translation' ),
+                    'message' => \__( 'Translation started successfully.', 'epicwp-ai-translation-for-polylang' ),
                     'run_id'  => $run_id,
                 ),
             );
@@ -182,8 +186,8 @@ class Single_Translation_REST_Controller extends \XWP_REST_Controller {
             return $this->success_response(
                 array(
                     'message' => $excluded
-                        ? \__( 'Content excluded from AI translation.', 'polylang-automatic-ai-translation' )
-                        : \__( 'Content included in AI translation.', 'polylang-automatic-ai-translation' ),
+                        ? \__( 'Content excluded from AI translation.', 'epicwp-ai-translation-for-polylang' )
+                        : \__( 'Content included in AI translation.', 'epicwp-ai-translation-for-polylang' ),
                 ),
             );
         } catch ( \Exception $e ) {
@@ -239,7 +243,7 @@ class Single_Translation_REST_Controller extends \XWP_REST_Controller {
 
             return $this->success_response(
                 array(
-                    'message' => \__( 'Translation cancelled successfully.', 'polylang-automatic-ai-translation' ),
+                    'message' => \__( 'Translation cancelled successfully.', 'epicwp-ai-translation-for-polylang' ),
                     'run_id'  => $run_id,
                 ),
             );

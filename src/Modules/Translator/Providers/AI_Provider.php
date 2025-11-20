@@ -8,6 +8,10 @@
 
 namespace PLLAT\Translator\Providers;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Translator\Services\AI_Client;
 
 /**

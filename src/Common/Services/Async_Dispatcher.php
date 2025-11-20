@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Common\Services;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 /**
  * Forces immediate async dispatch for specific Action Scheduler actions.
  *

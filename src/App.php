@@ -7,6 +7,10 @@
 
 namespace PLLAT;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Content\Content_Module;
 use PLLAT\Core\Core_Module;
 use PLLAT\Logs\Logs_Module;
@@ -53,7 +57,7 @@ class App implements On_Initialize {
     public static function configure(): array {
         return array(
             'app.name' => \DI\factory(
-                static fn() => \__( 'Polylang AI Automatic Translation', 'polylang-automatic-ai-translation' ),
+                static fn() => \__( 'Polylang AI Automatic Translation', 'epicwp-ai-translation-for-polylang' ),
             ),
         );
     }

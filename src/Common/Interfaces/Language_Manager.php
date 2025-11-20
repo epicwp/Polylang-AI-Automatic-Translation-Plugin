@@ -7,6 +7,10 @@
 
 namespace PLLAT\Common\Interfaces;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 /**
  * Interface for language management operations.
  *

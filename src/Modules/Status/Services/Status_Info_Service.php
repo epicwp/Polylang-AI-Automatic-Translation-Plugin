@@ -8,6 +8,10 @@
 
 namespace PLLAT\Status\Services;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Translator\Models\Job;
 use PLLAT\Translator\Models\Task;
 
@@ -54,22 +58,22 @@ class Status_Info_Service {
 
         return array(
             'pllat-cron'        => array(
-                'label' => \__( 'WP Cron Type', 'polylang-automatic-ai-translation' ),
+                'label' => \__( 'WP Cron Type', 'epicwp-ai-translation-for-polylang' ),
                 'value' => $this->cron_status_service->get_cron_description(),
             ),
             'pllat-cron-health' => array(
-                'label'   => \__( 'Cron Status', 'polylang-automatic-ai-translation' ),
+                'label'   => \__( 'Cron Status', 'epicwp-ai-translation-for-polylang' ),
                 'private' => false,
                 'value'   => $cron_health['is_working']
-                    ? \__( 'Active', 'polylang-automatic-ai-translation' )
-                    : \__( 'Inactive or Slow', 'polylang-automatic-ai-translation' ),
+                    ? \__( 'Active', 'epicwp-ai-translation-for-polylang' )
+                    : \__( 'Inactive or Slow', 'epicwp-ai-translation-for-polylang' ),
             ),
             'pllat-jobs'        => array(
-                'label' => \__( 'Total Jobs', 'polylang-automatic-ai-translation' ),
+                'label' => \__( 'Total Jobs', 'epicwp-ai-translation-for-polylang' ),
                 'value' => \number_format_i18n( $jobs_count ),
             ),
             'pllat-tasks'       => array(
-                'label' => \__( 'Total Tasks', 'polylang-automatic-ai-translation' ),
+                'label' => \__( 'Total Tasks', 'epicwp-ai-translation-for-polylang' ),
                 'value' => \number_format_i18n( $tasks_count ),
             ),
         );

@@ -10,6 +10,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Single_Translator;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Single_Translator\Controllers\Single_Translation_REST_Controller;
 use PLLAT\Single_Translator\Handlers\Job_Processor_Handler;
 use PLLAT\Single_Translator\Handlers\Meta_Box_Handler;

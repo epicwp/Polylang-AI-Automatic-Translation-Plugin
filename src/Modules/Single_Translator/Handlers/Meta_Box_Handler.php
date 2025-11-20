@@ -10,6 +10,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Single_Translator\Handlers;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Common\Helpers;
 use PLLAT\Common\Interfaces\Language_Manager;
 use PLLAT\Common\Services\Asset_Service;
@@ -79,7 +83,7 @@ class Meta_Box_Handler {
         foreach ( $post_types as $post_type ) {
             \add_meta_box(
                 'pllat-single-translator',
-                \__( 'AI Translation', 'polylang-automatic-ai-translation' ),
+                \__( 'AI Translation', 'epicwp-ai-translation-for-polylang' ),
                 array( $this, 'render_post_meta_box' ),
                 $post_type,
                 'normal',
@@ -170,7 +174,7 @@ class Meta_Box_Handler {
                     $('<h2 class="hndle">').text('
                     <?php
                     echo \esc_js(
-                        \__( 'AI Translation', 'polylang-automatic-ai-translation' ),
+                        \__( 'AI Translation', 'epicwp-ai-translation-for-polylang' ),
                     );
                     ?>
                                                     ')

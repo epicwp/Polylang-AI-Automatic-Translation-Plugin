@@ -1,6 +1,10 @@
 <?php
 namespace PLLAT\Translator\Repositories\Query;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use Mehedi\WPQueryBuilder\DB;
 use Mehedi\WPQueryBuilder\Query\Builder;
 use PLLAT\Translator\Enums\RunStatus;

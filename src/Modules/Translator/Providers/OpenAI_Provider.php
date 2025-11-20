@@ -8,6 +8,10 @@
 
 namespace PLLAT\Translator\Providers;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Translator\Services\AI_Client;
 
 /**
@@ -103,7 +107,7 @@ class OpenAI_Provider implements AI_Provider {
     public function get_api_key_description(): string {
         return \__(
             'Get your API key from OpenAI Platform (https://platform.openai.com/api-keys)',
-            'polylang-automatic-ai-translation',
+            'epicwp-ai-translation-for-polylang',
         );
     }
 
@@ -190,22 +194,22 @@ class OpenAI_Provider implements AI_Provider {
         $errors = array();
 
         if ( null === $this->api_key || '' === $this->api_key ) {
-            $errors[] = \__( 'OpenAI API key is required.', 'polylang-automatic-ai-translation' );
+            $errors[] = \__( 'OpenAI API key is required.', 'epicwp-ai-translation-for-polylang' );
         }
 
         if ( null === $this->model || '' === $this->model ) {
-            $errors[] = \__( 'OpenAI model selection is required.', 'polylang-automatic-ai-translation' );
+            $errors[] = \__( 'OpenAI model selection is required.', 'epicwp-ai-translation-for-polylang' );
         } elseif ( ! \array_key_exists( $this->model, $this->get_available_models() ) ) {
             $errors[] = \sprintf(
                 /* translators: %s: Model name */
-                \__( 'Invalid OpenAI model: %s', 'polylang-automatic-ai-translation' ),
+                \__( 'Invalid OpenAI model: %s', 'epicwp-ai-translation-for-polylang' ),
                 $this->model,
             );
         }
 
         // Basic API key format validation.
         if ( null !== $this->api_key && '' !== $this->api_key && ! \str_starts_with( $this->api_key, 'sk-' ) ) {
-            $errors[] = \__( 'OpenAI API key should start with "sk-".', 'polylang-automatic-ai-translation' );
+            $errors[] = \__( 'OpenAI API key should start with "sk-".', 'epicwp-ai-translation-for-polylang' );
         }
 
         return $errors;

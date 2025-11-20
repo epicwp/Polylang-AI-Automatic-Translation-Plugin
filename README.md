@@ -66,13 +66,13 @@ Upgrade to the **premium version** for advanced features:
 - **Elementor AI Translation**: Translate Elementor pages automatically with AI
 - **Advanced Custom Fields (ACF)**: Translate advanced custom fields with AI
 
-[Learn more about the Premium version →](https://www.epicwpsolutions.com/plugins/polylang-automatic-ai-translation/)
+[Learn more about the Premium version →](https://www.epicwpsolutions.com/plugins/epicwp-ai-translation-for-polylang/)
 
 ## Support
 
 For support questions and bug reports, please use the [GitHub Issues](https://github.com/epicwp/Polylang-AI-Automatic-Translation-Plugin/issues) page.
 
-For premium support, upgrade to the [premium version](https://www.epicwpsolutions.com/plugins/polylang-automatic-ai-translation/).
+For premium support, upgrade to the [premium version](https://www.epicwpsolutions.com/plugins/epicwp-ai-translation-for-polylang/).
 
 ## Contributing
 

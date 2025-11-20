@@ -8,6 +8,10 @@
 
 namespace PLLAT\Status;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Status\Handlers\Site_Health_Handler;
 use PLLAT\Status\Services\Cron_Status_Service;
 use PLLAT\Status\Services\Status_Info_Service;

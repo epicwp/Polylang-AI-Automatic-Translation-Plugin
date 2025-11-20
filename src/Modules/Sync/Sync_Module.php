@@ -10,6 +10,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Sync;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Sync\Controllers\Discovery_REST_Controller;
 use PLLAT\Sync\Handlers\Cascade_Handler;
 use PLLAT\Sync\Handlers\Cleanup_Handler;

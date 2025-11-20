@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Content\Services;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Common\Interfaces\Language_Manager;
 use PLLAT\Content\Services\Traits\Reference_Parsing_Trait;
 

@@ -1,4 +1,4 @@
-=== Polylang AI Automatic Translation (Free) ===
+=== EPICWP AI Translation for Polylang ===
 Contributors: epicwp
 Tags: polylang, translation, ai, openai, gpt, automatic translation, multilingual
 Requires at least: 5.8
@@ -8,7 +8,7 @@ Stable tag: 0.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Free version of Polylang Automatic Translation with AI. Translate your WordPress content effortlessly using OpenAI's powerful GPT models.
+AI-powered translation for Polylang. Translate your WordPress content effortlessly using OpenAI's powerful GPT models.
 
 == Description ==
 
@@ -41,7 +41,7 @@ Upgrade to the **premium version** for advanced features:
 * **Elementor AI Translation**: Translate Elementor pages automatically with AI
 * **Advanced Custom Fields (ACF)**: Translate advanced custom fields with AI
 
-[Learn more about the Premium version →](https://www.epicwpsolutions.com/plugins/polylang-automatic-ai-translation/)
+[Learn more about the Premium version →](https://www.epicwpsolutions.com/plugins/epicwp-ai-translation-for-polylang/)
 
 == Installation ==
 

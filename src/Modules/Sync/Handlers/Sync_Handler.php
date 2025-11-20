@@ -8,6 +8,10 @@
 
 namespace PLLAT\Sync\Handlers;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Sync\Services\Sync_Service;
 use XWP\DI\Decorators\Action;
 use XWP\DI\Decorators\Handler;

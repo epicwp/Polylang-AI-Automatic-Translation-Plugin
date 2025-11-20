@@ -1,6 +1,10 @@
 <?php //phpcs:disable WordPress.NamingConventions.ValidFunctionName.MethodNameInvalid, PHPCompatibility.Variables.ForbiddenThisUseContexts.OutsideObjectContext
 namespace PLLAT\Translator\Enums;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 enum TranslatableMetaKey: string {
     case QueueMetaField  = '_pllat_meta';
     case QueueCustomData = '_pllat_custom_data';

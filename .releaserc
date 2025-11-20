@@ -85,7 +85,7 @@
     [
       "@semantic-release/wordpress",
       {
-        "slug": "polylang-ai-automatic-translation",
+        "slug": "epicwp-ai-translation-for-polylang",
         "type": "plugin",
         "path": "./",
         "withAssets": false,
@@ -101,7 +101,7 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "cp -r build /tmp/wp-release/polylang-ai-automatic-translation/"
+        "prepareCmd": "cp -r build /tmp/wp-release/epicwp-ai-translation-for-polylang/ && cp composer.json /tmp/wp-release/epicwp-ai-translation-for-polylang/"
       }
     ],
     [
@@ -110,8 +110,8 @@
         "assets": [
           {
             "path": "/tmp/wp-release/package.zip",
-            "label": "Polylang AI Automatic Translation (Free) v${nextRelease.version}",
-            "name": "polylang-ai-automatic-translation-v${nextRelease.version}.zip"
+            "label": "EPICWP AI Translation for Polylang v${nextRelease.version}",
+            "name": "epicwp-ai-translation-for-polylang-v${nextRelease.version}.zip"
           }
         ]
       }

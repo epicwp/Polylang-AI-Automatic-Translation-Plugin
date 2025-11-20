@@ -7,6 +7,10 @@
 
 namespace PLLAT\Common\Services;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use XWP\DI\Decorators\Service;
 
 /**

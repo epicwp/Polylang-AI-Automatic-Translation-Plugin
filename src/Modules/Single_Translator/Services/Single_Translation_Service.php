@@ -10,6 +10,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Single_Translator\Services;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Common\Interfaces\Language_Manager;
 use PLLAT\Sync\Services\Sync_Service;
 use PLLAT\Translator\Enums\JobStatus;
@@ -99,7 +103,7 @@ class Single_Translation_Service {
             throw new \Exception(
                 \__( // phpcs:ignore WordPress.Security.EscapeOutput.ExceptionNotEscaped
                     'This content is excluded from AI translation.',
-                    'polylang-automatic-ai-translation',
+                    'epicwp-ai-translation-for-polylang',
                 ),
             );
         }
@@ -207,7 +211,7 @@ class Single_Translation_Service {
             throw new \Exception(
                 \__( // phpcs:ignore WordPress.Security.EscapeOutput.ExceptionNotEscaped
                     'No active translation found for this content.',
-                    'polylang-automatic-ai-translation',
+                    'epicwp-ai-translation-for-polylang',
                 ),
             );
         }
@@ -219,7 +223,7 @@ class Single_Translation_Service {
             throw new \Exception(
                 \__( // phpcs:ignore WordPress.Security.EscapeOutput.ExceptionNotEscaped
                     'Translation run not found.',
-                    'polylang-automatic-ai-translation',
+                    'epicwp-ai-translation-for-polylang',
                 ),
             );
         }
@@ -335,7 +339,7 @@ class Single_Translation_Service {
             throw new \Exception(
                 \__( // phpcs:ignore WordPress.Security.EscapeOutput.ExceptionNotEscaped
                     'This content is excluded from AI translation. Please un-exclude it first.',
-                    'polylang-automatic-ai-translation',
+                    'epicwp-ai-translation-for-polylang',
                 ),
             );
         }
@@ -365,7 +369,7 @@ class Single_Translation_Service {
             throw new \Exception(
                 \__( // phpcs:ignore WordPress.Security.EscapeOutput.ExceptionNotEscaped
                     'All selected languages are already translated. Enable force mode to re-translate.',
-                    'polylang-automatic-ai-translation',
+                    'epicwp-ai-translation-for-polylang',
                 ),
             );
         }

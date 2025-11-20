@@ -8,6 +8,10 @@
 
 namespace PLLAT\Logs;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Logs\Controllers\Logs_REST_Controller;
 use PLLAT\Logs\Handlers\Logging_Handler;
 use PLLAT\Logs\Services\Log_Reader_Service;

@@ -10,6 +10,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Single_Translator\Handlers;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Single_Translator\Services\Job_Processor_Service;
 use XWP\DI\Decorators\Action;
 use XWP\DI\Decorators\Handler;

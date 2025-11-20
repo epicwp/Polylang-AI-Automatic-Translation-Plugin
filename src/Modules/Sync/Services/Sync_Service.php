@@ -8,6 +8,10 @@
 
 namespace PLLAT\Sync\Services;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Common\Interfaces\Language_Manager;
 use PLLAT\Translator\Enums\JobStatus;
 use PLLAT\Translator\Models\Interfaces\Translatable;

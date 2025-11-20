@@ -8,6 +8,10 @@
 
 namespace PLLAT\Settings\Handlers;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Settings\Services\Settings_Form;
 use PLLAT\Settings\Services\Settings_Service;
 use XWP\DI\Decorators\Action;
@@ -37,8 +41,8 @@ class Settings_Page_Handler {
     public function register_admin_menu(): void {
         \add_submenu_page(
             'mlang',
-            \__( 'AI Settings', 'polylang-automatic-ai-translation' ),
-            \__( 'AI Settings', 'polylang-automatic-ai-translation' ),
+            \__( 'AI Settings', 'epicwp-ai-translation-for-polylang' ),
+            \__( 'AI Settings', 'epicwp-ai-translation-for-polylang' ),
             'manage_options',
             'pllat-settings',
             array( $this, 'render_settings_page' ),
@@ -56,7 +60,7 @@ class Settings_Page_Handler {
             \wp_die(
                 \esc_html__(
                     'You do not have sufficient permissions to access this page.',
-                    'polylang-automatic-ai-translation',
+                    'epicwp-ai-translation-for-polylang',
                 ),
             );
         }

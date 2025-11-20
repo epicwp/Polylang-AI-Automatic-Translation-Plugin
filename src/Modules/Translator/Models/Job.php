@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Translator\Models;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Translator\Enums\JobStatus;
 use PLLAT\Translator\Models\Task;
 use PLLAT\Translator\Repositories\Task_Repository;

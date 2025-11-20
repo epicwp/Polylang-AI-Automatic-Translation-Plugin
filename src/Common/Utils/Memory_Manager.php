@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Common\Utils;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 /**
  * Memory management utility.
  * Monitors and manages PHP memory usage to prevent exhaustion.
