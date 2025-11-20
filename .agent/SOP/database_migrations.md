@@ -32,7 +32,7 @@ PLLAT uses custom database tables for translation job management. Schema changes
 
 ### Version Constants
 
-**File:** `polylang-ai-automatic-translation.php`
+**File:** `epicwp-ai-translation-for-polylang.php`
 
 ```php
 define( 'PLLAT_DB_VERSION', '2.2.0' );  // Current DB version
@@ -50,7 +50,7 @@ define( 'PLLAT_DB_VERSION', '2.2.0' );  // Current DB version
 
 Increment the database version constant.
 
-**File:** `polylang-ai-automatic-translation.php`
+**File:** `epicwp-ai-translation-for-polylang.php`
 
 ```php
 // Before

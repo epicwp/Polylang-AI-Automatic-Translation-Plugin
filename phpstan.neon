@@ -10,7 +10,7 @@ parameters:
     - includes
     - integrations
     - src
-    - polylang-ai-automatic-translation.php
+    - epicwp-ai-translation-for-polylang.php
   bootstrapFiles:
     - vendor/wpsyntex/polylang-stubs/polylang-stubs.php
   ignoreErrors:
