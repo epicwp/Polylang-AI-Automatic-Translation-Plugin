@@ -1,6 +1,10 @@
 <?php
 namespace PLLAT\Translator\Models\Translatables;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Common\Interfaces\Language_Manager;
 use PLLAT\Content\Services\Content_Service;
 use PLLAT\Translator\Enums\JobStatus;

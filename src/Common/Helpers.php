@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Common;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 /**
  * Helper functions for the plugin.
  */

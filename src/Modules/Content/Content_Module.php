@@ -1,6 +1,10 @@
 <?php
 namespace PLLAT\Content;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Common\Interfaces\Language_Manager;
 use PLLAT\Content\Handlers\Content_Change_Handler;
 use XWP\DI\Decorators\Module;

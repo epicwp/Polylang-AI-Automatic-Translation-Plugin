@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Content\Services\Traits;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 trait Reference_Parsing_Trait {
     /**
      * Parse a reference key into type and field components.

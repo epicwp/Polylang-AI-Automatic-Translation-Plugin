@@ -10,6 +10,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Sync\Services;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Sync\Constants\Sync_Constants;
 use PLLAT\Sync\Enums\Recovery_Strategy;
 use PLLAT\Sync\Models\Recovery_Result;

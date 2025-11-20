@@ -10,6 +10,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Sync\Services;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Translator\Repositories\Job_Repository;
 
 /**

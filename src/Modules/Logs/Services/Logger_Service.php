@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Logs\Services;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use Monolog\Formatter\JsonFormatter;
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Level;

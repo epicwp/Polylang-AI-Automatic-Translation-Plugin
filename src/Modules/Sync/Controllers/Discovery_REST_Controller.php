@@ -10,6 +10,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Sync\Controllers;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Sync\Services\Sync_Service;
 use XWP\DI\Decorators\REST_Handler;
 use XWP\DI\Decorators\REST_Route;

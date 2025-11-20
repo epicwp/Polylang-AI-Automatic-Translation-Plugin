@@ -10,6 +10,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Translator\Services;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Common\Helpers;
 use PLLAT\Common\Interfaces\Language_Manager;
 use PLLAT\Translator\Repositories\Job_Stats_Repository;

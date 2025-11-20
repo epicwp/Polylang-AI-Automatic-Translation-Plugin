@@ -10,6 +10,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Sync\Constants;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 /**
  * Centralized constants for Sync module.
  * All timeouts, limits, and configuration values in one place.

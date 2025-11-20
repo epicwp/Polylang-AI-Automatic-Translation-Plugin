@@ -8,6 +8,10 @@
 
 namespace PLLAT\Translator;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Common\Services\IP_Verification_Service;
 use PLLAT\Common\Services\Rate_Limiter_Service;
 use PLLAT\Content\Services\Content_Service;

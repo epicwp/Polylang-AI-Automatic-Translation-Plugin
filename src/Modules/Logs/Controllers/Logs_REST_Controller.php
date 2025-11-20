@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Logs\Controllers;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Logs\Services\Log_Reader_Service;
 use XWP\DI\Decorators\REST_Handler;
 use XWP\DI\Decorators\REST_Route;

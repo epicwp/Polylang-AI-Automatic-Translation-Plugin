@@ -2,6 +2,10 @@
 
 namespace PLLAT\Translator\Handlers;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Content\Services\Content_Service;
 use PLLAT\Settings\Services\Settings_Service;
 use PLLAT\Translator\Models\Job;

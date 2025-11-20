@@ -10,6 +10,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Sync\Handlers;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Sync\Constants\Sync_Constants;
 use PLLAT\Sync\Services\Health_Service;
 use PLLAT\Sync\Services\Recovery_Service;

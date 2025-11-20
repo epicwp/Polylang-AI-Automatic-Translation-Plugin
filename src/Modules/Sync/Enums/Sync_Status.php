@@ -8,6 +8,10 @@
 
 namespace PLLAT\Sync\Enums;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 /**
  * Sync status enum.
  * Represents the discovery status (hybrid architecture, no import).
@@ -34,9 +38,9 @@ enum Sync_Status: string {
      */
     public function label(): string {
         return match ( $this ) {
-            self::NOT_STARTED => \__( 'Not Started', 'polylang-automatic-ai-translation' ),
-            self::DISCOVERING => \__( 'Discovering', 'polylang-automatic-ai-translation' ),
-            self::READY       => \__( 'Ready', 'polylang-automatic-ai-translation' ),
+            self::NOT_STARTED => \__( 'Not Started', 'epicwp-ai-translation-for-polylang' ),
+            self::DISCOVERING => \__( 'Discovering', 'epicwp-ai-translation-for-polylang' ),
+            self::READY       => \__( 'Ready', 'epicwp-ai-translation-for-polylang' ),
         };
     }
 
@@ -47,12 +51,12 @@ enum Sync_Status: string {
      */
     public function message(): string {
         return match ( $this ) {
-            self::NOT_STARTED => \__( 'Content discovery pending.', 'polylang-automatic-ai-translation' ),
+            self::NOT_STARTED => \__( 'Content discovery pending.', 'epicwp-ai-translation-for-polylang' ),
             self::DISCOVERING => \__(
                 'Discovering content that needs translation. Please wait.',
-                'polylang-automatic-ai-translation',
+                'epicwp-ai-translation-for-polylang',
             ),
-            self::READY       => \__( 'System is ready for translation runs.', 'polylang-automatic-ai-translation' ),
+            self::READY       => \__( 'System is ready for translation runs.', 'epicwp-ai-translation-for-polylang' ),
         };
     }
 

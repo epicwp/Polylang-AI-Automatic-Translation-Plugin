@@ -1,6 +1,10 @@
 <?php
 namespace PLLAT\Content\Handlers;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Common\Helpers;
 use PLLAT\Common\Interfaces\Language_Manager;
 use PLLAT\Translator\Models\Translatables\Translatable_Post;

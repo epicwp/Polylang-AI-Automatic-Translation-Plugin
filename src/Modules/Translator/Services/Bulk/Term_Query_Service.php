@@ -2,6 +2,10 @@
 // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
 namespace PLLAT\Translator\Services\Bulk;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Translator\Enums\JobStatus;
 use PLLAT\Translator\Models\Run;
 use PLLAT\Translator\Repositories\Query\Job_Query;

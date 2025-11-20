@@ -80,7 +80,7 @@ Complete architectural documentation for Polylang Automatic Translation with AI 
 ## Project Structure
 
 ```
-polylang-automatic-ai-translation/
+epicwp-ai-translation-for-polylang/
 ├── .agent/                          # Project documentation
 │   ├── README.md                    # Documentation index
 │   ├── System/                      # System architecture docs

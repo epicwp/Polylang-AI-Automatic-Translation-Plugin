@@ -8,6 +8,10 @@
 
 namespace PLLAT\Core;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Common\Interfaces\Language_Manager;
 use PLLAT\Core\Services\Polylang_Language_Manager;
 use PLLAT\Translator\Providers\OpenAI_Provider;

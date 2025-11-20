@@ -1,6 +1,10 @@
 <?php
 namespace PLLAT\Translator\Models\Interfaces;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Common\Interfaces\Language_Manager;
 use PLLAT\Translator\Repositories\Job_Repository;
 use PLLAT\Translator\Repositories\Task_Repository;

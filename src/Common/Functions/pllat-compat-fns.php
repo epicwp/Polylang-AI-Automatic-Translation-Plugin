@@ -6,6 +6,10 @@
  * @subpackage Common
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 /**
  * Check if Polylang is deactivating
  *

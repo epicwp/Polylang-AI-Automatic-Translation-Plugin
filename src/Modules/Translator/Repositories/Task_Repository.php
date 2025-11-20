@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Translator\Repositories;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Translator\Enums\TaskStatus;
 use PLLAT\Translator\Models\Task;
 use ReflectionClass;

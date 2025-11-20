@@ -3,6 +3,10 @@ declare(strict_types=1);
 
 namespace PLLAT\Logs\Handlers;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Logs\Services\Logger_Service;
 use PLLAT\Translator\Models\Job;
 use PLLAT\Translator\Models\Run;

@@ -9,6 +9,10 @@
 
 namespace PLLAT\Settings\Services;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 use PLLAT\Translator\Services\AI_Provider_Registry;
 
 /**
@@ -115,7 +119,7 @@ class Settings_Form {
         // Add settings section
         \add_settings_section(
             'pllat_main_section',
-            \__( 'AI Translation Configuration', 'polylang-automatic-ai-translation' ),
+            \__( 'AI Translation Configuration', 'epicwp-ai-translation-for-polylang' ),
             array( $this, 'render_section_description' ),
             'pllat_settings',
         );
@@ -133,7 +137,7 @@ class Settings_Form {
         // Translation Mode field (BYOK vs Credits)
         \add_settings_field(
             'pllat_translation_mode',
-            \__( 'Translation Mode', 'polylang-automatic-ai-translation' ),
+            \__( 'Translation Mode', 'epicwp-ai-translation-for-polylang' ),
             array( $this, 'render_translation_mode_field' ),
             'pllat_settings',
             'pllat_main_section',
@@ -142,7 +146,7 @@ class Settings_Form {
         // API Provider field
         \add_settings_field(
             'pllat_translator_api',
-            \__( 'Translation API Provider', 'polylang-automatic-ai-translation' ),
+            \__( 'Translation API Provider', 'epicwp-ai-translation-for-polylang' ),
             array( $this, 'render_api_provider_field' ),
             'pllat_settings',
             'pllat_main_section',
@@ -154,7 +158,7 @@ class Settings_Form {
         // Model selection field
         \add_settings_field(
             'pllat_translation_model',
-            \__( 'Translation Model', 'polylang-automatic-ai-translation' ),
+            \__( 'Translation Model', 'epicwp-ai-translation-for-polylang' ),
             array( $this, 'render_model_selection_field' ),
             'pllat_settings',
             'pllat_main_section',
@@ -163,7 +167,7 @@ class Settings_Form {
         // Max tokens field
         \add_settings_field(
             'pllat_max_output_tokens',
-            \__( 'Max Output Tokens', 'polylang-automatic-ai-translation' ),
+            \__( 'Max Output Tokens', 'epicwp-ai-translation-for-polylang' ),
             array( $this, 'render_max_tokens_field' ),
             'pllat_settings',
             'pllat_main_section',
@@ -172,7 +176,7 @@ class Settings_Form {
         // AI context field
         \add_settings_field(
             'pllat_website_ai_context',
-            \__( 'Website Context', 'polylang-automatic-ai-translation' ),
+            \__( 'Website Context', 'epicwp-ai-translation-for-polylang' ),
             array( $this, 'render_ai_context_field' ),
             'pllat_settings',
             'pllat_main_section',
@@ -181,7 +185,7 @@ class Settings_Form {
         // Debug mode field
         \add_settings_field(
             'pllat_debug_mode',
-            \__( 'Debug Mode', 'polylang-automatic-ai-translation' ),
+            \__( 'Debug Mode', 'epicwp-ai-translation-for-polylang' ),
             array( $this, 'render_debug_mode_field' ),
             'pllat_settings',
             'pllat_main_section',
@@ -228,13 +232,13 @@ class Settings_Form {
         $validation = $this->settings_service->validate_api_settings();
         ?>
         <div class="wrap">
-            <h1><?php \esc_html_e( 'AI Translation Settings', 'polylang-automatic-ai-translation' ); ?></h1>
+            <h1><?php \esc_html_e( 'AI Translation Settings', 'epicwp-ai-translation-for-polylang' ); ?></h1>
 
             <?php if ( ! $validation['valid'] ) : ?>
                 <div class="notice notice-error">
                     <p><strong>
                     <?php
-                    \esc_html_e( 'Configuration Issues:', 'polylang-automatic-ai-translation' );
+                    \esc_html_e( 'Configuration Issues:', 'epicwp-ai-translation-for-polylang' );
                     ?>
                     </strong></p>
                     <ul>
@@ -249,7 +253,7 @@ class Settings_Form {
                 <?php
                 \settings_fields( 'pllat_settings_group' );
                 \do_settings_sections( 'pllat_settings' );
-                \submit_button( \__( 'Save Settings', 'polylang-automatic-ai-translation' ) );
+                \submit_button( \__( 'Save Settings', 'epicwp-ai-translation-for-polylang' ) );
                 ?>
             </form>
         </div>
@@ -262,7 +266,7 @@ class Settings_Form {
      * @return void
      */
     public function render_section_description(): void { ?>
-        <p><?php \esc_html_e( 'Configure your AI translation settings below.', 'polylang-automatic-ai-translation' ); ?></p>
+        <p><?php \esc_html_e( 'Configure your AI translation settings below.', 'epicwp-ai-translation-for-polylang' ); ?></p>
         <?php
     }
 
@@ -280,9 +284,9 @@ class Settings_Form {
                     name="pllat_translation_mode"
                     value="byok"
                     <?php \checked( $current_mode, 'byok' ); ?> />
-                <strong><?php \esc_html_e( 'BYOK (Bring Your Own Key)', 'polylang-automatic-ai-translation' ); ?></strong>
+                <strong><?php \esc_html_e( 'BYOK (Bring Your Own Key)', 'epicwp-ai-translation-for-polylang' ); ?></strong>
                 <p class="description" style="margin-left: 25px;">
-                    <?php \esc_html_e( 'Use your own API key from OpenAI, Claude, or Gemini. You pay the AI provider directly for usage.', 'polylang-automatic-ai-translation' ); ?>
+                    <?php \esc_html_e( 'Use your own API key from OpenAI, Claude, or Gemini. You pay the AI provider directly for usage.', 'epicwp-ai-translation-for-polylang' ); ?>
                 </p>
             </label>
 
@@ -292,12 +296,12 @@ class Settings_Form {
                     value="credits"
                     disabled
                     <?php \checked( $current_mode, 'credits' ); ?> />
-                <strong><?php \esc_html_e( 'Credits', 'polylang-automatic-ai-translation' ); ?></strong>
+                <strong><?php \esc_html_e( 'Credits', 'epicwp-ai-translation-for-polylang' ); ?></strong>
                 <span style="background: #fff3cd; color: #856404; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: 500; margin-left: 5px;">
-                    <?php \esc_html_e( 'Coming Soon', 'polylang-automatic-ai-translation' ); ?>
+                    <?php \esc_html_e( 'Coming Soon', 'epicwp-ai-translation-for-polylang' ); ?>
                 </span>
                 <p class="description" style="margin-left: 25px;">
-                    <?php \esc_html_e( 'Purchase translation credits from us. No API key needed - we handle everything.', 'polylang-automatic-ai-translation' ); ?>
+                    <?php \esc_html_e( 'Purchase translation credits from us. No API key needed - we handle everything.', 'epicwp-ai-translation-for-polylang' ); ?>
                 </p>
             </label>
         </fieldset>
@@ -321,7 +325,7 @@ class Settings_Form {
             <?php endforeach; ?>
         </select>
         <p class="description">
-            <?php \esc_html_e( 'Select the AI provider for translations.', 'polylang-automatic-ai-translation' ); ?>
+            <?php \esc_html_e( 'Select the AI provider for translations.', 'epicwp-ai-translation-for-polylang' ); ?>
         </p>
         <?php
     }
@@ -370,7 +374,7 @@ class Settings_Form {
             <?php endforeach; ?>
         </select>
         <p class="description">
-            <?php \esc_html_e( 'Select the AI model to use for translations.', 'polylang-automatic-ai-translation' ); ?>
+            <?php \esc_html_e( 'Select the AI model to use for translations.', 'epicwp-ai-translation-for-polylang' ); ?>
         </p>
         <?php
     }
@@ -395,7 +399,7 @@ class Settings_Form {
             <?php
             \esc_html_e(
                 'Maximum number of tokens for AI responses. Higher values allow longer translations but increase costs.',
-                'polylang-automatic-ai-translation',
+                'epicwp-ai-translation-for-polylang',
             );
             ?>
         </p>
@@ -419,7 +423,7 @@ class Settings_Form {
             <?php
             \esc_html_e(
                 'Provide context about your website/audience/company to help the AI understand your content better. This improves translation quality.',
-                'polylang-automatic-ai-translation',
+                'epicwp-ai-translation-for-polylang',
             );
             ?>
         </p>
@@ -441,13 +445,13 @@ class Settings_Form {
                     id="pllat_debug_mode" 
                     value="1" 
                     <?php \checked( $debug_mode ); ?> />
-                <?php \esc_html_e( 'Enable debug logging', 'polylang-automatic-ai-translation' ); ?>
+                <?php \esc_html_e( 'Enable debug logging', 'epicwp-ai-translation-for-polylang' ); ?>
             </label>
             <p class="description">
                 <?php
                 \esc_html_e(
                     'Enable detailed logging for troubleshooting. Disable in production.',
-                    'polylang-automatic-ai-translation',
+                    'epicwp-ai-translation-for-polylang',
                 );
                 ?>
             </p>
@@ -540,7 +544,7 @@ class Settings_Form {
         foreach ( $providers as $provider => $label ) {
             \add_settings_field(
                 "pllat_{$provider}_api_key",
-                \sprintf( \__( '%s API Key', 'polylang-automatic-ai-translation' ), $label ),
+                \sprintf( \__( '%s API Key', 'epicwp-ai-translation-for-polylang' ), $label ),
                 array( $this, 'render_api_key_field' ),
                 'pllat_settings',
                 'pllat_main_section',
@@ -594,7 +598,7 @@ class Settings_Form {
         $description = AI_Provider_Registry::get_api_key_description_for_provider( $api );
         return $description ?: \__(
             'Enter your API key for this provider.',
-            'polylang-automatic-ai-translation',
+            'epicwp-ai-translation-for-polylang',
         );
     }
 

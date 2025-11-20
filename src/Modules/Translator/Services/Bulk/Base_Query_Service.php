@@ -1,6 +1,10 @@
 <?php
 namespace PLLAT\Translator\Services\Bulk;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 use PLLAT\Translator\Models\Run;
 use PLLAT\Translator\Repositories\Job_Repository;
 use PLLAT\Translator\Repositories\Query\Job_Query;

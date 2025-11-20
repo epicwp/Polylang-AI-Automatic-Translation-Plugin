@@ -8,6 +8,10 @@
 
 namespace PLLAT\Settings\Services;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 /**
  * Handles setting storage, retrieval and validation for the plugin.
  */
@@ -257,14 +261,14 @@ class Settings_Service {
         $api    = $this->get_active_translation_api();
 
         if ( ! $api ) {
-            $errors[] = \__( 'No translation API selected.', 'polylang-automatic-ai-translation' );
+            $errors[] = \__( 'No translation API selected.', 'epicwp-ai-translation-for-polylang' );
         }
 
         $api_key = $this->get_translation_api_key( $api );
         if ( ! $api_key ) {
             $errors[] = \sprintf(
                 /* translators: %s: Provider name */
-                \__( 'API key for %s is missing.', 'polylang-automatic-ai-translation' ),
+                \__( 'API key for %s is missing.', 'epicwp-ai-translation-for-polylang' ),
                 $api,
             );
         }
@@ -273,7 +277,7 @@ class Settings_Service {
         if ( ! $model ) {
             $errors[] = \sprintf(
                 /* translators: %s: Provider name */
-                \__( 'Model for %s is not configured.', 'polylang-automatic-ai-translation' ),
+                \__( 'Model for %s is not configured.', 'epicwp-ai-translation-for-polylang' ),
                 $api,
             );
         }

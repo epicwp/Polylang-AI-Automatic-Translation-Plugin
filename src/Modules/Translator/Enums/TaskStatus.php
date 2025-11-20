@@ -1,6 +1,10 @@
 <?php
 namespace PLLAT\Translator\Enums;
 
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 enum TaskStatus: string {
     case Pending   = 'pending';
     case Completed = 'completed';

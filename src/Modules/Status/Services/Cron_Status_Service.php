@@ -8,6 +8,10 @@
 
 namespace PLLAT\Status\Services;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 /**
  * Service for detecting WordPress cron configuration.
  */
@@ -64,9 +68,9 @@ class Cron_Status_Service {
         $cron_type = $this->get_cron_type();
 
         if ( $cron_type['is_external'] ) {
-            return \__( 'External (Server Cron)', 'polylang-automatic-ai-translation' );
+            return \__( 'External (Server Cron)', 'epicwp-ai-translation-for-polylang' );
         }
 
-        return \__( 'Internal (WordPress Cron)', 'polylang-automatic-ai-translation' );
+        return \__( 'Internal (WordPress Cron)', 'epicwp-ai-translation-for-polylang' );
     }
 }
