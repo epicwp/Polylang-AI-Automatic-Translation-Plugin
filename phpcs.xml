@@ -13,7 +13,7 @@
 			<property name="text_domain" type="array" extend="true">
 				<element value="default"/>
 				<element value="pllat"/>
-				<element value="polylang-ai-autotranslate"/>
+				<element value="epicwp-ai-translation-for-polylang"/>
 			</property>
 		</properties>
 	</rule>
@@ -27,7 +27,7 @@
 		</properties>
 	</rule>
 
-  <file>polylang-ai-automatic-translation.php</file>
+  <file>epicwp-ai-translation-for-polylang.php</file>
   <file>includes/</file>
   <file>integrations/</file>
   <file>lib/</file>

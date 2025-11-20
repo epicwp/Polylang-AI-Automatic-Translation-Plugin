@@ -134,7 +134,7 @@ epicwp-ai-translation-for-polylang/
 ├── vendor/                          # Composer dependencies
 ├── node_modules/                    # npm dependencies
 │
-├── polylang-ai-automatic-translation.php  # Plugin entry point
+├── epicwp-ai-translation-for-polylang.php  # Plugin entry point
 ├── composer.json                    # PHP dependencies
 ├── package.json                     # JavaScript dependencies
 ├── phpstan.neon                     # PHPStan configuration

@@ -93,7 +93,7 @@
         "withChangelog": true,
         "withVersionFile": true,
         "versionFiles": [
-          "polylang-ai-automatic-translation.php"
+          "epicwp-ai-translation-for-polylang.php"
         ],
         "releasePath": "/tmp/wp-release"
       }
