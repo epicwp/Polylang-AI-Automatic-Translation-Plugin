@@ -1,7 +1,7 @@
 {
   "repositories": [],
   "require": {
-    "automattic/jetpack-autoloader": "^5.0",
+    "automattic/jetpack-autoloader": "^5.0.13",
     "guzzlehttp/guzzle": "^7.8",
     "guzzlehttp/promises": "^2.0",
     "mehedimi/wp-query-builder-ext": "^0.3.0",
@@ -13,7 +13,7 @@
     "x-wp/asset-loader": "^1.1",
     "x-wp/di": "^2.0.0-alpha.5",
     "x-wp/helper-classes": "^1.19",
-    "yethee/tiktoken": "^0.7.0"
+    "yethee/tiktoken": "^1.0"
   },
   "require-dev": {
     "oblak/wordpress-coding-standard": "^1",

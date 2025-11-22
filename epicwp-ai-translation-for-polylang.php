@@ -29,7 +29,17 @@ define( 'PLLAT_PLUGIN_BASE', plugin_basename( PLLAT_PLUGIN_FILE ) );
 define( 'PLLAT_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'PLLAT_PLUGIN_URL', plugins_url( '/', PLLAT_PLUGIN_BASE ) );
 define( 'PLLAT_PLUGIN_SETTINGS_PAGE', admin_url( 'admin.php?page=epicwp-ai-translation-for-polylang' ) );
-define( 'PLLAT_PLUGIN_LOG_DIR', WP_CONTENT_DIR . '/epicwp-ai-translation-for-polylang/logs' );
+
+/**
+ * Get plugin log directory path.
+ * Uses wp_upload_dir() to comply with WordPress.org guidelines.
+ *
+ * @return string Log directory path.
+ */
+function pllat_get_log_dir() {
+	$upload_dir = wp_upload_dir();
+	return $upload_dir['basedir'] . '/epicwp-ai-translation-for-polylang/logs';
+}
 
 require_once __DIR__ . '/vendor/autoload_packages.php';
 require_once __DIR__ . '/vendor/woocommerce/action-scheduler/action-scheduler.php';
