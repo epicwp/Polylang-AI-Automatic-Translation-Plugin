@@ -6,4 +6,12 @@ define( 'PLLAT_PLUGIN_BASE', '' );
 define( 'PLLAT_PLUGIN_DIR', '' );
 define( 'PLLAT_PLUGIN_URL', '' );
 define( 'PLLAT_PLUGIN_SETTINGS_PAGE', '' );
-define( 'PLLAT_PLUGIN_LOG_DIR', '' );
+
+/**
+ * Get plugin log directory path stub.
+ *
+ * @return string
+ */
+function pllat_get_log_dir() {
+	return '';
+}

@@ -159,41 +159,8 @@ class Meta_Box_Handler {
      * @return void
      */
     private function render_term_meta_box( int $term_id ): void {
-        ?>
-        <script type="text/javascript">
-        (function($) {
-            if (!$) return;
-
-            // Create meta box HTML
-            var metaBox = $('<div class="postbox">')
-                .attr('id', 'pllat-single-translator-term')
-                .css('margin-top', '20px');
-
-            var metaBoxHeader = $('<div class="postbox-header">')
-                .append(
-                    $('<h2 class="hndle">').text('
-                    <?php
-                    echo \esc_js(
-                        \__( 'AI Translation', 'epicwp-ai-translation-for-polylang' ),
-                    );
-                    ?>
-                                                    ')
-                );
-
-            var metaBoxBody = $('<div class="inside">')
-                .append(
-                    $('<div id="pllat-single-translator-root">')
-                        .attr('data-type', 'term')
-                        .attr('data-id', '<?php echo \esc_js( (string) $term_id ); ?>')
-                );
-
-            metaBox.append(metaBoxHeader).append(metaBoxBody);
-
-            // Insert after term name field
-            $('.term-name-wrap').after(metaBox);
-        })(window.jQuery);
-        </script>
-        <?php
+        // Meta box HTML is injected via inline script in enqueue_assets().
+        // This is necessary for term edit pages where we can't use traditional meta boxes.
     }
 
     /**
@@ -220,6 +187,40 @@ class Meta_Box_Handler {
             $asset['version'],
             true,
         );
+
+        // For term pages, add inline script to inject meta box HTML.
+        // This is necessary because term edit pages don't support traditional meta boxes.
+        if ( 'term' === $type ) {
+            $term_meta_box_script = "
+            (function($) {
+                if (!$) return;
+
+                // Create meta box HTML
+                var metaBox = $('<div class=\"postbox\">')
+                    .attr('id', 'pllat-single-translator-term')
+                    .css('margin-top', '20px');
+
+                var metaBoxHeader = $('<div class=\"postbox-header\">')
+                    .append(
+                        $('<h2 class=\"hndle\">').text('" . \esc_js( \__( 'AI Translation', 'epicwp-ai-translation-for-polylang' ) ) . "')
+                    );
+
+                var metaBoxBody = $('<div class=\"inside\">')
+                    .append(
+                        $('<div id=\"pllat-single-translator-root\">')
+                            .attr('data-type', 'term')
+                            .attr('data-id', '" . \esc_js( (string) $id ) . "')
+                    );
+
+                metaBox.append(metaBoxHeader).append(metaBoxBody);
+
+                // Insert after term name field
+                $('.term-name-wrap').after(metaBox);
+            })(window.jQuery);
+            ";
+
+            \wp_add_inline_script( 'pllat-single-translator', $term_meta_box_script );
+        }
 
         // Enqueue WordPress component styles (no custom CSS needed).
         \wp_enqueue_style( 'wp-components' );

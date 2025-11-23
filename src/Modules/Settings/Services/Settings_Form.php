@@ -350,7 +350,7 @@ class Settings_Form {
                 autocomplete="off" 
             />
             <p class="description">
-                <?php echo $this->get_api_key_description( $provider ); ?>
+                <?php echo \esc_html( $this->get_api_key_description( $provider ) ); ?>
             </p>
         </div>
         <?php

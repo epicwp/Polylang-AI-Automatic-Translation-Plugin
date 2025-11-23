@@ -1,5 +1,5 @@
 === EPICWP AI Translation for Polylang ===
-Contributors: epicwp
+Contributors: epicwpsolutions, epicwp
 Tags: polylang, translation, ai, openai, gpt, automatic translation, multilingual
 Requires at least: 5.8
 Tested up to: 6.8
@@ -80,6 +80,55 @@ Yes, the plugin works with any post type that Polylang supports.
 = Is there a translation limit? =
 
 The free version is limited to single post/page translations. For bulk translation, upgrade to the premium version.
+
+== External Services ==
+
+This plugin connects to the OpenAI API to provide AI-powered translation services.
+
+**Service Used:** OpenAI API (https://api.openai.com/)
+
+**What Data is Sent:**
+- Your content (posts, pages, terms) that you choose to translate
+- Source and target language information
+- Your API key (stored locally in your WordPress database, sent with each API request for authentication)
+- Translation prompts and context you configure in settings
+
+**When Data is Sent:**
+- Only when you explicitly initiate a translation (click "Translate" button or use auto-translation features)
+- Each API request is made only with your explicit action
+
+**Required for:**
+- All translation functionality in this plugin
+- Without the OpenAI API, this plugin cannot function
+
+**Legal Information:**
+- OpenAI Terms of Use: https://openai.com/policies/terms-of-use
+- OpenAI Privacy Policy: https://openai.com/policies/privacy-policy
+- OpenAI API Data Usage: https://openai.com/policies/api-data-usage-policies
+
+You are responsible for complying with OpenAI's terms of service and ensuring you have the right to translate the content you submit.
+
+== Developer Information ==
+
+**Source Code:**
+
+The plugin's JavaScript files in the `build/` directory are compiled from React source code. The complete, human-readable source code is available in the GitHub repository:
+
+Repository: https://github.com/epicwp/Polylang-AI-Automatic-Translation-Plugin
+
+Source files are located in:
+- `assets/js/admin/` - React source code for admin interfaces
+- `assets/js/components/` - Reusable React components
+
+**Building from Source:**
+
+To build the JavaScript files yourself:
+
+1. Clone the repository: `git clone https://github.com/epicwp/Polylang-AI-Automatic-Translation-Plugin.git`
+2. Install dependencies: `npm install`
+3. Build production files: `npm run build`
+
+The build process uses Webpack and Babel to compile React/JSX code into browser-compatible JavaScript.
 
 == Screenshots ==
 
